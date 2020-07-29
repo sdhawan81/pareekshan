@@ -16,7 +16,7 @@ It is our assumption that you have a basic knowledge of GIT. In case you do not,
 
 ## Branch and Commits
 
-Please create a new branch from develop branch. Name the branch using following convention
+Before starting development please create a new branch from develop branch. Name the branch using following convention
 
 [Current Year]/[First Letter of FirstName][LastName].
 
@@ -29,7 +29,7 @@ Branch Name for Candidate "Apple Seed" and current year 2020 will be
 
 ## Tips
 * Use consistent coding standards.
-* Code should be easy to self explanatory.
+* Code should be self explanatory.
 * Always ask questions before writing code. Lot of times problem statements are ambigious.
 * It is more important how you solve the problem, as compared to reaching to a solution by hit and trial.
 
