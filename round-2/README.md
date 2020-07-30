@@ -5,7 +5,7 @@ Most of the time when we are working on a project, we will have to deal with the
 A good developer needs to know two things really well
 
 1. Write a code which is easy to understand.
-   Expert Tip: Adding tons of documentation and writing a very convoluted code is not going to help.
+   - Tip: Adding tons of documentation but writing a very convoluted code is not going to help.
 2. As a rule, always leave the code in better state than before you started working on it.
 
 ## Objective
