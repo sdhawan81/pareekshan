@@ -1,12 +1,6 @@
+const movies = require("./data.js");
 class Rental {
-  constructor() {
-    this.movies = {
-      F001: { title: 'Ran', code: 'regular' },
-      F002: { title: 'Trois Couleurs: Bleu', code: 'regular' },
-      F003: { title: 'Cars 2', code: 'childrens' },
-      F004: { title: 'Latest Hit Release', code: 'new' },
-      //EXERCISE NOTE: add more movies if you need
-    };
+  constructor() {   
   }
   getCustomerStatement(customer) {
     let result = {
@@ -16,7 +10,7 @@ class Rental {
       totalAmount: 0
     };
     for (let r of customer.rentals) {
-      let movie = this.movies[r.movieID];
+      let movie = movies[r.movieID];
       let currentMovieAmount = this.getAmountForAMovie(movie, r.days);
 
       result.frequentRenterPoints += this.getFrequentRenterPoints(movie, r.days);
