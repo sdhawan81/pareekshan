@@ -93,3 +93,7 @@ Run simulation for 10 time units
   "....O....C.......R......", // 10
 ];
 ```
+
+## Submission
+
+Submit your code inside solution folder.
