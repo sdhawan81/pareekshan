@@ -1,36 +1,33 @@
+function where(data, options) {
+    var keys = Object.keys(options);
+    return data.filter((statistics) =>{
+      return keys.every((key)=> {
+        if (!options[keys].length) {
+          return true; 
+        }
+        return options[key].includes(statistics[key]);
+     });
+ });
+};
 
-function findBy(options) {
-    return where(options)[0];
-
-}
-
-function where(options) {
-    let searchedData = [];
-    for (i = 0; i < data.length; i++) {
-        options.forEach(option => {
-
-            for (let key of Object.keys(option)) {
-                let presence = false,idx=-1;
-                if (data[i].key == option.key) {
-                    for (i = 0; i < searchedData.length; i++)
-                        if (searchedData[i] == data[i]) presence = true;
-                    if (!presence)
-                        searchedData.push(data[i]);
-                }
-
-                else
-                    if (searchedData[i] == data[i]) {idx=i;}
-                if (idx!=-1) searchedData.splice(idx, 1);
-
-            }
-        });
-    }
-    return searchedData;
+function findBy(data,options) {
+    return where(data,options)[0];
 
 }
 
-import {data} from "./data";
-
-parameter = [{ "company_name": "MyCityFaces" }, { "city": "Scottsdale" }];
-where(parameter);
-findBy(parameter);
+async function getData() 
+{
+  let response = await fetch("https://raw.githubusercontent.com/sdhawan81/pareekshan/develop/round-2/files/startup-funding.json");
+  let data = await response.json();
+  return data;
+}
+let data=[];
+var filter1 = {
+    "company_name": ["LifeLock"]
+}
+filter2 = { "company_name": ["MyCityFaces"] }, { "city": ["Scottsdale"] };
+getData().then(appData=>{
+    data=appData;
+    console.log(where(data,filter1));
+    console.log(findBy(data,filter2));
+});
