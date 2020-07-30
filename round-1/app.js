@@ -1,61 +1,36 @@
-let states,c = 0,buffer = [],road;
-// original signal
-let signal = { R: 5, G: 5, O: 1 };
-//signal chaned value
-let signalChanged = { R: "G", G: "O", O: "R" };
-// check for signal
-function trafficLights(r, n) {
-    
-    road=r;
-    states = [road];
-    road = road.split("");
-    road[0] = ".";
-    road.map((val, idx) => {
-        (val == "G" || val == "R" || val == 'O') ? buffer.push([val, 0, idx]) : "";
+let signal = "GGGGGORRRRR";
+let road = [], carPosition, buffer, result;
+
+function trafficLights(roadState, n) {
+    road = roadState;
+    carPosition = road.indexOf('C');
+    buffer = road.split("").map(state => signal.indexOf(state));
+    result = road.split();
+    let i = 0;
+    while (i < n) {
+        buffer = buffer.map(val => val < 0 ? val : (val + 1) % 11);
+        updateCarPosition();
+        let modifiedState = modifySignalState();
+        result.push(modifiedState.join(""));
+        i++;
+    }
+
+    return result;
+}
+function updateCarPosition() {
+    if (carPosition >= road.length - 1 || buffer[carPosition + 1] < 5)
+        carPosition++;
+}
+function modifySignalState() {
+    let modifiedState = new Array(road.length).fill("");
+    modifiedState = modifiedState.map((val, idx) => {
+        if (idx === carPosition)
+            return 'C';
+        else if (buffer[idx] >= 0)
+            return signal[buffer[idx]];
+        return '.';
     });
 
-    // move car
-    for (let i = 1; i <= n; i++) {
-        moveCar();
-        //create final state
-        finalState();
-    }
-    return states;
-}
-function moveCar(){
-    buffer.map((val) => {
-        val[1] += 1;
-        if (signal[val[0] == val[1]]) {
-            val[0] = signalChanged[val[0]];
-            val[1] = 0;
-        }
-    });
-    if (road[c + 1] == "." || c + 1 >= road.length) {
-        c++;
-    }
-    else {
-        buffer.map(val => {
-            if (c + 1 == val[2] && val[0] == "G")
-                car++;
-        });
-    }
-}
-function finalState(){
-    buffer.map((val) => road[val[2]] = val[0]);
-
-        if (c >= 0 && c < road.length) {
-            //value swap temporarily
-            let temp = road[c];
-            road[c] = "C";
-            states.push(road.join(""));// insert state value
-            road[c] = temp;
-
-        }
-        else
-            states.push(road.join(""));
+    return modifiedState;
 }
 console.log(trafficLights("C...R............G......", 10));
-
-
-
-
