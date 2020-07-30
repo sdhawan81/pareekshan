@@ -2,7 +2,7 @@
   {
     "permalink": "lifelock",
     "company_name": "LifeLock",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Tempe",
     "state": "AZ",
@@ -14,7 +14,7 @@
   {
     "permalink": "lifelock",
     "company_name": "LifeLock",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Tempe",
     "state": "AZ",
@@ -26,7 +26,7 @@
   {
     "permalink": "lifelock",
     "company_name": "LifeLock",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Tempe",
     "state": "AZ",
@@ -50,7 +50,7 @@
   {
     "permalink": "flypaper",
     "company_name": "Flypaper",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Phoenix",
     "state": "AZ",
@@ -242,7 +242,7 @@
   {
     "permalink": "omnidrive",
     "company_name": "Omnidrive",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -302,7 +302,7 @@
   {
     "permalink": "stumbleupon",
     "company_name": "StumbleUpon",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -314,7 +314,7 @@
   {
     "permalink": "gizmoz",
     "company_name": "Gizmoz",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -326,7 +326,7 @@
   {
     "permalink": "gizmoz",
     "company_name": "Gizmoz",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -374,7 +374,7 @@
   {
     "permalink": "slacker",
     "company_name": "Slacker",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Diego",
     "state": "CA",
@@ -386,7 +386,7 @@
   {
     "permalink": "slacker",
     "company_name": "Slacker",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Diego",
     "state": "CA",
@@ -398,7 +398,7 @@
   {
     "permalink": "lala",
     "company_name": "Lala",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -578,7 +578,7 @@
   {
     "permalink": "veoh",
     "company_name": "Veoh",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Diego",
     "state": "CA",
@@ -590,7 +590,7 @@
   {
     "permalink": "veoh",
     "company_name": "Veoh",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Diego",
     "state": "CA",
@@ -602,7 +602,7 @@
   {
     "permalink": "veoh",
     "company_name": "Veoh",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Diego",
     "state": "CA",
@@ -614,7 +614,7 @@
   {
     "permalink": "veoh",
     "company_name": "Veoh",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Diego",
     "state": "CA",
@@ -626,7 +626,7 @@
   {
     "permalink": "jingle-networks",
     "company_name": "Jingle Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -638,7 +638,7 @@
   {
     "permalink": "jingle-networks",
     "company_name": "Jingle Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -650,7 +650,7 @@
   {
     "permalink": "jingle-networks",
     "company_name": "Jingle Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -662,7 +662,7 @@
   {
     "permalink": "jingle-networks",
     "company_name": "Jingle Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -674,7 +674,7 @@
   {
     "permalink": "jingle-networks",
     "company_name": "Jingle Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -710,7 +710,7 @@
   {
     "permalink": "jotspot",
     "company_name": "JotSpot",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -722,7 +722,7 @@
   {
     "permalink": "mercora",
     "company_name": "Mercora",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -734,7 +734,7 @@
   {
     "permalink": "wesabe",
     "company_name": "Wesabe",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -746,7 +746,7 @@
   {
     "permalink": "wesabe",
     "company_name": "Wesabe",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -782,7 +782,7 @@
   {
     "permalink": "prosper",
     "company_name": "Prosper",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -794,7 +794,7 @@
   {
     "permalink": "prosper",
     "company_name": "Prosper",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -806,7 +806,7 @@
   {
     "permalink": "prosper",
     "company_name": "Prosper",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -866,7 +866,7 @@
   {
     "permalink": "youtube",
     "company_name": "YouTube",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Bruno",
     "state": "CA",
@@ -878,7 +878,7 @@
   {
     "permalink": "youtube",
     "company_name": "YouTube",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Bruno",
     "state": "CA",
@@ -890,7 +890,7 @@
   {
     "permalink": "ustream",
     "company_name": "Ustream",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -902,7 +902,7 @@
   {
     "permalink": "ustream",
     "company_name": "Ustream",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -914,7 +914,7 @@
   {
     "permalink": "gizmoproject",
     "company_name": "GizmoProject",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Diego",
     "state": "CA",
@@ -938,7 +938,7 @@
   {
     "permalink": "topix",
     "company_name": "Topix",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -950,7 +950,7 @@
   {
     "permalink": "revision3",
     "company_name": "Revision3",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -962,7 +962,7 @@
   {
     "permalink": "revision3",
     "company_name": "Revision3",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -974,7 +974,7 @@
   {
     "permalink": "aggregateknowledge",
     "company_name": "Aggregate Knowledge",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -986,7 +986,7 @@
   {
     "permalink": "aggregateknowledge",
     "company_name": "Aggregate Knowledge",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -998,7 +998,7 @@
   {
     "permalink": "sugarinc",
     "company_name": "Sugar Inc",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1010,7 +1010,7 @@
   {
     "permalink": "sugarinc",
     "company_name": "Sugar Inc",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1022,7 +1022,7 @@
   {
     "permalink": "zing",
     "company_name": "Zing",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -1058,7 +1058,7 @@
   {
     "permalink": "wize",
     "company_name": "Wize",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "",
     "state": "CA",
@@ -1070,7 +1070,7 @@
   {
     "permalink": "sodahead",
     "company_name": "SodaHead",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "",
     "state": "CA",
@@ -1082,7 +1082,7 @@
   {
     "permalink": "sodahead",
     "company_name": "SodaHead",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "",
     "state": "CA",
@@ -1106,7 +1106,7 @@
   {
     "permalink": "buzznet",
     "company_name": "BuzzNet",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Hollywood",
     "state": "CA",
@@ -1118,7 +1118,7 @@
   {
     "permalink": "buzznet",
     "company_name": "BuzzNet",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Hollywood",
     "state": "CA",
@@ -1130,7 +1130,7 @@
   {
     "permalink": "funny-or-die",
     "company_name": "Funny Or Die",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -1166,7 +1166,7 @@
   {
     "permalink": "meevee",
     "company_name": "MeeVee",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Burlingame",
     "state": "CA",
@@ -1178,7 +1178,7 @@
   {
     "permalink": "meevee",
     "company_name": "MeeVee",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Burlingame",
     "state": "CA",
@@ -1190,7 +1190,7 @@
   {
     "permalink": "meevee",
     "company_name": "MeeVee",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Burlingame",
     "state": "CA",
@@ -1202,7 +1202,7 @@
   {
     "permalink": "meevee",
     "company_name": "MeeVee",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Burlingame",
     "state": "CA",
@@ -1226,7 +1226,7 @@
   {
     "permalink": "yelp",
     "company_name": "Yelp",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1238,7 +1238,7 @@
   {
     "permalink": "yelp",
     "company_name": "Yelp",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1250,7 +1250,7 @@
   {
     "permalink": "yelp",
     "company_name": "Yelp",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1262,7 +1262,7 @@
   {
     "permalink": "yelp",
     "company_name": "Yelp",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1310,7 +1310,7 @@
   {
     "permalink": "zooomr",
     "company_name": "Zooomr",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1370,7 +1370,7 @@
   {
     "permalink": "rockyou",
     "company_name": "RockYou",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -1382,7 +1382,7 @@
   {
     "permalink": "rockyou",
     "company_name": "RockYou",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -1394,7 +1394,7 @@
   {
     "permalink": "rockyou",
     "company_name": "RockYou",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -1406,7 +1406,7 @@
   {
     "permalink": "rockyou",
     "company_name": "RockYou",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -1430,7 +1430,7 @@
   {
     "permalink": "swivel",
     "company_name": "Swivel",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1442,7 +1442,7 @@
   {
     "permalink": "swivel",
     "company_name": "Swivel",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1478,7 +1478,7 @@
   {
     "permalink": "bebo",
     "company_name": "Bebo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1490,7 +1490,7 @@
   {
     "permalink": "freebase",
     "company_name": "freebase",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1502,7 +1502,7 @@
   {
     "permalink": "freebase",
     "company_name": "freebase",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1514,7 +1514,7 @@
   {
     "permalink": "metawebtechnologies",
     "company_name": "Metaweb Technologies",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1526,7 +1526,7 @@
   {
     "permalink": "glammedia",
     "company_name": "Glam Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Brisbane",
     "state": "CA",
@@ -1538,7 +1538,7 @@
   {
     "permalink": "glammedia",
     "company_name": "Glam Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Brisbane",
     "state": "CA",
@@ -1550,7 +1550,7 @@
   {
     "permalink": "glammedia",
     "company_name": "Glam Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Brisbane",
     "state": "CA",
@@ -1562,7 +1562,7 @@
   {
     "permalink": "glammedia",
     "company_name": "Glam Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Brisbane",
     "state": "CA",
@@ -1574,7 +1574,7 @@
   {
     "permalink": "glammedia",
     "company_name": "Glam Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Brisbane",
     "state": "CA",
@@ -1586,7 +1586,7 @@
   {
     "permalink": "thefind",
     "company_name": "TheFind",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -1598,7 +1598,7 @@
   {
     "permalink": "thefind",
     "company_name": "TheFind",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -1610,7 +1610,7 @@
   {
     "permalink": "thefind",
     "company_name": "TheFind",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -1622,7 +1622,7 @@
   {
     "permalink": "zazzle",
     "company_name": "Zazzle",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -1634,7 +1634,7 @@
   {
     "permalink": "zazzle",
     "company_name": "Zazzle",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -1646,7 +1646,7 @@
   {
     "permalink": "dogster",
     "company_name": "Dogster",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1754,7 +1754,7 @@
   {
     "permalink": "adbrite",
     "company_name": "AdBrite",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1766,7 +1766,7 @@
   {
     "permalink": "adbrite",
     "company_name": "AdBrite",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1778,7 +1778,7 @@
   {
     "permalink": "adbrite",
     "company_name": "AdBrite",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1790,7 +1790,7 @@
   {
     "permalink": "loomia",
     "company_name": "Loomia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1802,7 +1802,7 @@
   {
     "permalink": "loomia",
     "company_name": "Loomia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1862,7 +1862,7 @@
   {
     "permalink": "linkedin",
     "company_name": "LinkedIn",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -1874,7 +1874,7 @@
   {
     "permalink": "linkedin",
     "company_name": "LinkedIn",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -1886,7 +1886,7 @@
   {
     "permalink": "linkedin",
     "company_name": "LinkedIn",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -1898,7 +1898,7 @@
   {
     "permalink": "linkedin",
     "company_name": "LinkedIn",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -1910,7 +1910,7 @@
   {
     "permalink": "flickim",
     "company_name": "FlickIM",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Berkeley",
     "state": "CA",
@@ -1934,7 +1934,7 @@
   {
     "permalink": "healthline",
     "company_name": "Healthline",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1946,7 +1946,7 @@
   {
     "permalink": "healthline",
     "company_name": "Healthline",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -1982,7 +1982,7 @@
   {
     "permalink": "conduit",
     "company_name": "Conduit",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood Shores",
     "state": "CA",
@@ -1994,7 +1994,7 @@
   {
     "permalink": "conduit",
     "company_name": "Conduit",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood Shores",
     "state": "CA",
@@ -2006,7 +2006,7 @@
   {
     "permalink": "edgeio",
     "company_name": "Edgeio",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -2018,7 +2018,7 @@
   {
     "permalink": "spotrunner",
     "company_name": "Spot Runner",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -2030,7 +2030,7 @@
   {
     "permalink": "spotrunner",
     "company_name": "Spot Runner",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -2042,7 +2042,7 @@
   {
     "permalink": "spotrunner",
     "company_name": "Spot Runner",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -2054,7 +2054,7 @@
   {
     "permalink": "kaboodle",
     "company_name": "Kaboodle",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Clara",
     "state": "CA",
@@ -2066,7 +2066,7 @@
   {
     "permalink": "kaboodle",
     "company_name": "Kaboodle",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Clara",
     "state": "CA",
@@ -2078,7 +2078,7 @@
   {
     "permalink": "kaboodle",
     "company_name": "Kaboodle",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Clara",
     "state": "CA",
@@ -2102,7 +2102,7 @@
   {
     "permalink": "visiblepath",
     "company_name": "Visible Path",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Foster City",
     "state": "CA",
@@ -2114,7 +2114,7 @@
   {
     "permalink": "visiblepath",
     "company_name": "Visible Path",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Foster City",
     "state": "CA",
@@ -2126,7 +2126,7 @@
   {
     "permalink": "wink",
     "company_name": "Wink",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -2138,7 +2138,7 @@
   {
     "permalink": "seesmic",
     "company_name": "seesmic",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -2150,7 +2150,7 @@
   {
     "permalink": "seesmic",
     "company_name": "seesmic",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -2162,7 +2162,7 @@
   {
     "permalink": "zvents",
     "company_name": "Zvents",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -2174,7 +2174,7 @@
   {
     "permalink": "zvents",
     "company_name": "Zvents",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -2210,7 +2210,7 @@
   {
     "permalink": "oodle",
     "company_name": "Oodle",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -2222,7 +2222,7 @@
   {
     "permalink": "oodle",
     "company_name": "Oodle",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -2234,7 +2234,7 @@
   {
     "permalink": "odesk",
     "company_name": "oDesk",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -2246,7 +2246,7 @@
   {
     "permalink": "odesk",
     "company_name": "oDesk",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -2258,7 +2258,7 @@
   {
     "permalink": "odesk",
     "company_name": "oDesk",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -2270,7 +2270,7 @@
   {
     "permalink": "simplyhired",
     "company_name": "SimplyHired",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -2282,7 +2282,7 @@
   {
     "permalink": "simplyhired",
     "company_name": "SimplyHired",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -2354,7 +2354,7 @@
   {
     "permalink": "piczo",
     "company_name": "Piczo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -2366,7 +2366,7 @@
   {
     "permalink": "socialtext",
     "company_name": "Socialtext",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -2378,7 +2378,7 @@
   {
     "permalink": "socialtext",
     "company_name": "Socialtext",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -2390,7 +2390,7 @@
   {
     "permalink": "socialtext",
     "company_name": "Socialtext",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -2402,7 +2402,7 @@
   {
     "permalink": "powerreviews",
     "company_name": "PowerReview",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Millbrae",
     "state": "CA",
@@ -2414,7 +2414,7 @@
   {
     "permalink": "powerreviews",
     "company_name": "PowerReview",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Millbrae",
     "state": "CA",
@@ -2450,7 +2450,7 @@
   {
     "permalink": "tagged",
     "company_name": "Tagged",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -2462,7 +2462,7 @@
   {
     "permalink": "tagged",
     "company_name": "Tagged",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -2474,7 +2474,7 @@
   {
     "permalink": "tagged",
     "company_name": "Tagged",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -2486,7 +2486,7 @@
   {
     "permalink": "jaxtr",
     "company_name": "Jaxtr",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -2498,7 +2498,7 @@
   {
     "permalink": "jaxtr",
     "company_name": "Jaxtr",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -2510,7 +2510,7 @@
   {
     "permalink": "jaxtr",
     "company_name": "Jaxtr",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -2522,7 +2522,7 @@
   {
     "permalink": "m",
     "company_name": "Me",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Jose",
     "state": "CA",
@@ -2582,7 +2582,7 @@
   {
     "permalink": "genius",
     "company_name": "Genius",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -2594,7 +2594,7 @@
   {
     "permalink": "genius",
     "company_name": "Genius",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -2606,7 +2606,7 @@
   {
     "permalink": "genius",
     "company_name": "Genius",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -2618,7 +2618,7 @@
   {
     "permalink": "respectance",
     "company_name": "Respectance",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -2630,7 +2630,7 @@
   {
     "permalink": "respectance",
     "company_name": "Respectance",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -2642,7 +2642,7 @@
   {
     "permalink": "curse",
     "company_name": "Curse",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -2654,7 +2654,7 @@
   {
     "permalink": "licketyship",
     "company_name": "LicketyShip",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -2690,7 +2690,7 @@
   {
     "permalink": "peerme",
     "company_name": "PeerMe",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -2738,7 +2738,7 @@
   {
     "permalink": "vuze",
     "company_name": "Vuze",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -2750,7 +2750,7 @@
   {
     "permalink": "vuze",
     "company_name": "Vuze",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -2762,7 +2762,7 @@
   {
     "permalink": "phonezoo",
     "company_name": "Phonezoo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -2774,7 +2774,7 @@
   {
     "permalink": "phonezoo",
     "company_name": "Phonezoo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -2786,7 +2786,7 @@
   {
     "permalink": "droplettechnology",
     "company_name": "Droplet Technology",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -2798,7 +2798,7 @@
   {
     "permalink": "podtech",
     "company_name": "PodTech",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -2810,7 +2810,7 @@
   {
     "permalink": "podtech",
     "company_name": "PodTech",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -2822,7 +2822,7 @@
   {
     "permalink": "crackle",
     "company_name": "Crackle",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mill Valley",
     "state": "CA",
@@ -2834,7 +2834,7 @@
   {
     "permalink": "reddit",
     "company_name": "Reddit",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -2846,7 +2846,7 @@
   {
     "permalink": "wikia",
     "company_name": "Wikia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -2858,7 +2858,7 @@
   {
     "permalink": "wikia",
     "company_name": "Wikia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -2870,7 +2870,7 @@
   {
     "permalink": "retrevo",
     "company_name": "Retrevo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -2882,7 +2882,7 @@
   {
     "permalink": "retrevo",
     "company_name": "Retrevo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -2894,7 +2894,7 @@
   {
     "permalink": "retrevo",
     "company_name": "Retrevo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -2966,7 +2966,7 @@
   {
     "permalink": "tangler",
     "company_name": "Tangler",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -2978,7 +2978,7 @@
   {
     "permalink": "obopay",
     "company_name": "obopay",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -2990,7 +2990,7 @@
   {
     "permalink": "obopay",
     "company_name": "obopay",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -3002,7 +3002,7 @@
   {
     "permalink": "obopay",
     "company_name": "obopay",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -3014,7 +3014,7 @@
   {
     "permalink": "obopay",
     "company_name": "obopay",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -3026,7 +3026,7 @@
   {
     "permalink": "paypal",
     "company_name": "PayPal",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Jose",
     "state": "CA",
@@ -3038,7 +3038,7 @@
   {
     "permalink": "paypal",
     "company_name": "PayPal",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Jose",
     "state": "CA",
@@ -3050,7 +3050,7 @@
   {
     "permalink": "paypal",
     "company_name": "PayPal",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Jose",
     "state": "CA",
@@ -3062,7 +3062,7 @@
   {
     "permalink": "talkplus",
     "company_name": "TalkPlus",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -3086,7 +3086,7 @@
   {
     "permalink": "insiderpages",
     "company_name": "Insider Pages",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -3098,7 +3098,7 @@
   {
     "permalink": "snapfish",
     "company_name": "Snapfish",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3110,7 +3110,7 @@
   {
     "permalink": "snapfish",
     "company_name": "Snapfish",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3158,7 +3158,7 @@
   {
     "permalink": "imvu",
     "company_name": "IMVU",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -3170,7 +3170,7 @@
   {
     "permalink": "nirvanix",
     "company_name": "Nirvanix",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Diego",
     "state": "CA",
@@ -3194,7 +3194,7 @@
   {
     "permalink": "gaia",
     "company_name": "Gaia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Jose",
     "state": "CA",
@@ -3206,7 +3206,7 @@
   {
     "permalink": "gaia",
     "company_name": "Gaia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Jose",
     "state": "CA",
@@ -3218,7 +3218,7 @@
   {
     "permalink": "gaia",
     "company_name": "Gaia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Jose",
     "state": "CA",
@@ -3230,7 +3230,7 @@
   {
     "permalink": "greatcall",
     "company_name": "GreatCall",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Del Mar",
     "state": "CA",
@@ -3242,7 +3242,7 @@
   {
     "permalink": "revver",
     "company_name": "Revver",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -3254,7 +3254,7 @@
   {
     "permalink": "revver",
     "company_name": "Revver",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -3266,7 +3266,7 @@
   {
     "permalink": "metacafe",
     "company_name": "Metacafe",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -3278,7 +3278,7 @@
   {
     "permalink": "metacafe",
     "company_name": "Metacafe",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -3350,7 +3350,7 @@
   {
     "permalink": "kontera",
     "company_name": "Kontera",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3362,7 +3362,7 @@
   {
     "permalink": "kontera",
     "company_name": "Kontera",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3374,7 +3374,7 @@
   {
     "permalink": "tokbox",
     "company_name": "Tokbox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3386,7 +3386,7 @@
   {
     "permalink": "tokbox",
     "company_name": "Tokbox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3434,7 +3434,7 @@
   {
     "permalink": "weebly",
     "company_name": "Weebly",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3542,7 +3542,7 @@
   {
     "permalink": "fathomonline",
     "company_name": "Fathom Online",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3590,7 +3590,7 @@
   {
     "permalink": "expresso",
     "company_name": "eXpresso",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -3602,7 +3602,7 @@
   {
     "permalink": "doostang",
     "company_name": "Doostang",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -3614,7 +3614,7 @@
   {
     "permalink": "docstoc",
     "company_name": "Docstoc",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Beverly Hills",
     "state": "CA",
@@ -3626,7 +3626,7 @@
   {
     "permalink": "docstoc",
     "company_name": "Docstoc",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Beverly Hills",
     "state": "CA",
@@ -3638,7 +3638,7 @@
   {
     "permalink": "mevio",
     "company_name": "Mevio",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3650,7 +3650,7 @@
   {
     "permalink": "mevio",
     "company_name": "Mevio",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3662,7 +3662,7 @@
   {
     "permalink": "mevio",
     "company_name": "Mevio",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3674,7 +3674,7 @@
   {
     "permalink": "purevideo",
     "company_name": "PureVideo Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -3686,7 +3686,7 @@
   {
     "permalink": "purevideo",
     "company_name": "PureVideo Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -3698,7 +3698,7 @@
   {
     "permalink": "filmloop",
     "company_name": "FilmLoop",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -3710,7 +3710,7 @@
   {
     "permalink": "bitpass",
     "company_name": "BitPass",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -3722,7 +3722,7 @@
   {
     "permalink": "bitpass",
     "company_name": "BitPass",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -3746,7 +3746,7 @@
   {
     "permalink": "atomshockwave",
     "company_name": "Atom Shockwave",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3758,7 +3758,7 @@
   {
     "permalink": "cinemanow",
     "company_name": "CinemaNow",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Marina Del Rey",
     "state": "CA",
@@ -3770,7 +3770,7 @@
   {
     "permalink": "digitalchocolate",
     "company_name": "Digital Chocolate",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -3782,7 +3782,7 @@
   {
     "permalink": "digitalchocolate",
     "company_name": "Digital Chocolate",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -3794,7 +3794,7 @@
   {
     "permalink": "eharmony",
     "company_name": "eHarmony",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Pasadena",
     "state": "CA",
@@ -3806,7 +3806,7 @@
   {
     "permalink": "eharmony",
     "company_name": "eHarmony",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Pasadena",
     "state": "CA",
@@ -3866,7 +3866,7 @@
   {
     "permalink": "greystripe",
     "company_name": "Greystripe",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3878,7 +3878,7 @@
   {
     "permalink": "slingmedia",
     "company_name": "Sling Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Foster City",
     "state": "CA",
@@ -3890,7 +3890,7 @@
   {
     "permalink": "slingmedia",
     "company_name": "Sling Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Foster City",
     "state": "CA",
@@ -3902,7 +3902,7 @@
   {
     "permalink": "trulia",
     "company_name": "Trulia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3914,7 +3914,7 @@
   {
     "permalink": "trulia",
     "company_name": "Trulia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3926,7 +3926,7 @@
   {
     "permalink": "trulia",
     "company_name": "Trulia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3938,7 +3938,7 @@
   {
     "permalink": "trulia",
     "company_name": "Trulia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -3950,7 +3950,7 @@
   {
     "permalink": "lendingclub",
     "company_name": "Lending Club",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -3962,7 +3962,7 @@
   {
     "permalink": "lendingclub",
     "company_name": "Lending Club",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -3986,7 +3986,7 @@
   {
     "permalink": "gemini",
     "company_name": "Gemini",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -3998,7 +3998,7 @@
   {
     "permalink": "gemini",
     "company_name": "Gemini",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -4010,7 +4010,7 @@
   {
     "permalink": "multiverse",
     "company_name": "Multiverse",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -4022,7 +4022,7 @@
   {
     "permalink": "multiverse",
     "company_name": "Multiverse",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -4034,7 +4034,7 @@
   {
     "permalink": "limelife",
     "company_name": "LimeLife",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Menlo Park",
     "state": "CA",
@@ -4046,7 +4046,7 @@
   {
     "permalink": "limelife",
     "company_name": "LimeLife",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Menlo Park",
     "state": "CA",
@@ -4058,7 +4058,7 @@
   {
     "permalink": "limelife",
     "company_name": "LimeLife",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Menlo Park",
     "state": "CA",
@@ -4070,7 +4070,7 @@
   {
     "permalink": "opentable",
     "company_name": "OpenTable",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -4082,7 +4082,7 @@
   {
     "permalink": "opentable",
     "company_name": "OpenTable",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -4094,7 +4094,7 @@
   {
     "permalink": "opentable",
     "company_name": "OpenTable",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -4118,7 +4118,7 @@
   {
     "permalink": "federatedmedia",
     "company_name": "Federated Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sausalito",
     "state": "CA",
@@ -4130,7 +4130,7 @@
   {
     "permalink": "federatedmedia",
     "company_name": "Federated Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sausalito",
     "state": "CA",
@@ -4142,7 +4142,7 @@
   {
     "permalink": "deliveryagent",
     "company_name": "Delivery Agent",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -4154,7 +4154,7 @@
   {
     "permalink": "deliveryagent",
     "company_name": "Delivery Agent",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -4166,7 +4166,7 @@
   {
     "permalink": "deliveryagent",
     "company_name": "Delivery Agent",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -4190,7 +4190,7 @@
   {
     "permalink": "mixercast",
     "company_name": "Mixercast",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -4202,7 +4202,7 @@
   {
     "permalink": "mixercast",
     "company_name": "Mixercast",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -4214,7 +4214,7 @@
   {
     "permalink": "mtraks",
     "company_name": "mTraks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Diego",
     "state": "CA",
@@ -4226,7 +4226,7 @@
   {
     "permalink": "xora",
     "company_name": "Xora",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -4238,7 +4238,7 @@
   {
     "permalink": "xora",
     "company_name": "Xora",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -4250,7 +4250,7 @@
   {
     "permalink": "xora",
     "company_name": "Xora",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -4262,7 +4262,7 @@
   {
     "permalink": "ooyala",
     "company_name": "Ooyala",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -4286,7 +4286,7 @@
   {
     "permalink": "crunchyroll",
     "company_name": "Crunchyroll",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francsico",
     "state": "CA",
@@ -4310,7 +4310,7 @@
   {
     "permalink": "pixsense",
     "company_name": "PixSense",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Clara",
     "state": "CA",
@@ -4322,7 +4322,7 @@
   {
     "permalink": "pixsense",
     "company_name": "PixSense",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Clara",
     "state": "CA",
@@ -4334,7 +4334,7 @@
   {
     "permalink": "danal",
     "company_name": "Danal",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Jose",
     "state": "CA",
@@ -4346,7 +4346,7 @@
   {
     "permalink": "hulu",
     "company_name": "hulu",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -4358,7 +4358,7 @@
   {
     "permalink": "ourstory",
     "company_name": "OurStory",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -4370,7 +4370,7 @@
   {
     "permalink": "specificmedia",
     "company_name": "Specificmedia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Ir vine",
     "state": "CA",
@@ -4382,7 +4382,7 @@
   {
     "permalink": "specificmedia",
     "company_name": "Specificmedia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Ir vine",
     "state": "CA",
@@ -4394,7 +4394,7 @@
   {
     "permalink": "admob",
     "company_name": "AdMob",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -4406,7 +4406,7 @@
   {
     "permalink": "mysql",
     "company_name": "MySQL",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cupertino",
     "state": "CA",
@@ -4418,7 +4418,7 @@
   {
     "permalink": "mysql",
     "company_name": "MySQL",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cupertino",
     "state": "CA",
@@ -4490,7 +4490,7 @@
   {
     "permalink": "demandmedia",
     "company_name": "Demand Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -4502,7 +4502,7 @@
   {
     "permalink": "demandmedia",
     "company_name": "Demand Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -4514,7 +4514,7 @@
   {
     "permalink": "demandmedia",
     "company_name": "Demand Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -4526,7 +4526,7 @@
   {
     "permalink": "demandmedia",
     "company_name": "Demand Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -4634,7 +4634,7 @@
   {
     "permalink": "tagworld",
     "company_name": "Tagworld",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -4646,7 +4646,7 @@
   {
     "permalink": "tagworld",
     "company_name": "Tagworld",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -4658,7 +4658,7 @@
   {
     "permalink": "rotohog",
     "company_name": "RotoHog",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Inglewood",
     "state": "CA",
@@ -4694,7 +4694,7 @@
   {
     "permalink": "chesspark",
     "company_name": "ChessPark",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "West Palm Beach",
     "state": "CA",
@@ -4706,7 +4706,7 @@
   {
     "permalink": "break",
     "company_name": "Break",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Beverly Hills",
     "state": "CA",
@@ -4718,7 +4718,7 @@
   {
     "permalink": "musestorm",
     "company_name": "MuseStorm",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -4730,7 +4730,7 @@
   {
     "permalink": "mediamachines",
     "company_name": "Media Machines",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -4742,7 +4742,7 @@
   {
     "permalink": "mig33",
     "company_name": "Ciihui",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Burlingame",
     "state": "CA",
@@ -4754,7 +4754,7 @@
   {
     "permalink": "mig33",
     "company_name": "Ciihui",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Burlingame",
     "state": "CA",
@@ -4766,7 +4766,7 @@
   {
     "permalink": "aliph",
     "company_name": "Aliph",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -4958,7 +4958,7 @@
   {
     "permalink": "ffwd",
     "company_name": "ffwd",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -4970,7 +4970,7 @@
   {
     "permalink": "satisfaction",
     "company_name": "Get Satisfaction",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -4982,7 +4982,7 @@
   {
     "permalink": "ringcentral",
     "company_name": "RingCentral",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -4994,7 +4994,7 @@
   {
     "permalink": "ringcentral",
     "company_name": "RingCentral",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -5006,7 +5006,7 @@
   {
     "permalink": "3jam",
     "company_name": "3Jam",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -5018,7 +5018,7 @@
   {
     "permalink": "playspan",
     "company_name": "PlaySpan",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Clara",
     "state": "CA",
@@ -5066,7 +5066,7 @@
   {
     "permalink": "graspr",
     "company_name": "Graspr",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -5078,7 +5078,7 @@
   {
     "permalink": "zannel",
     "company_name": "Zannel",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5090,7 +5090,7 @@
   {
     "permalink": "deca-tv",
     "company_name": "deca.tv",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -5102,7 +5102,7 @@
   {
     "permalink": "zimbra",
     "company_name": "Zimbra",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -5114,7 +5114,7 @@
   {
     "permalink": "friendfeed",
     "company_name": "FriendFeed",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -5138,7 +5138,7 @@
   {
     "permalink": "jibjab",
     "company_name": "JibJab",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -5150,7 +5150,7 @@
   {
     "permalink": "rubiconproject",
     "company_name": "Rubicon Project",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -5162,7 +5162,7 @@
   {
     "permalink": "rubiconproject",
     "company_name": "Rubicon Project",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -5174,7 +5174,7 @@
   {
     "permalink": "rubiconproject",
     "company_name": "Rubicon Project",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -5186,7 +5186,7 @@
   {
     "permalink": "snaplayout",
     "company_name": "SnapLayout",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5198,7 +5198,7 @@
   {
     "permalink": "confabb",
     "company_name": "Confabb",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "",
     "state": "CA",
@@ -5210,7 +5210,7 @@
   {
     "permalink": "uptake",
     "company_name": "UpTake",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -5234,7 +5234,7 @@
   {
     "permalink": "yume",
     "company_name": "YuMe",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -5246,7 +5246,7 @@
   {
     "permalink": "mochimedia",
     "company_name": "Mochi Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5258,7 +5258,7 @@
   {
     "permalink": "mochimedia",
     "company_name": "Mochi Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5270,7 +5270,7 @@
   {
     "permalink": "blurb",
     "company_name": "Blurb",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5282,7 +5282,7 @@
   {
     "permalink": "weatherbill",
     "company_name": "WeatherBill",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5318,7 +5318,7 @@
   {
     "permalink": "twine",
     "company_name": "Radar Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5330,7 +5330,7 @@
   {
     "permalink": "twine",
     "company_name": "Radar Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5354,7 +5354,7 @@
   {
     "permalink": "echosign",
     "company_name": "EchoSign",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -5402,7 +5402,7 @@
   {
     "permalink": "socializr",
     "company_name": "Socializr",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5438,7 +5438,7 @@
   {
     "permalink": "gydget",
     "company_name": "Gydget",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5450,7 +5450,7 @@
   {
     "permalink": "pickspal",
     "company_name": "PicksPal",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -5462,7 +5462,7 @@
   {
     "permalink": "gigya",
     "company_name": "Gigya",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -5474,7 +5474,7 @@
   {
     "permalink": "gigya",
     "company_name": "Gigya",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -5486,7 +5486,7 @@
   {
     "permalink": "songbird",
     "company_name": "Songbird",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5498,7 +5498,7 @@
   {
     "permalink": "guardiananalytics",
     "company_name": "Guardian Analytics",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Altos",
     "state": "CA",
@@ -5510,7 +5510,7 @@
   {
     "permalink": "fora-tv",
     "company_name": "Fora.TV",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5546,7 +5546,7 @@
   {
     "permalink": "yieldbuild",
     "company_name": "YieldBuild",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5558,7 +5558,7 @@
   {
     "permalink": "akimbo",
     "company_name": "Akimbo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -5570,7 +5570,7 @@
   {
     "permalink": "akimbo",
     "company_name": "Akimbo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -5582,7 +5582,7 @@
   {
     "permalink": "akimbo",
     "company_name": "Akimbo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -5594,7 +5594,7 @@
   {
     "permalink": "akimbo",
     "company_name": "Akimbo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -5630,7 +5630,7 @@
   {
     "permalink": "brightroll",
     "company_name": "BrightRoll",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5654,7 +5654,7 @@
   {
     "permalink": "minekey",
     "company_name": "Minekey",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -5666,7 +5666,7 @@
   {
     "permalink": "bookingangel",
     "company_name": "Booking Angel",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Hollywood",
     "state": "CA",
@@ -5678,7 +5678,7 @@
   {
     "permalink": "loopt",
     "company_name": "Loopt",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -5690,7 +5690,7 @@
   {
     "permalink": "loopt",
     "company_name": "Loopt",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -5702,7 +5702,7 @@
   {
     "permalink": "fix8",
     "company_name": "Fix8",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sherman Oaks",
     "state": "CA",
@@ -5714,7 +5714,7 @@
   {
     "permalink": "fix8",
     "company_name": "Fix8",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sherman Oaks",
     "state": "CA",
@@ -5726,7 +5726,7 @@
   {
     "permalink": "mybuys",
     "company_name": "MyBuys",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood Shores",
     "state": "CA",
@@ -5738,7 +5738,7 @@
   {
     "permalink": "mybuys",
     "company_name": "MyBuys",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood Shores",
     "state": "CA",
@@ -5774,7 +5774,7 @@
   {
     "permalink": "peerflix",
     "company_name": "Peerflix",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -5786,7 +5786,7 @@
   {
     "permalink": "peerflix",
     "company_name": "Peerflix",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -5798,7 +5798,7 @@
   {
     "permalink": "fatdoor",
     "company_name": "fatdoor",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -5810,7 +5810,7 @@
   {
     "permalink": "fatdoor",
     "company_name": "fatdoor",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -5822,7 +5822,7 @@
   {
     "permalink": "fatdoor",
     "company_name": "fatdoor",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -5858,7 +5858,7 @@
   {
     "permalink": "billeo",
     "company_name": "Billeo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Clara",
     "state": "CA",
@@ -5870,7 +5870,7 @@
   {
     "permalink": "billeo",
     "company_name": "Billeo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Clara",
     "state": "CA",
@@ -5882,7 +5882,7 @@
   {
     "permalink": "caring-com",
     "company_name": "Caring.com",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -5906,7 +5906,7 @@
   {
     "permalink": "projectplaylist",
     "company_name": "Project Playlist",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -5918,7 +5918,7 @@
   {
     "permalink": "blowtorch",
     "company_name": "Blowtorch",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sausalito",
     "state": "CA",
@@ -5930,7 +5930,7 @@
   {
     "permalink": "gamelayers",
     "company_name": "GameLayers",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5942,7 +5942,7 @@
   {
     "permalink": "mogreet",
     "company_name": "MoGreet",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Venice",
     "state": "CA",
@@ -5954,7 +5954,7 @@
   {
     "permalink": "mogreet",
     "company_name": "MoGreet",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Venice",
     "state": "CA",
@@ -5966,7 +5966,7 @@
   {
     "permalink": "yourtrumanshow",
     "company_name": "YourTrumanShow",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -5978,7 +5978,7 @@
   {
     "permalink": "apprema",
     "company_name": "Apprema",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -6026,7 +6026,7 @@
   {
     "permalink": "quantenna",
     "company_name": "Quantenna",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -6038,7 +6038,7 @@
   {
     "permalink": "qwaq",
     "company_name": "Qwaq",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -6062,7 +6062,7 @@
   {
     "permalink": "cashview",
     "company_name": "CashView",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -6098,7 +6098,7 @@
   {
     "permalink": "anchorintelligence",
     "company_name": "Anchor Intelligence",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -6110,7 +6110,7 @@
   {
     "permalink": "anchorintelligence",
     "company_name": "Anchor Intelligence",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -6146,7 +6146,7 @@
   {
     "permalink": "kosmix",
     "company_name": "Kosmix",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -6158,7 +6158,7 @@
   {
     "permalink": "goodreads",
     "company_name": "GoodReads",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -6194,7 +6194,7 @@
   {
     "permalink": "jobvite",
     "company_name": "Jobvite",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -6206,7 +6206,7 @@
   {
     "permalink": "juicewireless",
     "company_name": "Juice Wireless",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -6218,7 +6218,7 @@
   {
     "permalink": "juicewireless",
     "company_name": "Juice Wireless",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -6230,7 +6230,7 @@
   {
     "permalink": "juicewireless",
     "company_name": "Juice Wireless",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -6242,7 +6242,7 @@
   {
     "permalink": "juicewireless",
     "company_name": "Juice Wireless",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -6254,7 +6254,7 @@
   {
     "permalink": "juicewireless",
     "company_name": "Juice Wireless",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -6278,7 +6278,7 @@
   {
     "permalink": "playfirst",
     "company_name": "PlayFirst",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -6290,7 +6290,7 @@
   {
     "permalink": "playfirst",
     "company_name": "PlayFirst",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -6338,7 +6338,7 @@
   {
     "permalink": "ugobe",
     "company_name": "UGOBE",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Emeryville",
     "state": "CA",
@@ -6362,7 +6362,7 @@
   {
     "permalink": "causes",
     "company_name": "Causes",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Berkeley",
     "state": "CA",
@@ -6374,7 +6374,7 @@
   {
     "permalink": "causes",
     "company_name": "Causes",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Berkeley",
     "state": "CA",
@@ -6386,7 +6386,7 @@
   {
     "permalink": "nanosolar",
     "company_name": "Nanosolar",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Jose",
     "state": "CA",
@@ -6398,7 +6398,7 @@
   {
     "permalink": "nanosolar",
     "company_name": "Nanosolar",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Jose",
     "state": "CA",
@@ -6410,7 +6410,7 @@
   {
     "permalink": "shozu",
     "company_name": "Shozu",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -6422,7 +6422,7 @@
   {
     "permalink": "shozu",
     "company_name": "Shozu",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -6494,7 +6494,7 @@
   {
     "permalink": "bunchball",
     "company_name": "Bunchball",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -6506,7 +6506,7 @@
   {
     "permalink": "bunchball",
     "company_name": "Bunchball",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -6518,7 +6518,7 @@
   {
     "permalink": "pinger",
     "company_name": "Pinger",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Jose",
     "state": "CA",
@@ -6530,7 +6530,7 @@
   {
     "permalink": "hooja",
     "company_name": "Hooja",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -6554,7 +6554,7 @@
   {
     "permalink": "cooking-com",
     "company_name": "Cooking.com",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -6566,7 +6566,7 @@
   {
     "permalink": "cooking-com",
     "company_name": "Cooking.com",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -6578,7 +6578,7 @@
   {
     "permalink": "cooking-com",
     "company_name": "Cooking.com",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -6590,7 +6590,7 @@
   {
     "permalink": "cooking-com",
     "company_name": "Cooking.com",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -6602,7 +6602,7 @@
   {
     "permalink": "meraki",
     "company_name": "Meraki",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -6614,7 +6614,7 @@
   {
     "permalink": "meraki",
     "company_name": "Meraki",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -6626,7 +6626,7 @@
   {
     "permalink": "sugarcrm",
     "company_name": "SugarCRM",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cupertino",
     "state": "CA",
@@ -6638,7 +6638,7 @@
   {
     "permalink": "sugarcrm",
     "company_name": "SugarCRM",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cupertino",
     "state": "CA",
@@ -6650,7 +6650,7 @@
   {
     "permalink": "sugarcrm",
     "company_name": "SugarCRM",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cupertino",
     "state": "CA",
@@ -6662,7 +6662,7 @@
   {
     "permalink": "sugarcrm",
     "company_name": "SugarCRM",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cupertino",
     "state": "CA",
@@ -6698,7 +6698,7 @@
   {
     "permalink": "pageonce",
     "company_name": "Pageonce",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -6734,7 +6734,7 @@
   {
     "permalink": "devicevm",
     "company_name": "DeviceVM",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Jose",
     "state": "CA",
@@ -6746,7 +6746,7 @@
   {
     "permalink": "devicevm",
     "company_name": "DeviceVM",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Jose",
     "state": "CA",
@@ -6758,7 +6758,7 @@
   {
     "permalink": "outspark",
     "company_name": "Outspark",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -6770,7 +6770,7 @@
   {
     "permalink": "outspark",
     "company_name": "Outspark",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -6806,7 +6806,7 @@
   {
     "permalink": "plymedia",
     "company_name": "PLYmedia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -6818,7 +6818,7 @@
   {
     "permalink": "plymedia",
     "company_name": "PLYmedia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -6878,7 +6878,7 @@
   {
     "permalink": "widgetbox",
     "company_name": "Widgetbox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -6890,7 +6890,7 @@
   {
     "permalink": "widgetbox",
     "company_name": "Widgetbox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -6902,7 +6902,7 @@
   {
     "permalink": "widgetbox",
     "company_name": "Widgetbox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -6914,7 +6914,7 @@
   {
     "permalink": "razorgator",
     "company_name": "RazorGator",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -6926,7 +6926,7 @@
   {
     "permalink": "razorgator",
     "company_name": "RazorGator",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -6986,7 +6986,7 @@
   {
     "permalink": "smaato",
     "company_name": "Smaato",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -7010,7 +7010,7 @@
   {
     "permalink": "greenplum",
     "company_name": "Greenplum",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -7022,7 +7022,7 @@
   {
     "permalink": "greenplum",
     "company_name": "Greenplum",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -7034,7 +7034,7 @@
   {
     "permalink": "greenplum",
     "company_name": "Greenplum",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -7046,7 +7046,7 @@
   {
     "permalink": "greenplum",
     "company_name": "Greenplum",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -7058,7 +7058,7 @@
   {
     "permalink": "amobee",
     "company_name": "Amobee",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -7070,7 +7070,7 @@
   {
     "permalink": "amobee",
     "company_name": "Amobee",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -7082,7 +7082,7 @@
   {
     "permalink": "webmynd",
     "company_name": "WebMynd",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -7094,7 +7094,7 @@
   {
     "permalink": "currenttv",
     "company_name": "Current Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -7178,7 +7178,7 @@
   {
     "permalink": "venturebeat",
     "company_name": "VentureBeat",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "",
     "state": "CA",
@@ -7202,7 +7202,7 @@
   {
     "permalink": "rocketon",
     "company_name": "RocketOn",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "South San Francisco",
     "state": "CA",
@@ -7262,7 +7262,7 @@
   {
     "permalink": "twofish",
     "company_name": "TwoFish",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -7298,7 +7298,7 @@
   {
     "permalink": "sparkplay-media",
     "company_name": "Sparkplay Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mill Valley",
     "state": "CA",
@@ -7310,7 +7310,7 @@
   {
     "permalink": "mog",
     "company_name": "MOG",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Berkeley",
     "state": "CA",
@@ -7322,7 +7322,7 @@
   {
     "permalink": "mog",
     "company_name": "MOG",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Berkeley",
     "state": "CA",
@@ -7334,7 +7334,7 @@
   {
     "permalink": "social-gaming-network",
     "company_name": "Social Gaming Network",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -7346,7 +7346,7 @@
   {
     "permalink": "danger",
     "company_name": "Danger",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Palo Alto",
     "state": "CA",
@@ -7358,7 +7358,7 @@
   {
     "permalink": "danger",
     "company_name": "Danger",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Palo Alto",
     "state": "CA",
@@ -7370,7 +7370,7 @@
   {
     "permalink": "danger",
     "company_name": "Danger",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Palo Alto",
     "state": "CA",
@@ -7382,7 +7382,7 @@
   {
     "permalink": "coverity",
     "company_name": "Coverity",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Francisco",
     "state": "CA",
@@ -7430,7 +7430,7 @@
   {
     "permalink": "evernote",
     "company_name": "Evernote",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Sunnyvale",
     "state": "CA",
@@ -7442,7 +7442,7 @@
   {
     "permalink": "evernote",
     "company_name": "Evernote",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Sunnyvale",
     "state": "CA",
@@ -7454,7 +7454,7 @@
   {
     "permalink": "numobiq",
     "company_name": "Numobiq",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Pleasanton",
     "state": "CA",
@@ -7466,7 +7466,7 @@
   {
     "permalink": "goldspot-media",
     "company_name": "GoldSpot Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Sunnyvale",
     "state": "CA",
@@ -7478,7 +7478,7 @@
   {
     "permalink": "mobixell",
     "company_name": "Mobixell",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Cupertino",
     "state": "CA",
@@ -7490,7 +7490,7 @@
   {
     "permalink": "ad-infuse",
     "company_name": "Ad Infuse",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "San Francisco",
     "state": "CA",
@@ -7502,7 +7502,7 @@
   {
     "permalink": "ad-infuse",
     "company_name": "Ad Infuse",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "San Francisco",
     "state": "CA",
@@ -7514,7 +7514,7 @@
   {
     "permalink": "sendme",
     "company_name": "SendMe",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "San Francisco",
     "state": "CA",
@@ -7526,7 +7526,7 @@
   {
     "permalink": "sendme",
     "company_name": "SendMe",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "San Francisco",
     "state": "CA",
@@ -7562,7 +7562,7 @@
   {
     "permalink": "flurry",
     "company_name": "flurry",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "San Francisco",
     "state": "CA",
@@ -7574,7 +7574,7 @@
   {
     "permalink": "sharpcast",
     "company_name": "Sharpcast",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Palo Alto",
     "state": "CA",
@@ -7586,7 +7586,7 @@
   {
     "permalink": "sharpcast",
     "company_name": "Sharpcast",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Palo Alto",
     "state": "CA",
@@ -7598,7 +7598,7 @@
   {
     "permalink": "teneros",
     "company_name": "Teneros",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Mountain View",
     "state": "CA",
@@ -7610,7 +7610,7 @@
   {
     "permalink": "teneros",
     "company_name": "Teneros",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Mountain View",
     "state": "CA",
@@ -7622,7 +7622,7 @@
   {
     "permalink": "teneros",
     "company_name": "Teneros",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Mountain View",
     "state": "CA",
@@ -7634,7 +7634,7 @@
   {
     "permalink": "teneros",
     "company_name": "Teneros",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Mountain View",
     "state": "CA",
@@ -7658,7 +7658,7 @@
   {
     "permalink": "yodlee",
     "company_name": "Yodlee",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -7706,7 +7706,7 @@
   {
     "permalink": "central-desktop",
     "company_name": "Central Desktop",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Pasadena",
     "state": "CA",
@@ -7730,7 +7730,7 @@
   {
     "permalink": "coveo",
     "company_name": "Coveo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -7742,7 +7742,7 @@
   {
     "permalink": "vizu",
     "company_name": "Vizu",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -7754,7 +7754,7 @@
   {
     "permalink": "vizu",
     "company_name": "Vizu",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -7766,7 +7766,7 @@
   {
     "permalink": "taltopia",
     "company_name": "Taltopia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -7778,7 +7778,7 @@
   {
     "permalink": "kapow-technologies",
     "company_name": "Kapow Technologies",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -7790,7 +7790,7 @@
   {
     "permalink": "kapow-technologies",
     "company_name": "Kapow Technologies",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -7814,7 +7814,7 @@
   {
     "permalink": "liveops",
     "company_name": "LiveOps",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Clara",
     "state": "CA",
@@ -7826,7 +7826,7 @@
   {
     "permalink": "liveops",
     "company_name": "LiveOps",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Clara",
     "state": "CA",
@@ -7838,7 +7838,7 @@
   {
     "permalink": "clickpass",
     "company_name": "Clickpass",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -7910,7 +7910,7 @@
   {
     "permalink": "accountnow",
     "company_name": "AccountNow",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Ramon",
     "state": "CA",
@@ -7934,7 +7934,7 @@
   {
     "permalink": "popularmedia",
     "company_name": "PopularMedia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -7946,7 +7946,7 @@
   {
     "permalink": "popularmedia",
     "company_name": "PopularMedia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -7970,7 +7970,7 @@
   {
     "permalink": "sellpoint",
     "company_name": "SellPoint",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Ramon",
     "state": "CA",
@@ -7982,7 +7982,7 @@
   {
     "permalink": "livedeal",
     "company_name": "LiveDeal",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Clara",
     "state": "CA",
@@ -7994,7 +7994,7 @@
   {
     "permalink": "neoedge-networks",
     "company_name": "NeoEdge Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -8018,7 +8018,7 @@
   {
     "permalink": "jivox",
     "company_name": "Jivox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -8030,7 +8030,7 @@
   {
     "permalink": "jivox",
     "company_name": "Jivox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -8042,7 +8042,7 @@
   {
     "permalink": "elastra",
     "company_name": "Elastra",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "San Francisco",
     "state": "CA",
@@ -8078,7 +8078,7 @@
   {
     "permalink": "inmage-systems",
     "company_name": "InMage Systems",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Santa Clara",
     "state": "CA",
@@ -8126,7 +8126,7 @@
   {
     "permalink": "handipoints",
     "company_name": "Handipoints",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Oakland",
     "state": "CA",
@@ -8138,7 +8138,7 @@
   {
     "permalink": "handipoints",
     "company_name": "Handipoints",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Oakland",
     "state": "CA",
@@ -8162,7 +8162,7 @@
   {
     "permalink": "zend-technologies",
     "company_name": "Zend Technologies",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Cupertino",
     "state": "CA",
@@ -8174,7 +8174,7 @@
   {
     "permalink": "zend-technologies",
     "company_name": "Zend Technologies",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Cupertino",
     "state": "CA",
@@ -8210,7 +8210,7 @@
   {
     "permalink": "wikimedia-foundation",
     "company_name": "Wikimedia Foundation",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -8234,7 +8234,7 @@
   {
     "permalink": "become",
     "company_name": "Become",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -8246,7 +8246,7 @@
   {
     "permalink": "become",
     "company_name": "Become",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -8258,7 +8258,7 @@
   {
     "permalink": "bubble-motion",
     "company_name": "Bubble Motion",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Mountain View",
     "state": "CA",
@@ -8270,7 +8270,7 @@
   {
     "permalink": "bubble-motion",
     "company_name": "Bubble Motion",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Mountain View",
     "state": "CA",
@@ -8282,7 +8282,7 @@
   {
     "permalink": "perfect-market",
     "company_name": "Perfect Market",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Pasadena",
     "state": "CA",
@@ -8306,7 +8306,7 @@
   {
     "permalink": "support-space",
     "company_name": "Support Space",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -8318,7 +8318,7 @@
   {
     "permalink": "xoopit",
     "company_name": "Xoopit",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -8330,7 +8330,7 @@
   {
     "permalink": "xoopit",
     "company_name": "Xoopit",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -8342,7 +8342,7 @@
   {
     "permalink": "reality-digital",
     "company_name": "Reality Digital",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Francisco",
     "state": "CA",
@@ -8354,7 +8354,7 @@
   {
     "permalink": "reality-digital",
     "company_name": "Reality Digital",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Francisco",
     "state": "CA",
@@ -8366,7 +8366,7 @@
   {
     "permalink": "cloud9-analytics",
     "company_name": "Cloud9 Analytics",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -8390,7 +8390,7 @@
   {
     "permalink": "icontrol",
     "company_name": "iControl",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -8402,7 +8402,7 @@
   {
     "permalink": "icontrol",
     "company_name": "iControl",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -8414,7 +8414,7 @@
   {
     "permalink": "frengo",
     "company_name": "Frengo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -8426,7 +8426,7 @@
   {
     "permalink": "frengo",
     "company_name": "Frengo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -8438,7 +8438,7 @@
   {
     "permalink": "mblox",
     "company_name": "mBlox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Sunnyvale",
     "state": "CA",
@@ -8450,7 +8450,7 @@
   {
     "permalink": "mblox",
     "company_name": "mBlox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Sunnyvale",
     "state": "CA",
@@ -8462,7 +8462,7 @@
   {
     "permalink": "mblox",
     "company_name": "mBlox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Sunnyvale",
     "state": "CA",
@@ -8474,7 +8474,7 @@
   {
     "permalink": "mblox",
     "company_name": "mBlox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Sunnyvale",
     "state": "CA",
@@ -8510,7 +8510,7 @@
   {
     "permalink": "marin-software",
     "company_name": "Marin Software",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Francisco",
     "state": "CA",
@@ -8522,7 +8522,7 @@
   {
     "permalink": "marin-software",
     "company_name": "Marin Software",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Francisco",
     "state": "CA",
@@ -8534,7 +8534,7 @@
   {
     "permalink": "sibeam",
     "company_name": "SiBEAM",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Sunnyvale",
     "state": "CA",
@@ -8546,7 +8546,7 @@
   {
     "permalink": "sibeam",
     "company_name": "SiBEAM",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Sunnyvale",
     "state": "CA",
@@ -8558,7 +8558,7 @@
   {
     "permalink": "sibeam",
     "company_name": "SiBEAM",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Sunnyvale",
     "state": "CA",
@@ -8570,7 +8570,7 @@
   {
     "permalink": "sibeam",
     "company_name": "SiBEAM",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Sunnyvale",
     "state": "CA",
@@ -8582,7 +8582,7 @@
   {
     "permalink": "lumosity",
     "company_name": "Lumos Labs",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -8594,7 +8594,7 @@
   {
     "permalink": "lumosity",
     "company_name": "Lumos Labs",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -8618,7 +8618,7 @@
   {
     "permalink": "richrelevance",
     "company_name": "richrelevance",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -8630,7 +8630,7 @@
   {
     "permalink": "labmeeting",
     "company_name": "Labmeeting",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "",
     "state": "CA",
@@ -8690,7 +8690,7 @@
   {
     "permalink": "coupa",
     "company_name": "Coupa",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Foster City",
     "state": "CA",
@@ -8702,7 +8702,7 @@
   {
     "permalink": "coupa",
     "company_name": "Coupa",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Foster City",
     "state": "CA",
@@ -8714,7 +8714,7 @@
   {
     "permalink": "squaretrade",
     "company_name": "SquareTrade",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "San Francisco",
     "state": "CA",
@@ -8726,7 +8726,7 @@
   {
     "permalink": "squaretrade",
     "company_name": "SquareTrade",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "San Francisco",
     "state": "CA",
@@ -8738,7 +8738,7 @@
   {
     "permalink": "v-enable",
     "company_name": "V-Enable",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "San Diego",
     "state": "CA",
@@ -8750,7 +8750,7 @@
   {
     "permalink": "v-enable",
     "company_name": "V-Enable",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "San Diego",
     "state": "CA",
@@ -8762,7 +8762,7 @@
   {
     "permalink": "aeria",
     "company_name": "Aeria",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Clara",
     "state": "CA",
@@ -8786,7 +8786,7 @@
   {
     "permalink": "memeo",
     "company_name": "Memeo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Aliso Viejo",
     "state": "CA",
@@ -8798,7 +8798,7 @@
   {
     "permalink": "imageshack",
     "company_name": "imageshack",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Gatos",
     "state": "CA",
@@ -8810,7 +8810,7 @@
   {
     "permalink": "pluggedin",
     "company_name": "PluggedIn",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Santa Monica",
     "state": "CA",
@@ -8858,7 +8858,7 @@
   {
     "permalink": "modern-feed",
     "company_name": "Modern Feed",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -8870,7 +8870,7 @@
   {
     "permalink": "grou-ps",
     "company_name": "GROU.PS",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -8930,7 +8930,7 @@
   {
     "permalink": "nile-guide",
     "company_name": "Nile Guide",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -8966,7 +8966,7 @@
   {
     "permalink": "invensense",
     "company_name": "Invensense",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Sunnyvale",
     "state": "CA",
@@ -8978,7 +8978,7 @@
   {
     "permalink": "centerd",
     "company_name": "Center'd",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -8990,7 +8990,7 @@
   {
     "permalink": "centerd",
     "company_name": "Center'd",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -9002,7 +9002,7 @@
   {
     "permalink": "centerd",
     "company_name": "Center'd",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -9014,7 +9014,7 @@
   {
     "permalink": "new-relic",
     "company_name": "New Relic",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "",
     "state": "CA",
@@ -9026,7 +9026,7 @@
   {
     "permalink": "gridstone-research",
     "company_name": "Gridstone Research",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Mateo",
     "state": "CA",
@@ -9050,7 +9050,7 @@
   {
     "permalink": "marketlive",
     "company_name": "MarketLive",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Foster City",
     "state": "CA",
@@ -9062,7 +9062,7 @@
   {
     "permalink": "snaplogic",
     "company_name": "SnapLogic",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Mateo",
     "state": "CA",
@@ -9086,7 +9086,7 @@
   {
     "permalink": "rosum",
     "company_name": "Rosum",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Mountain View",
     "state": "CA",
@@ -9098,7 +9098,7 @@
   {
     "permalink": "citizenhawk",
     "company_name": "CitizenHawk",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Aliso Viejo",
     "state": "CA",
@@ -9110,7 +9110,7 @@
   {
     "permalink": "dilithium-networks",
     "company_name": "Dilithium Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Petaluma",
     "state": "CA",
@@ -9122,7 +9122,7 @@
   {
     "permalink": "dilithium-networks",
     "company_name": "Dilithium Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Petaluma",
     "state": "CA",
@@ -9134,7 +9134,7 @@
   {
     "permalink": "dilithium-networks",
     "company_name": "Dilithium Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Petaluma",
     "state": "CA",
@@ -9146,7 +9146,7 @@
   {
     "permalink": "passenger",
     "company_name": "Passenger",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Los Angeles",
     "state": "CA",
@@ -9158,7 +9158,7 @@
   {
     "permalink": "passenger",
     "company_name": "Passenger",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Los Angeles",
     "state": "CA",
@@ -9170,7 +9170,7 @@
   {
     "permalink": "experience-project",
     "company_name": "Experience Project",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -9182,7 +9182,7 @@
   {
     "permalink": "mozes",
     "company_name": "Mozes",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -9194,7 +9194,7 @@
   {
     "permalink": "mozes",
     "company_name": "Mozes",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -9230,7 +9230,7 @@
   {
     "permalink": "wavemaker-software",
     "company_name": "Wavemaker Software",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Francisco",
     "state": "CA",
@@ -9242,7 +9242,7 @@
   {
     "permalink": "virtuallogix",
     "company_name": "VirtualLogix",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Sunnyvale",
     "state": "CA",
@@ -9290,7 +9290,7 @@
   {
     "permalink": "sometrics",
     "company_name": "Sometrics",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -9302,7 +9302,7 @@
   {
     "permalink": "socialvibe",
     "company_name": "SocialVibe",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Los Angeles",
     "state": "CA",
@@ -9314,7 +9314,7 @@
   {
     "permalink": "deviantart",
     "company_name": "deviantART",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Hollywood",
     "state": "CA",
@@ -9326,7 +9326,7 @@
   {
     "permalink": "mythings",
     "company_name": "MyThings",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -9350,7 +9350,7 @@
   {
     "permalink": "litescape",
     "company_name": "litescape",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood Shores",
     "state": "CA",
@@ -9362,7 +9362,7 @@
   {
     "permalink": "nextbio",
     "company_name": "nextbio",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Cupertino",
     "state": "CA",
@@ -9374,7 +9374,7 @@
   {
     "permalink": "parascale",
     "company_name": "Parascale",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Cupertino",
     "state": "CA",
@@ -9386,7 +9386,7 @@
   {
     "permalink": "row44",
     "company_name": "Row44",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Westlake Village",
     "state": "CA",
@@ -9398,7 +9398,7 @@
   {
     "permalink": "jellycloud",
     "company_name": "JellyCloud",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -9434,7 +9434,7 @@
   {
     "permalink": "pixim",
     "company_name": "Pixim",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Mountain View",
     "state": "CA",
@@ -9446,7 +9446,7 @@
   {
     "permalink": "pixim",
     "company_name": "Pixim",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Mountain View",
     "state": "CA",
@@ -9458,7 +9458,7 @@
   {
     "permalink": "pixim",
     "company_name": "Pixim",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Mountain View",
     "state": "CA",
@@ -9470,7 +9470,7 @@
   {
     "permalink": "funambol",
     "company_name": "Funambol",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Redwood City",
     "state": "CA",
@@ -9482,7 +9482,7 @@
   {
     "permalink": "funambol",
     "company_name": "Funambol",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Redwood City",
     "state": "CA",
@@ -9494,7 +9494,7 @@
   {
     "permalink": "funambol",
     "company_name": "Funambol",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Redwood City",
     "state": "CA",
@@ -9506,7 +9506,7 @@
   {
     "permalink": "funambol",
     "company_name": "Funambol",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Redwood City",
     "state": "CA",
@@ -9518,7 +9518,7 @@
   {
     "permalink": "moblyng",
     "company_name": "Moblyng",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -9530,7 +9530,7 @@
   {
     "permalink": "moblyng",
     "company_name": "Moblyng",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -9554,7 +9554,7 @@
   {
     "permalink": "votigo",
     "company_name": "Votigo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Emeryville",
     "state": "CA",
@@ -9566,7 +9566,7 @@
   {
     "permalink": "zinio",
     "company_name": "Zinio",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -9578,7 +9578,7 @@
   {
     "permalink": "dreamfactory",
     "company_name": "Dreamfactory",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -9602,7 +9602,7 @@
   {
     "permalink": "skyfire",
     "company_name": "Skyfire",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Mountain View",
     "state": "CA",
@@ -9614,7 +9614,7 @@
   {
     "permalink": "skyfire",
     "company_name": "Skyfire",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Mountain View",
     "state": "CA",
@@ -9626,7 +9626,7 @@
   {
     "permalink": "edufire",
     "company_name": "eduFire",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Monica",
     "state": "CA",
@@ -9638,7 +9638,7 @@
   {
     "permalink": "b-hive-networks",
     "company_name": "B-hive Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Mateo",
     "state": "CA",
@@ -9686,7 +9686,7 @@
   {
     "permalink": "sylantro",
     "company_name": "Sylantro",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Campbell",
     "state": "CA",
@@ -9698,7 +9698,7 @@
   {
     "permalink": "sylantro",
     "company_name": "Sylantro",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Campbell",
     "state": "CA",
@@ -9710,7 +9710,7 @@
   {
     "permalink": "sylantro",
     "company_name": "Sylantro",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Campbell",
     "state": "CA",
@@ -9722,7 +9722,7 @@
   {
     "permalink": "teleflip",
     "company_name": "TeleFlip",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Santa Monica",
     "state": "CA",
@@ -9746,7 +9746,7 @@
   {
     "permalink": "jigsaw",
     "company_name": "Jigsaw",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -9758,7 +9758,7 @@
   {
     "permalink": "jigsaw",
     "company_name": "Jigsaw",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -9770,7 +9770,7 @@
   {
     "permalink": "jigsaw",
     "company_name": "Jigsaw",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -9782,7 +9782,7 @@
   {
     "permalink": "ozmo-devices",
     "company_name": "Ozmo Devices",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Palo Alto",
     "state": "CA",
@@ -9794,7 +9794,7 @@
   {
     "permalink": "cooliris",
     "company_name": "Cooliris",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -9806,7 +9806,7 @@
   {
     "permalink": "gamook",
     "company_name": "Gamook",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Menlo Park",
     "state": "CA",
@@ -9818,7 +9818,7 @@
   {
     "permalink": "vindicia",
     "company_name": "Vindicia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redwood City",
     "state": "CA",
@@ -9830,7 +9830,7 @@
   {
     "permalink": "dizzywood",
     "company_name": "Dizzywood",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "",
     "state": "CA",
@@ -9890,7 +9890,7 @@
   {
     "permalink": "yield-software",
     "company_name": "Yield Software",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Mateo",
     "state": "CA",
@@ -9914,7 +9914,7 @@
   {
     "permalink": "codefast",
     "company_name": "Codefast",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Jose",
     "state": "CA",
@@ -9926,7 +9926,7 @@
   {
     "permalink": "hyperic",
     "company_name": "Hyperic",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -9986,7 +9986,7 @@
   {
     "permalink": "aurora-biofuels",
     "company_name": "Aurora Biofuels",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "cleantech",
     "city": "Alameda",
     "state": "CA",
@@ -9998,7 +9998,7 @@
   {
     "permalink": "eeye",
     "company_name": "eEye",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Irvine",
     "state": "CA",
@@ -10010,7 +10010,7 @@
   {
     "permalink": "eeye",
     "company_name": "eEye",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Irvine",
     "state": "CA",
@@ -10058,7 +10058,7 @@
   {
     "permalink": "clickability",
     "company_name": "Clickability",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Francisco",
     "state": "CA",
@@ -10106,7 +10106,7 @@
   {
     "permalink": "imagespan",
     "company_name": "ImageSpan",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sausalito",
     "state": "CA",
@@ -10118,7 +10118,7 @@
   {
     "permalink": "solarflare",
     "company_name": "Solarflare",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Irvine",
     "state": "CA",
@@ -10130,7 +10130,7 @@
   {
     "permalink": "clupedia",
     "company_name": "Clupedia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Santa Ana",
     "state": "CA",
@@ -10178,7 +10178,7 @@
   {
     "permalink": "webaroo",
     "company_name": "Webaroo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Santa Clara",
     "state": "CA",
@@ -10190,7 +10190,7 @@
   {
     "permalink": "webaroo",
     "company_name": "Webaroo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Santa Clara",
     "state": "CA",
@@ -10202,7 +10202,7 @@
   {
     "permalink": "fluid-entertainment",
     "company_name": "Fluid Entertainment",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "other",
     "city": "Mill Valley",
     "state": "CA",
@@ -10214,7 +10214,7 @@
   {
     "permalink": "unisfair",
     "company_name": "Unisfair",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "other",
     "city": "Menlo Park",
     "state": "CA",
@@ -10226,7 +10226,7 @@
   {
     "permalink": "on24",
     "company_name": "ON24",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Francisco",
     "state": "CA",
@@ -10250,7 +10250,7 @@
   {
     "permalink": "colizer",
     "company_name": "Colizer",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "San Diego",
     "state": "CA",
@@ -10262,7 +10262,7 @@
   {
     "permalink": "coremetrics",
     "company_name": "Coremetrics",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Mateo",
     "state": "CA",
@@ -10274,7 +10274,7 @@
   {
     "permalink": "coremetrics",
     "company_name": "Coremetrics",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Mateo",
     "state": "CA",
@@ -10286,7 +10286,7 @@
   {
     "permalink": "minted",
     "company_name": "Minted",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "San Francisco",
     "state": "CA",
@@ -10298,7 +10298,7 @@
   {
     "permalink": "appirio",
     "company_name": "Appirio",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Mateo",
     "state": "CA",
@@ -10310,7 +10310,7 @@
   {
     "permalink": "appirio",
     "company_name": "Appirio",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "San Mateo",
     "state": "CA",
@@ -10334,7 +10334,7 @@
   {
     "permalink": "eye-fi",
     "company_name": "Eye-Fi",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Mountain View",
     "state": "CA",
@@ -10346,7 +10346,7 @@
   {
     "permalink": "responselogix",
     "company_name": "ResponseLogix",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -10358,7 +10358,7 @@
   {
     "permalink": "qumu",
     "company_name": "Qumu",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Emeryville",
     "state": "CA",
@@ -10370,7 +10370,7 @@
   {
     "permalink": "carbonflow",
     "company_name": "CarbonFlow",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "cleantech",
     "city": "San Francsico",
     "state": "CA",
@@ -10394,7 +10394,7 @@
   {
     "permalink": "moxsie",
     "company_name": "Moxsie",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Palo Alto",
     "state": "CA",
@@ -10430,7 +10430,7 @@
   {
     "permalink": "anvato",
     "company_name": "Anvato",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mountain View",
     "state": "CA",
@@ -10490,7 +10490,7 @@
   {
     "permalink": "plastic-logic",
     "company_name": "Plastic Logic",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Mountain View",
     "state": "CA",
@@ -10502,7 +10502,7 @@
   {
     "permalink": "plastic-logic",
     "company_name": "Plastic Logic",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Mountain View",
     "state": "CA",
@@ -10514,7 +10514,7 @@
   {
     "permalink": "plastic-logic",
     "company_name": "Plastic Logic",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Mountain View",
     "state": "CA",
@@ -10526,7 +10526,7 @@
   {
     "permalink": "plastic-logic",
     "company_name": "Plastic Logic",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Mountain View",
     "state": "CA",
@@ -10538,7 +10538,7 @@
   {
     "permalink": "plastic-logic",
     "company_name": "Plastic Logic",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Mountain View",
     "state": "CA",
@@ -10550,7 +10550,7 @@
   {
     "permalink": "paymo",
     "company_name": "Paymo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "San Francisco",
     "state": "CA",
@@ -10562,7 +10562,7 @@
   {
     "permalink": "brilliant-telecom",
     "company_name": "Brilliant Telecom",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Campbell",
     "state": "CA",
@@ -10574,7 +10574,7 @@
   {
     "permalink": "skygrid",
     "company_name": "SkyGrid",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Sunnyvale",
     "state": "CA",
@@ -10598,7 +10598,7 @@
   {
     "permalink": "associatedcontent",
     "company_name": "Associated Content",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Denver",
     "state": "CO",
@@ -10610,7 +10610,7 @@
   {
     "permalink": "associatedcontent",
     "company_name": "Associated Content",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Denver",
     "state": "CO",
@@ -10622,7 +10622,7 @@
   {
     "permalink": "madkast",
     "company_name": "madKast",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boulder",
     "state": "CO",
@@ -10634,7 +10634,7 @@
   {
     "permalink": "madkast",
     "company_name": "madKast",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boulder",
     "state": "CO",
@@ -10646,7 +10646,7 @@
   {
     "permalink": "eventvue",
     "company_name": "EventVue",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boulder",
     "state": "CO",
@@ -10658,7 +10658,7 @@
   {
     "permalink": "eventvue",
     "company_name": "EventVue",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boulder",
     "state": "CO",
@@ -10694,7 +10694,7 @@
   {
     "permalink": "jsquaredmedia",
     "company_name": "J Squared Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boulder",
     "state": "CO",
@@ -10706,7 +10706,7 @@
   {
     "permalink": "searchtophone",
     "company_name": "Search to Phone",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boulder",
     "state": "CO",
@@ -10718,7 +10718,7 @@
   {
     "permalink": "filtrbox",
     "company_name": "Filtrbox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boulder",
     "state": "CO",
@@ -10730,7 +10730,7 @@
   {
     "permalink": "filtrbox",
     "company_name": "Filtrbox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boulder",
     "state": "CO",
@@ -10742,7 +10742,7 @@
   {
     "permalink": "brightkite",
     "company_name": "Brightkite",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Denver",
     "state": "CO",
@@ -10754,7 +10754,7 @@
   {
     "permalink": "brightkite",
     "company_name": "Brightkite",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Denver",
     "state": "CO",
@@ -10766,7 +10766,7 @@
   {
     "permalink": "newsgator",
     "company_name": "NewsGator",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Denver",
     "state": "CO",
@@ -10778,7 +10778,7 @@
   {
     "permalink": "newsgator",
     "company_name": "NewsGator",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Denver",
     "state": "CO",
@@ -10790,7 +10790,7 @@
   {
     "permalink": "newsgator",
     "company_name": "NewsGator",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Denver",
     "state": "CO",
@@ -10802,7 +10802,7 @@
   {
     "permalink": "me-dium",
     "company_name": "Me.dium",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boulder",
     "state": "CO",
@@ -10814,7 +10814,7 @@
   {
     "permalink": "buzzwire",
     "company_name": "Buzzwire",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Denver",
     "state": "CO",
@@ -10826,7 +10826,7 @@
   {
     "permalink": "hivelive",
     "company_name": "HiveLive",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boulder",
     "state": "CO",
@@ -10838,7 +10838,7 @@
   {
     "permalink": "hivelive",
     "company_name": "HiveLive",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boulder",
     "state": "CO",
@@ -10850,7 +10850,7 @@
   {
     "permalink": "xaware",
     "company_name": "XAware",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Colorado Springs",
     "state": "CO",
@@ -10862,7 +10862,7 @@
   {
     "permalink": "xaware",
     "company_name": "XAware",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Colorado Springs",
     "state": "CO",
@@ -10874,7 +10874,7 @@
   {
     "permalink": "lijit",
     "company_name": "Lijit",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boulder",
     "state": "CO",
@@ -10886,7 +10886,7 @@
   {
     "permalink": "lijit",
     "company_name": "Lijit",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boulder",
     "state": "CO",
@@ -10922,7 +10922,7 @@
   {
     "permalink": "collective-intellect",
     "company_name": "Collective Intellect",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Boulder",
     "state": "CO",
@@ -10934,7 +10934,7 @@
   {
     "permalink": "collective-intellect",
     "company_name": "Collective Intellect",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Boulder",
     "state": "CO",
@@ -10946,7 +10946,7 @@
   {
     "permalink": "rally-software",
     "company_name": "Rally Software",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Boulder",
     "state": "CO",
@@ -10958,7 +10958,7 @@
   {
     "permalink": "rally-software",
     "company_name": "Rally Software",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Boulder",
     "state": "CO",
@@ -10970,7 +10970,7 @@
   {
     "permalink": "symplified",
     "company_name": "Symplified",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Boulder",
     "state": "CO",
@@ -10982,7 +10982,7 @@
   {
     "permalink": "indeed",
     "company_name": "Indeed",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Stamford",
     "state": "CT",
@@ -10994,7 +10994,7 @@
   {
     "permalink": "geezeo",
     "company_name": "Geezeo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Hartford",
     "state": "CT",
@@ -11102,7 +11102,7 @@
   {
     "permalink": "health-plan-one",
     "company_name": "Health Plan One",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Shelton",
     "state": "CT",
@@ -11138,7 +11138,7 @@
   {
     "permalink": "gridpoint",
     "company_name": "GridPoint",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "cleantech",
     "city": "Washington",
     "state": "DC",
@@ -11150,7 +11150,7 @@
   {
     "permalink": "gridpoint",
     "company_name": "GridPoint",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "cleantech",
     "city": "Washington",
     "state": "DC",
@@ -11162,7 +11162,7 @@
   {
     "permalink": "gridpoint",
     "company_name": "GridPoint",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "cleantech",
     "city": "Washington",
     "state": "DC",
@@ -11174,7 +11174,7 @@
   {
     "permalink": "gridpoint",
     "company_name": "GridPoint",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "cleantech",
     "city": "Washington",
     "state": "DC",
@@ -11198,7 +11198,7 @@
   {
     "permalink": "launchbox",
     "company_name": "LaunchBox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Washinton",
     "state": "DC",
@@ -11210,7 +11210,7 @@
   {
     "permalink": "cogent",
     "company_name": "Cogent",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Washington",
     "state": "DC",
@@ -11222,7 +11222,7 @@
   {
     "permalink": "swapdrive",
     "company_name": "SwapDrive",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Washington",
     "state": "DC",
@@ -11234,7 +11234,7 @@
   {
     "permalink": "swapdrive",
     "company_name": "SwapDrive",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Washington",
     "state": "DC",
@@ -11246,7 +11246,7 @@
   {
     "permalink": "searchles",
     "company_name": "Searchles",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Washington",
     "state": "DC",
@@ -11258,7 +11258,7 @@
   {
     "permalink": "payperpost",
     "company_name": "PayPerPost",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Orlando",
     "state": "FL",
@@ -11270,7 +11270,7 @@
   {
     "permalink": "payperpost",
     "company_name": "PayPerPost",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Orlando",
     "state": "FL",
@@ -11282,7 +11282,7 @@
   {
     "permalink": "affinityinternet",
     "company_name": "Affinity Internet",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Fort Lauderdale",
     "state": "FL",
@@ -11294,7 +11294,7 @@
   {
     "permalink": "affinityinternet",
     "company_name": "Affinity Internet",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Fort Lauderdale",
     "state": "FL",
@@ -11306,7 +11306,7 @@
   {
     "permalink": "multiply",
     "company_name": "Multiply",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boca Raton",
     "state": "FL",
@@ -11318,7 +11318,7 @@
   {
     "permalink": "multiply",
     "company_name": "Multiply",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boca Raton",
     "state": "FL",
@@ -11330,7 +11330,7 @@
   {
     "permalink": "multiply",
     "company_name": "Multiply",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boca Raton",
     "state": "FL",
@@ -11342,7 +11342,7 @@
   {
     "permalink": "revolutionmoney",
     "company_name": "Revolution Money",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Largo",
     "state": "FL",
@@ -11354,7 +11354,7 @@
   {
     "permalink": "batanga",
     "company_name": "Batanga",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Miami",
     "state": "FL",
@@ -11366,7 +11366,7 @@
   {
     "permalink": "batanga",
     "company_name": "Batanga",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Miami",
     "state": "FL",
@@ -11414,7 +11414,7 @@
   {
     "permalink": "moli",
     "company_name": "MOLI",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "West Palm Beach",
     "state": "FL",
@@ -11474,7 +11474,7 @@
   {
     "permalink": "ejamming",
     "company_name": "eJamming",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boca Raton",
     "state": "FL",
@@ -11486,7 +11486,7 @@
   {
     "permalink": "lehigh-technologies",
     "company_name": "Lehigh Technologies",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "cleantech",
     "city": "Naples",
     "state": "FL",
@@ -11522,7 +11522,7 @@
   {
     "permalink": "vitrue",
     "company_name": "Vitrue",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Atlanta",
     "state": "GA",
@@ -11534,7 +11534,7 @@
   {
     "permalink": "vitrue",
     "company_name": "Vitrue",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Atlanta",
     "state": "GA",
@@ -11546,7 +11546,7 @@
   {
     "permalink": "screamingsports",
     "company_name": "Screaming Sports",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Atlanta",
     "state": "GA",
@@ -11558,7 +11558,7 @@
   {
     "permalink": "berecruited",
     "company_name": "beRecruited",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Atlanta",
     "state": "GA",
@@ -11570,7 +11570,7 @@
   {
     "permalink": "mfg",
     "company_name": "MFG",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Atlanta",
     "state": "GA",
@@ -11582,7 +11582,7 @@
   {
     "permalink": "mfg",
     "company_name": "MFG",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Atlanta",
     "state": "GA",
@@ -11594,7 +11594,7 @@
   {
     "permalink": "mfg",
     "company_name": "MFG",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Atlanta",
     "state": "GA",
@@ -11630,7 +11630,7 @@
   {
     "permalink": "balihoo",
     "company_name": "Balihoo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Boise",
     "state": "ID",
@@ -11642,7 +11642,7 @@
   {
     "permalink": "balihoo",
     "company_name": "Balihoo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Boise",
     "state": "ID",
@@ -11654,7 +11654,7 @@
   {
     "permalink": "info",
     "company_name": "Info",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Chicago",
     "state": "IL",
@@ -11666,7 +11666,7 @@
   {
     "permalink": "feedburner",
     "company_name": "FeedBurner",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Chicago",
     "state": "IL",
@@ -11678,7 +11678,7 @@
   {
     "permalink": "feedburner",
     "company_name": "FeedBurner",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Chicago",
     "state": "IL",
@@ -11690,7 +11690,7 @@
   {
     "permalink": "viewpoints",
     "company_name": "Viewpoints",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Chicago",
     "state": "IL",
@@ -11702,7 +11702,7 @@
   {
     "permalink": "grubhub",
     "company_name": "GrubHub",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Chicago",
     "state": "IL",
@@ -11714,7 +11714,7 @@
   {
     "permalink": "ticketsnow",
     "company_name": "TicketsNow",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Rolling Meadows",
     "state": "IL",
@@ -11726,7 +11726,7 @@
   {
     "permalink": "the-point",
     "company_name": "The Point",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Chicago",
     "state": "IL",
@@ -11738,7 +11738,7 @@
   {
     "permalink": "the-point",
     "company_name": "The Point",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Chicago",
     "state": "IL",
@@ -11798,7 +11798,7 @@
   {
     "permalink": "accertify",
     "company_name": "Accertify",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Schaumburg",
     "state": "IL",
@@ -11810,7 +11810,7 @@
   {
     "permalink": "firefly-energy",
     "company_name": "Firefly Energy",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "cleantech",
     "city": "Peoria",
     "state": "IL",
@@ -11822,7 +11822,7 @@
   {
     "permalink": "firefly-energy",
     "company_name": "Firefly Energy",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "cleantech",
     "city": "Peoria",
     "state": "IL",
@@ -11834,7 +11834,7 @@
   {
     "permalink": "firefly-energy",
     "company_name": "Firefly Energy",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "cleantech",
     "city": "Peoria",
     "state": "IL",
@@ -11882,7 +11882,7 @@
   {
     "permalink": "betterworld",
     "company_name": "Better World Books",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Mishawaka",
     "state": "IN",
@@ -11930,7 +11930,7 @@
   {
     "permalink": "iskoot",
     "company_name": "iSkoot",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cambridge",
     "state": "MA",
@@ -11942,7 +11942,7 @@
   {
     "permalink": "iskoot",
     "company_name": "iSkoot",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cambridge",
     "state": "MA",
@@ -11954,7 +11954,7 @@
   {
     "permalink": "gotuitmedia",
     "company_name": "Gotuit Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Woburn",
     "state": "MA",
@@ -11966,7 +11966,7 @@
   {
     "permalink": "gotuitmedia",
     "company_name": "Gotuit Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Woburn",
     "state": "MA",
@@ -12050,7 +12050,7 @@
   {
     "permalink": "going",
     "company_name": "Going",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -12062,7 +12062,7 @@
   {
     "permalink": "brightcove",
     "company_name": "Brightcove",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cambridge",
     "state": "MA",
@@ -12074,7 +12074,7 @@
   {
     "permalink": "brightcove",
     "company_name": "Brightcove",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cambridge",
     "state": "MA",
@@ -12086,7 +12086,7 @@
   {
     "permalink": "brightcove",
     "company_name": "Brightcove",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cambridge",
     "state": "MA",
@@ -12098,7 +12098,7 @@
   {
     "permalink": "brightcove",
     "company_name": "Brightcove",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cambridge",
     "state": "MA",
@@ -12110,7 +12110,7 @@
   {
     "permalink": "brightcove",
     "company_name": "Brightcove",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cambridge",
     "state": "MA",
@@ -12122,7 +12122,7 @@
   {
     "permalink": "permissiontv",
     "company_name": "PermissionTV",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Waltham",
     "state": "MA",
@@ -12134,7 +12134,7 @@
   {
     "permalink": "bountii",
     "company_name": "Bountii",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -12146,7 +12146,7 @@
   {
     "permalink": "conduitlabs",
     "company_name": "Conduit Labs",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cambridge",
     "state": "MA",
@@ -12182,7 +12182,7 @@
   {
     "permalink": "vlingo",
     "company_name": "Vlingo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cambridge",
     "state": "MA",
@@ -12194,7 +12194,7 @@
   {
     "permalink": "vtap",
     "company_name": "Vtap",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Andover",
     "state": "MA",
@@ -12218,7 +12218,7 @@
   {
     "permalink": "quattro-wireless",
     "company_name": "Quattro Wireless",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Waltham",
     "state": "MA",
@@ -12230,7 +12230,7 @@
   {
     "permalink": "quattro-wireless",
     "company_name": "Quattro Wireless",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Waltham",
     "state": "MA",
@@ -12242,7 +12242,7 @@
   {
     "permalink": "care-com",
     "company_name": "Care.com",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Waltham",
     "state": "MA",
@@ -12254,7 +12254,7 @@
   {
     "permalink": "onforce",
     "company_name": "OnForce",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Lexington",
     "state": "MA",
@@ -12266,7 +12266,7 @@
   {
     "permalink": "onforce",
     "company_name": "OnForce",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Lexington",
     "state": "MA",
@@ -12278,7 +12278,7 @@
   {
     "permalink": "ratepoint",
     "company_name": "RatePoint",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Needham",
     "state": "MA",
@@ -12302,7 +12302,7 @@
   {
     "permalink": "eons",
     "company_name": "Eons",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -12314,7 +12314,7 @@
   {
     "permalink": "eons",
     "company_name": "Eons",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -12326,7 +12326,7 @@
   {
     "permalink": "gamerdna",
     "company_name": "GamerDNA",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cambridge",
     "state": "MA",
@@ -12350,7 +12350,7 @@
   {
     "permalink": "sermo",
     "company_name": "Sermo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cambridge",
     "state": "MA",
@@ -12362,7 +12362,7 @@
   {
     "permalink": "sermo",
     "company_name": "Sermo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cambridge",
     "state": "MA",
@@ -12374,7 +12374,7 @@
   {
     "permalink": "sermo",
     "company_name": "Sermo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Cambridge",
     "state": "MA",
@@ -12410,7 +12410,7 @@
   {
     "permalink": "matchmine",
     "company_name": "MatchMine",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Needham",
     "state": "MA",
@@ -12446,7 +12446,7 @@
   {
     "permalink": "compete",
     "company_name": "Compete",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -12458,7 +12458,7 @@
   {
     "permalink": "compete",
     "company_name": "Compete",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -12482,7 +12482,7 @@
   {
     "permalink": "acinion",
     "company_name": "Acinion",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Acton",
     "state": "MA",
@@ -12494,7 +12494,7 @@
   {
     "permalink": "acinion",
     "company_name": "Acinion",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Acton",
     "state": "MA",
@@ -12566,7 +12566,7 @@
   {
     "permalink": "intronis",
     "company_name": "Intronis",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -12590,7 +12590,7 @@
   {
     "permalink": "a123systems",
     "company_name": "A123Systems",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Watertown",
     "state": "MA",
@@ -12602,7 +12602,7 @@
   {
     "permalink": "a123systems",
     "company_name": "A123Systems",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Watertown",
     "state": "MA",
@@ -12614,7 +12614,7 @@
   {
     "permalink": "a123systems",
     "company_name": "A123Systems",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Watertown",
     "state": "MA",
@@ -12662,7 +12662,7 @@
   {
     "permalink": "visiblemeasures",
     "company_name": "Visible Measures",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -12674,7 +12674,7 @@
   {
     "permalink": "visiblemeasures",
     "company_name": "Visible Measures",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -12686,7 +12686,7 @@
   {
     "permalink": "visiblemeasures",
     "company_name": "Visible Measures",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -12806,7 +12806,7 @@
   {
     "permalink": "jackpot-rewards",
     "company_name": "JackPot Rewards",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Newton",
     "state": "MA",
@@ -12818,7 +12818,7 @@
   {
     "permalink": "mzinga",
     "company_name": "Mzinga",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Burlington",
     "state": "MA",
@@ -12830,7 +12830,7 @@
   {
     "permalink": "dimdim",
     "company_name": "Dimdim",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Burlington",
     "state": "MA",
@@ -12842,7 +12842,7 @@
   {
     "permalink": "dimdim",
     "company_name": "Dimdim",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Burlington",
     "state": "MA",
@@ -12866,7 +12866,7 @@
   {
     "permalink": "retail-convergence",
     "company_name": "Retail Convergence",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -12878,7 +12878,7 @@
   {
     "permalink": "frame-media",
     "company_name": "Frame Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Wellesley",
     "state": "MA",
@@ -12890,7 +12890,7 @@
   {
     "permalink": "frame-media",
     "company_name": "Frame Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Wellesley",
     "state": "MA",
@@ -12938,7 +12938,7 @@
   {
     "permalink": "simpletuition",
     "company_name": "SimpleTuition",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Newton",
     "state": "MA",
@@ -12950,7 +12950,7 @@
   {
     "permalink": "simpletuition",
     "company_name": "SimpleTuition",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Newton",
     "state": "MA",
@@ -12962,7 +12962,7 @@
   {
     "permalink": "sirtris-pharmaceuticals",
     "company_name": "Sirtris Pharmaceuticals",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "biotech",
     "city": "Cambridge",
     "state": "MA",
@@ -12974,7 +12974,7 @@
   {
     "permalink": "sirtris-pharmaceuticals",
     "company_name": "Sirtris Pharmaceuticals",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "biotech",
     "city": "Cambridge",
     "state": "MA",
@@ -12986,7 +12986,7 @@
   {
     "permalink": "sirtris-pharmaceuticals",
     "company_name": "Sirtris Pharmaceuticals",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "biotech",
     "city": "Cambridge",
     "state": "MA",
@@ -13010,7 +13010,7 @@
   {
     "permalink": "navic-networks",
     "company_name": "Navic Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Waltham",
     "state": "MA",
@@ -13022,7 +13022,7 @@
   {
     "permalink": "navic-networks",
     "company_name": "Navic Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Waltham",
     "state": "MA",
@@ -13034,7 +13034,7 @@
   {
     "permalink": "navic-networks",
     "company_name": "Navic Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Waltham",
     "state": "MA",
@@ -13106,7 +13106,7 @@
   {
     "permalink": "astaro",
     "company_name": "Astaro",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Burlington",
     "state": "MA",
@@ -13118,7 +13118,7 @@
   {
     "permalink": "astaro",
     "company_name": "Astaro",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Burlington",
     "state": "MA",
@@ -13142,7 +13142,7 @@
   {
     "permalink": "posterous",
     "company_name": "Posterous",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -13154,7 +13154,7 @@
   {
     "permalink": "spire",
     "company_name": "Spire",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -13166,7 +13166,7 @@
   {
     "permalink": "neosaej",
     "company_name": "neoSaej",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Burlington",
     "state": "MA",
@@ -13178,7 +13178,7 @@
   {
     "permalink": "genarts",
     "company_name": "GenArts",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Cambridge",
     "state": "MA",
@@ -13190,7 +13190,7 @@
   {
     "permalink": "ordermotion",
     "company_name": "OrderMotion",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Boston",
     "state": "MA",
@@ -13250,7 +13250,7 @@
   {
     "permalink": "zenimax",
     "company_name": "ZeniMax",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Rockville",
     "state": "MD",
@@ -13262,7 +13262,7 @@
   {
     "permalink": "zenimax",
     "company_name": "ZeniMax",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Rockville",
     "state": "MD",
@@ -13370,7 +13370,7 @@
   {
     "permalink": "agilis-systems",
     "company_name": "Agilis Systems",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "St. Louis",
     "state": "MO",
@@ -13430,7 +13430,7 @@
   {
     "permalink": "yap",
     "company_name": "Yap",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Charlotte",
     "state": "NC",
@@ -13442,7 +13442,7 @@
   {
     "permalink": "yap",
     "company_name": "Yap",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Charlotte",
     "state": "NC",
@@ -13466,7 +13466,7 @@
   {
     "permalink": "silkroad-technology",
     "company_name": "SilkRoad technology",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Winston-Salem",
     "state": "NC",
@@ -13478,7 +13478,7 @@
   {
     "permalink": "silkroad-technology",
     "company_name": "SilkRoad technology",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Winston-Salem",
     "state": "NC",
@@ -13562,7 +13562,7 @@
   {
     "permalink": "billmelater",
     "company_name": "Bill Me Later",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Omaha",
     "state": "NE",
@@ -13586,7 +13586,7 @@
   {
     "permalink": "phanfare",
     "company_name": "Phanfare",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Metuchen",
     "state": "NJ",
@@ -13598,7 +13598,7 @@
   {
     "permalink": "phanfare",
     "company_name": "Phanfare",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Metuchen",
     "state": "NJ",
@@ -13610,7 +13610,7 @@
   {
     "permalink": "enterprisedb",
     "company_name": "EnterpriseDB",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Edison",
     "state": "NJ",
@@ -13622,7 +13622,7 @@
   {
     "permalink": "enterprisedb",
     "company_name": "EnterpriseDB",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Edison",
     "state": "NJ",
@@ -13634,7 +13634,7 @@
   {
     "permalink": "enterprisedb",
     "company_name": "EnterpriseDB",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Edison",
     "state": "NJ",
@@ -13646,7 +13646,7 @@
   {
     "permalink": "neocleus",
     "company_name": "Neocleus",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Jersey City",
     "state": "NJ",
@@ -13658,7 +13658,7 @@
   {
     "permalink": "datapipe",
     "company_name": "Datapipe",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Jersey City",
     "state": "NJ",
@@ -13670,7 +13670,7 @@
   {
     "permalink": "switch2health",
     "company_name": "Switch2Health",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "North Brunswick",
     "state": "NJ",
@@ -13682,7 +13682,7 @@
   {
     "permalink": "voltaix",
     "company_name": "Voltaix",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "N. Branch",
     "state": "NJ",
@@ -13718,7 +13718,7 @@
   {
     "permalink": "novint",
     "company_name": "Novint",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "other",
     "city": "Albuquerque",
     "state": "NM",
@@ -13886,7 +13886,7 @@
   {
     "permalink": "veotag",
     "company_name": "Veotag",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -13922,7 +13922,7 @@
   {
     "permalink": "contextweb",
     "company_name": "ContextWeb",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -13934,7 +13934,7 @@
   {
     "permalink": "contextweb",
     "company_name": "ContextWeb",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -13946,7 +13946,7 @@
   {
     "permalink": "contextweb",
     "company_name": "ContextWeb",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -13958,7 +13958,7 @@
   {
     "permalink": "datranmedia",
     "company_name": "Datran Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -13970,7 +13970,7 @@
   {
     "permalink": "eyeblaster",
     "company_name": "Eyeblaster",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -13982,7 +13982,7 @@
   {
     "permalink": "eyeblaster",
     "company_name": "Eyeblaster",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -13994,7 +13994,7 @@
   {
     "permalink": "covestor",
     "company_name": "Covestor",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14006,7 +14006,7 @@
   {
     "permalink": "covestor",
     "company_name": "Covestor",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14030,7 +14030,7 @@
   {
     "permalink": "heavy-com",
     "company_name": "Heavy.com",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14054,7 +14054,7 @@
   {
     "permalink": "broadbandenterprises",
     "company_name": "Broadband Enterprises",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14066,7 +14066,7 @@
   {
     "permalink": "thumbplay",
     "company_name": "Thumbplay",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "New York",
     "state": "NY",
@@ -14078,7 +14078,7 @@
   {
     "permalink": "waterfrontmedia",
     "company_name": "Waterfront Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Brooklyn, New York",
     "state": "NY",
@@ -14090,7 +14090,7 @@
   {
     "permalink": "waterfrontmedia",
     "company_name": "Waterfront Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Brooklyn, New York",
     "state": "NY",
@@ -14102,7 +14102,7 @@
   {
     "permalink": "waterfrontmedia",
     "company_name": "Waterfront Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Brooklyn, New York",
     "state": "NY",
@@ -14114,7 +14114,7 @@
   {
     "permalink": "waterfrontmedia",
     "company_name": "Waterfront Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Brooklyn, New York",
     "state": "NY",
@@ -14138,7 +14138,7 @@
   {
     "permalink": "daylife",
     "company_name": "Daylife",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14174,7 +14174,7 @@
   {
     "permalink": "snooth",
     "company_name": "Snooth",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New  York",
     "state": "NY",
@@ -14186,7 +14186,7 @@
   {
     "permalink": "snooth",
     "company_name": "Snooth",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New  York",
     "state": "NY",
@@ -14234,7 +14234,7 @@
   {
     "permalink": "mimeo",
     "company_name": "Mimeo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14246,7 +14246,7 @@
   {
     "permalink": "rayv",
     "company_name": "RayV",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14258,7 +14258,7 @@
   {
     "permalink": "tumblr",
     "company_name": "Tumblr",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14282,7 +14282,7 @@
   {
     "permalink": "exelate",
     "company_name": "eXelate",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14294,7 +14294,7 @@
   {
     "permalink": "quigo",
     "company_name": "Quigo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14354,7 +14354,7 @@
   {
     "permalink": "answers",
     "company_name": "Answers Corporation",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14366,7 +14366,7 @@
   {
     "permalink": "answers",
     "company_name": "Answers Corporation",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14378,7 +14378,7 @@
   {
     "permalink": "answers",
     "company_name": "Answers Corporation",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14390,7 +14390,7 @@
   {
     "permalink": "answers",
     "company_name": "Answers Corporation",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14402,7 +14402,7 @@
   {
     "permalink": "answers",
     "company_name": "Answers Corporation",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14414,7 +14414,7 @@
   {
     "permalink": "seetoo",
     "company_name": "SeeToo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14426,7 +14426,7 @@
   {
     "permalink": "drop-io-2",
     "company_name": "drop.io",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Brooklyn",
     "state": "NY",
@@ -14438,7 +14438,7 @@
   {
     "permalink": "drop-io-2",
     "company_name": "drop.io",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Brooklyn",
     "state": "NY",
@@ -14450,7 +14450,7 @@
   {
     "permalink": "motionbox",
     "company_name": "Motionbox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14462,7 +14462,7 @@
   {
     "permalink": "motionbox",
     "company_name": "Motionbox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14474,7 +14474,7 @@
   {
     "permalink": "dgplabs",
     "company_name": "DGP Labs",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14486,7 +14486,7 @@
   {
     "permalink": "ideeli",
     "company_name": "Ideeli",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14498,7 +14498,7 @@
   {
     "permalink": "livegamer",
     "company_name": "Live Gamer",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14606,7 +14606,7 @@
   {
     "permalink": "tremormedia",
     "company_name": "Tremor Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14618,7 +14618,7 @@
   {
     "permalink": "tremormedia",
     "company_name": "Tremor Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14630,7 +14630,7 @@
   {
     "permalink": "yoonew",
     "company_name": "YooNew",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14642,7 +14642,7 @@
   {
     "permalink": "fifthgenerationsystems",
     "company_name": "Fifth Generation Systems",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Roslyn Heights",
     "state": "NY",
@@ -14654,7 +14654,7 @@
   {
     "permalink": "fifthgenerationsystems",
     "company_name": "Fifth Generation Systems",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Roslyn Heights",
     "state": "NY",
@@ -14666,7 +14666,7 @@
   {
     "permalink": "igaworldwide",
     "company_name": "IGA Worldwide",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14678,7 +14678,7 @@
   {
     "permalink": "igaworldwide",
     "company_name": "IGA Worldwide",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14690,7 +14690,7 @@
   {
     "permalink": "igaworldwide",
     "company_name": "IGA Worldwide",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14738,7 +14738,7 @@
   {
     "permalink": "kluster",
     "company_name": "Kluster",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14750,7 +14750,7 @@
   {
     "permalink": "blog-talk-radio",
     "company_name": "Blog Talk Radio",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14786,7 +14786,7 @@
   {
     "permalink": "outbrain",
     "company_name": "Outbrain",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York City",
     "state": "NY",
@@ -14798,7 +14798,7 @@
   {
     "permalink": "outbrain",
     "company_name": "Outbrain",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York City",
     "state": "NY",
@@ -14858,7 +14858,7 @@
   {
     "permalink": "tripology",
     "company_name": "Tripology",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14870,7 +14870,7 @@
   {
     "permalink": "the-feedroom",
     "company_name": "The Feedroom",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14906,7 +14906,7 @@
   {
     "permalink": "riverwired",
     "company_name": "RiverWired",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14930,7 +14930,7 @@
   {
     "permalink": "digital-railroad",
     "company_name": "Digital Railroad",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14942,7 +14942,7 @@
   {
     "permalink": "digital-railroad",
     "company_name": "Digital Railroad",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14954,7 +14954,7 @@
   {
     "permalink": "silicon-alley-insider",
     "company_name": "Silicon Alley Insider",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "New York",
     "state": "NY",
@@ -14966,7 +14966,7 @@
   {
     "permalink": "undertone-networks",
     "company_name": "Undertone Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -14978,7 +14978,7 @@
   {
     "permalink": "someecards",
     "company_name": "Someecards",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -15014,7 +15014,7 @@
   {
     "permalink": "visible-world",
     "company_name": "Visible World",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "New York",
     "state": "NY",
@@ -15026,7 +15026,7 @@
   {
     "permalink": "visible-world",
     "company_name": "Visible World",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "New York",
     "state": "NY",
@@ -15050,7 +15050,7 @@
   {
     "permalink": "social-median",
     "company_name": "Social Median",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -15062,7 +15062,7 @@
   {
     "permalink": "scanbuy",
     "company_name": "Scanbuy",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "New York",
     "state": "NY",
@@ -15074,7 +15074,7 @@
   {
     "permalink": "scanbuy",
     "company_name": "Scanbuy",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "New York",
     "state": "NY",
@@ -15086,7 +15086,7 @@
   {
     "permalink": "pontiflex",
     "company_name": "Pontiflex",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Brooklyn",
     "state": "NY",
@@ -15122,7 +15122,7 @@
   {
     "permalink": "x-1",
     "company_name": "x+1",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -15134,7 +15134,7 @@
   {
     "permalink": "media6",
     "company_name": "Media6¡",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -15146,7 +15146,7 @@
   {
     "permalink": "knewton",
     "company_name": "Knewton",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "New York",
     "state": "NY",
@@ -15158,7 +15158,7 @@
   {
     "permalink": "sense-networks",
     "company_name": "Sense Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "New York City",
     "state": "NY",
@@ -15206,7 +15206,7 @@
   {
     "permalink": "instinctiv",
     "company_name": "Instinctiv",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "mobile",
     "city": "Ithaca",
     "state": "NY",
@@ -15230,7 +15230,7 @@
   {
     "permalink": "xunlight",
     "company_name": "XunLight",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "hardware",
     "city": "Toledo",
     "state": "OH",
@@ -15278,7 +15278,7 @@
   {
     "permalink": "jivesoftware",
     "company_name": "Jive Software",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Portland",
     "state": "OR",
@@ -15290,7 +15290,7 @@
   {
     "permalink": "platial",
     "company_name": "Platial",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Portland",
     "state": "OR",
@@ -15302,7 +15302,7 @@
   {
     "permalink": "platial",
     "company_name": "Platial",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Portland",
     "state": "OR",
@@ -15314,7 +15314,7 @@
   {
     "permalink": "garagegames",
     "company_name": "GarageGames",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Eugene",
     "state": "OR",
@@ -15338,7 +15338,7 @@
   {
     "permalink": "ingrid",
     "company_name": "InGrid",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Berwyn",
     "state": "PA",
@@ -15350,7 +15350,7 @@
   {
     "permalink": "ingrid",
     "company_name": "InGrid",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Berwyn",
     "state": "PA",
@@ -15362,7 +15362,7 @@
   {
     "permalink": "ingrid",
     "company_name": "InGrid",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Berwyn",
     "state": "PA",
@@ -15374,7 +15374,7 @@
   {
     "permalink": "ingrid",
     "company_name": "InGrid",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Berwyn",
     "state": "PA",
@@ -15434,7 +15434,7 @@
   {
     "permalink": "redlasso",
     "company_name": "RedLasso",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "King of Prussia",
     "state": "PA",
@@ -15470,7 +15470,7 @@
   {
     "permalink": "aria-systems",
     "company_name": "Aria Systems",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Media",
     "state": "PA",
@@ -15482,7 +15482,7 @@
   {
     "permalink": "vivsimo",
     "company_name": "Viv’simo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Pittsburgh",
     "state": "PA",
@@ -15494,7 +15494,7 @@
   {
     "permalink": "vivsimo",
     "company_name": "Viv’simo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Pittsburgh",
     "state": "PA",
@@ -15506,7 +15506,7 @@
   {
     "permalink": "vivsimo",
     "company_name": "Viv’simo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Pittsburgh",
     "state": "PA",
@@ -15518,7 +15518,7 @@
   {
     "permalink": "vivsimo",
     "company_name": "Viv’simo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Pittsburgh",
     "state": "PA",
@@ -15530,7 +15530,7 @@
   {
     "permalink": "vivsimo",
     "company_name": "Viv’simo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Pittsburgh",
     "state": "PA",
@@ -15542,7 +15542,7 @@
   {
     "permalink": "showclix",
     "company_name": "ShowClix",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Oakmont",
     "state": "PA",
@@ -15554,7 +15554,7 @@
   {
     "permalink": "showclix",
     "company_name": "ShowClix",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Oakmont",
     "state": "PA",
@@ -15590,7 +15590,7 @@
   {
     "permalink": "tizra",
     "company_name": "Tizra",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Providence",
     "state": "RI",
@@ -15602,7 +15602,7 @@
   {
     "permalink": "quickoffice",
     "company_name": "Quickoffice",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Plano",
     "state": "TN",
@@ -15614,7 +15614,7 @@
   {
     "permalink": "quickoffice",
     "company_name": "Quickoffice",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Plano",
     "state": "TN",
@@ -15626,7 +15626,7 @@
   {
     "permalink": "quickoffice",
     "company_name": "Quickoffice",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Plano",
     "state": "TN",
@@ -15638,7 +15638,7 @@
   {
     "permalink": "thoof",
     "company_name": "Thoof",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Austin",
     "state": "TX",
@@ -15650,7 +15650,7 @@
   {
     "permalink": "bazaarvoice",
     "company_name": "Bazaarvoice",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Austin",
     "state": "TX",
@@ -15662,7 +15662,7 @@
   {
     "permalink": "bazaarvoice",
     "company_name": "Bazaarvoice",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Austin",
     "state": "TX",
@@ -15674,7 +15674,7 @@
   {
     "permalink": "bazaarvoice",
     "company_name": "Bazaarvoice",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Austin",
     "state": "TX",
@@ -15698,7 +15698,7 @@
   {
     "permalink": "pluck",
     "company_name": "Pluck",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Austin",
     "state": "TX",
@@ -15710,7 +15710,7 @@
   {
     "permalink": "pluck",
     "company_name": "Pluck",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Austin",
     "state": "TX",
@@ -15722,7 +15722,7 @@
   {
     "permalink": "spiceworks",
     "company_name": "Spiceworks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Austin",
     "state": "TX",
@@ -15746,7 +15746,7 @@
   {
     "permalink": "shangby",
     "company_name": "Shangby",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Austin",
     "state": "TX",
@@ -15794,7 +15794,7 @@
   {
     "permalink": "heliovolt",
     "company_name": "HelioVolt",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Austin",
     "state": "TX",
@@ -15806,7 +15806,7 @@
   {
     "permalink": "challenge-games",
     "company_name": "Challenge Games",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Austin",
     "state": "TX",
@@ -15854,7 +15854,7 @@
   {
     "permalink": "famecast",
     "company_name": "FameCast",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Austin",
     "state": "TX",
@@ -15866,7 +15866,7 @@
   {
     "permalink": "click-forensics",
     "company_name": "Click Forensics",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Austin",
     "state": "TX",
@@ -15878,7 +15878,7 @@
   {
     "permalink": "click-forensics",
     "company_name": "Click Forensics",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Austin",
     "state": "TX",
@@ -15890,7 +15890,7 @@
   {
     "permalink": "godtube",
     "company_name": "GodTube",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Plano",
     "state": "TX",
@@ -15962,7 +15962,7 @@
   {
     "permalink": "ancestry-com",
     "company_name": "Ancestry.com",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Provo",
     "state": "UT",
@@ -15974,7 +15974,7 @@
   {
     "permalink": "movenetworks",
     "company_name": "Move Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "American Fork",
     "state": "UT",
@@ -15986,7 +15986,7 @@
   {
     "permalink": "movenetworks",
     "company_name": "Move Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "American Fork",
     "state": "UT",
@@ -15998,7 +15998,7 @@
   {
     "permalink": "movenetworks",
     "company_name": "Move Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "American Fork",
     "state": "UT",
@@ -16010,7 +16010,7 @@
   {
     "permalink": "worldvitalrecords",
     "company_name": "World Vital Records",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Provo",
     "state": "UT",
@@ -16046,7 +16046,7 @@
   {
     "permalink": "mediaforge",
     "company_name": "mediaFORGE",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Salt Lake City",
     "state": "UT",
@@ -16070,7 +16070,7 @@
   {
     "permalink": "exinda",
     "company_name": "Exinda",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "software",
     "city": "Sandy",
     "state": "UT",
@@ -16082,7 +16082,7 @@
   {
     "permalink": "clearspring",
     "company_name": "Clearspring",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "McLean",
     "state": "VA",
@@ -16094,7 +16094,7 @@
   {
     "permalink": "clearspring",
     "company_name": "Clearspring",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "McLean",
     "state": "VA",
@@ -16106,7 +16106,7 @@
   {
     "permalink": "clearspring",
     "company_name": "Clearspring",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "McLean",
     "state": "VA",
@@ -16118,7 +16118,7 @@
   {
     "permalink": "clearspring",
     "company_name": "Clearspring",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "McLean",
     "state": "VA",
@@ -16130,7 +16130,7 @@
   {
     "permalink": "availmedia",
     "company_name": "Avail Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Reston",
     "state": "VA",
@@ -16142,7 +16142,7 @@
   {
     "permalink": "availmedia",
     "company_name": "Avail Media",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Reston",
     "state": "VA",
@@ -16154,7 +16154,7 @@
   {
     "permalink": "fortiusone",
     "company_name": "FortiusOne",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Arlington",
     "state": "VA",
@@ -16166,7 +16166,7 @@
   {
     "permalink": "mixx",
     "company_name": "Mixx",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "",
     "state": "VA",
@@ -16178,7 +16178,7 @@
   {
     "permalink": "mixx",
     "company_name": "Mixx",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "",
     "state": "VA",
@@ -16190,7 +16190,7 @@
   {
     "permalink": "jobfox",
     "company_name": "Jobfox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "McLean",
     "state": "VA",
@@ -16202,7 +16202,7 @@
   {
     "permalink": "jobfox",
     "company_name": "Jobfox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "McLean",
     "state": "VA",
@@ -16214,7 +16214,7 @@
   {
     "permalink": "jobfox",
     "company_name": "Jobfox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "McLean",
     "state": "VA",
@@ -16226,7 +16226,7 @@
   {
     "permalink": "healthcentral",
     "company_name": "HealthCentral",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Arlington",
     "state": "VA",
@@ -16238,7 +16238,7 @@
   {
     "permalink": "comscore",
     "company_name": "comScore",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Reston",
     "state": "VA",
@@ -16250,7 +16250,7 @@
   {
     "permalink": "comscore",
     "company_name": "comScore",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Reston",
     "state": "VA",
@@ -16274,7 +16274,7 @@
   {
     "permalink": "paxfire",
     "company_name": "Paxfire",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "",
     "city": "Sterling",
     "state": "VA",
@@ -16394,7 +16394,7 @@
   {
     "permalink": "jobster",
     "company_name": "Jobster",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16406,7 +16406,7 @@
   {
     "permalink": "jobster",
     "company_name": "Jobster",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16418,7 +16418,7 @@
   {
     "permalink": "jobster",
     "company_name": "Jobster",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16430,7 +16430,7 @@
   {
     "permalink": "jobster",
     "company_name": "Jobster",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16442,7 +16442,7 @@
   {
     "permalink": "yapta",
     "company_name": "Yapta",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16454,7 +16454,7 @@
   {
     "permalink": "yapta",
     "company_name": "Yapta",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16502,7 +16502,7 @@
   {
     "permalink": "hautesecure",
     "company_name": "Haute Secure",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16586,7 +16586,7 @@
   {
     "permalink": "actionengine",
     "company_name": "Action Engine",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Bellevue",
     "state": "WA",
@@ -16598,7 +16598,7 @@
   {
     "permalink": "actionengine",
     "company_name": "Action Engine",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Bellevue",
     "state": "WA",
@@ -16610,7 +16610,7 @@
   {
     "permalink": "actionengine",
     "company_name": "Action Engine",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Bellevue",
     "state": "WA",
@@ -16622,7 +16622,7 @@
   {
     "permalink": "actionengine",
     "company_name": "Action Engine",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Bellevue",
     "state": "WA",
@@ -16634,7 +16634,7 @@
   {
     "permalink": "actionengine",
     "company_name": "Action Engine",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Bellevue",
     "state": "WA",
@@ -16646,7 +16646,7 @@
   {
     "permalink": "wishpot",
     "company_name": "Wishpot",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16658,7 +16658,7 @@
   {
     "permalink": "payscale",
     "company_name": "PayScale",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16670,7 +16670,7 @@
   {
     "permalink": "payscale",
     "company_name": "PayScale",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16682,7 +16682,7 @@
   {
     "permalink": "payscale",
     "company_name": "PayScale",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16694,7 +16694,7 @@
   {
     "permalink": "buddytv",
     "company_name": "BuddyTV",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16706,7 +16706,7 @@
   {
     "permalink": "buddytv",
     "company_name": "BuddyTV",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16718,7 +16718,7 @@
   {
     "permalink": "buddytv",
     "company_name": "BuddyTV",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16730,7 +16730,7 @@
   {
     "permalink": "judysbook",
     "company_name": "Judys Book",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16742,7 +16742,7 @@
   {
     "permalink": "judysbook",
     "company_name": "Judys Book",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16790,7 +16790,7 @@
   {
     "permalink": "cdigix",
     "company_name": "Cdigix",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16802,7 +16802,7 @@
   {
     "permalink": "ripl",
     "company_name": "Ripl",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16862,7 +16862,7 @@
   {
     "permalink": "smartsheet",
     "company_name": "SmartSheet",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Bellevue",
     "state": "WA",
@@ -16934,7 +16934,7 @@
   {
     "permalink": "seomoz",
     "company_name": "SEOMoz",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16946,7 +16946,7 @@
   {
     "permalink": "docusign",
     "company_name": "DocuSign",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16958,7 +16958,7 @@
   {
     "permalink": "docusign",
     "company_name": "DocuSign",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16982,7 +16982,7 @@
   {
     "permalink": "treemo",
     "company_name": "Treemo",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -16994,7 +16994,7 @@
   {
     "permalink": "gridnetworks",
     "company_name": "GridNetworks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17006,7 +17006,7 @@
   {
     "permalink": "pelago",
     "company_name": "Pelago",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17018,7 +17018,7 @@
   {
     "permalink": "pelago",
     "company_name": "Pelago",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17030,7 +17030,7 @@
   {
     "permalink": "blist",
     "company_name": "Blist",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17042,7 +17042,7 @@
   {
     "permalink": "realself",
     "company_name": "RealSelf",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17054,7 +17054,7 @@
   {
     "permalink": "rescuetime",
     "company_name": "RescueTime",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17066,7 +17066,7 @@
   {
     "permalink": "zoji",
     "company_name": "Zoji",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17102,7 +17102,7 @@
   {
     "permalink": "jott",
     "company_name": "Jott",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17114,7 +17114,7 @@
   {
     "permalink": "earthclassmail",
     "company_name": "Earth Class Mail",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17126,7 +17126,7 @@
   {
     "permalink": "earthclassmail",
     "company_name": "Earth Class Mail",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17138,7 +17138,7 @@
   {
     "permalink": "smilebox",
     "company_name": "Smilebox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redmond",
     "state": "WA",
@@ -17150,7 +17150,7 @@
   {
     "permalink": "smilebox",
     "company_name": "Smilebox",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Redmond",
     "state": "WA",
@@ -17162,7 +17162,7 @@
   {
     "permalink": "fyreball",
     "company_name": "Fyreball",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Bellevue",
     "state": "WA",
@@ -17174,7 +17174,7 @@
   {
     "permalink": "delve-networks",
     "company_name": "Delve Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17186,7 +17186,7 @@
   {
     "permalink": "delve-networks",
     "company_name": "Delve Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17198,7 +17198,7 @@
   {
     "permalink": "livemocha",
     "company_name": "LiveMocha",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Bellevue",
     "state": "WA",
@@ -17222,7 +17222,7 @@
   {
     "permalink": "cleverset",
     "company_name": "CleverSet",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17234,7 +17234,7 @@
   {
     "permalink": "cleverset",
     "company_name": "CleverSet",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17246,7 +17246,7 @@
   {
     "permalink": "cleverset",
     "company_name": "CleverSet",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17318,7 +17318,7 @@
   {
     "permalink": "revenuescience",
     "company_name": "RevenueScience",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17354,7 +17354,7 @@
   {
     "permalink": "mpire",
     "company_name": "mpire",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17366,7 +17366,7 @@
   {
     "permalink": "mpire",
     "company_name": "mpire",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17390,7 +17390,7 @@
   {
     "permalink": "estately",
     "company_name": "Estately",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "",
     "state": "WA",
@@ -17402,7 +17402,7 @@
   {
     "permalink": "infinia",
     "company_name": "Infinia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "cleantech",
     "city": "Kennewick",
     "state": "WA",
@@ -17414,7 +17414,7 @@
   {
     "permalink": "infinia",
     "company_name": "Infinia",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "cleantech",
     "city": "Kennewick",
     "state": "WA",
@@ -17426,7 +17426,7 @@
   {
     "permalink": "m-metrics",
     "company_name": "M:Metrics",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17474,7 +17474,7 @@
   {
     "permalink": "alerts-com",
     "company_name": "Alerts.com",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Bellevue",
     "state": "WA",
@@ -17498,7 +17498,7 @@
   {
     "permalink": "grid-networks",
     "company_name": "Grid Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
@@ -17510,7 +17510,7 @@
   {
     "permalink": "grid-networks",
     "company_name": "Grid Networks",
-    "number_employees": "",
+    "number_employees": 0,
     "category": "web",
     "city": "Seattle",
     "state": "WA",
