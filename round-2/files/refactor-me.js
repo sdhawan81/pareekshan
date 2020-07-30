@@ -1,4 +1,4 @@
-var Rental  = require('./Rental.js');
+var Rental = require('./Rental.js');
 let printCustomerStatement = function(statementObject){
   let resultString = `Rental Record for ${statementObject.name}\n`;
   statementObject.rentedMovies.forEach(movie => {

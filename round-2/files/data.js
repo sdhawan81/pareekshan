@@ -5,4 +5,12 @@ const movies = {
     F004: { title: 'Latest Hit Release', code: 'new' },
     //EXERCISE NOTE: add more movies if you need
 };
-module.exports = movies;
+const movieCodes = {
+    Regular: "regular",
+    Children: "childrens",
+    New: "new"
+};
+module.exports = {
+    movies,
+    movieCodes
+};

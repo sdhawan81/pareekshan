@@ -1,7 +1,5 @@
-const movies = require("./data.js");
+const { movies, movieCodes } = require("./data.js");
 class Rental {
-  constructor() {   
-  }
   getCustomerStatement(customer) {
     let result = {
       name: customer.name,
@@ -25,20 +23,20 @@ class Rental {
   }
   getFrequentRenterPoints(movie, days){
     let frequentRenterPoints = 1;
-    if(movie.code === 'new' && days > 2)
+    if(movie.code === movieCodes.New && days > 2)
       frequentRenterPoints++;
     return frequentRenterPoints;
   }
   getAmountForAMovie(movie, days) {
     let thisAmount = 0;
     switch (movie.code) {
-      case 'regular':
+      case movieCodes.Regular:
         thisAmount = 2 + this.calculateAmountOnDays(days, 2);
         break;
-      case 'new':
+      case movieCodes.New:
         thisAmount = days * 3;
         break;
-      case 'childrens':
+      case movieCodes.Children:
         thisAmount = 1.5 + this.calculateAmountOnDays(days, 3);
         break;
       default:
