@@ -5,8 +5,9 @@ let signal = { R: 5, G: 5, O: 1 };
 let signalChanged = { R: "G", G: "O", O: "R" };
 // check for signal
 function trafficLights(r, n) {
-    states = [road];
+    
     road=r;
+    states = [road];
     road = road.split("");
     road[0] = ".";
     road.map((val, idx) => {
