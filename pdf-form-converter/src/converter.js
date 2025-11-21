@@ -4,8 +4,8 @@ import fs from 'fs/promises';
 import path from 'path';
 
 /**
- * Enhanced PDF Form to JSON Converter with Text Extraction
- * Extracts both form fields and associated label text
+ * Enhanced PDF Form to JSON Converter with Advanced Text Extraction
+ * Extracts both form fields and associated label text with improved matching
  */
 
 /**
@@ -127,6 +127,31 @@ function getFieldValue(field, fieldType) {
 }
 
 /**
+ * Extract tooltip/alternate text from field if available
+ */
+function extractFieldTooltip(field) {
+  try {
+    const fieldDict = field.acroField?.dict;
+    if (fieldDict) {
+      // Try to get TU (alternate description/tooltip)
+      const tu = fieldDict.lookup(field.acroField.TU);
+      if (tu) {
+        return tu.decodeText ? tu.decodeText() : null;
+      }
+
+      // Try to get TM (tooltip mapping)
+      const tm = fieldDict.lookup(field.acroField.TM);
+      if (tm) {
+        return tm.decodeText ? tm.decodeText() : null;
+      }
+    }
+  } catch (error) {
+    // Tooltip not available
+  }
+  return null;
+}
+
+/**
  * Extract all text content from PDF
  */
 async function extractPdfText(pdfBytes) {
@@ -152,56 +177,238 @@ function parseTextContent(text) {
 }
 
 /**
- * Try to find label text for a field based on field name patterns
+ * Extract all possible identifiers from field name
  */
-function findLabelForField(fieldName, textLines) {
-  // Extract question number or identifier from field name
-  // Pattern like "Q_10_C_100_0" -> look for "Q 10", "10.", "Question 10", etc.
+function extractIdentifiers(fieldName) {
+  const identifiers = [];
 
-  const patterns = [
-    /Q_(\d+)_/,           // Q_10_
-    /Q_(\d+[A-Za-z]?)_/,  // Q_10a_
-    /_(\d+)_/,            // _10_
-  ];
+  // Pattern 1: Q_number_ (e.g., Q_10_C_100_0)
+  const qPattern = /Q_(\d+[A-Za-z]?)_/g;
+  let match;
+  while ((match = qPattern.exec(fieldName)) !== null) {
+    identifiers.push({ type: 'question', value: match[1] });
+  }
 
-  let questionNum = null;
-  for (const pattern of patterns) {
-    const match = fieldName.match(pattern);
-    if (match) {
-      questionNum = match[1];
-      break;
+  // Pattern 2: C_number (e.g., C_523087)
+  const cPattern = /C_(\d+)/g;
+  while ((match = cPattern.exec(fieldName)) !== null) {
+    identifiers.push({ type: 'code', value: match[1] });
+  }
+
+  // Pattern 3: Any standalone numbers
+  const numPattern = /_(\d+)_/g;
+  while ((match = numPattern.exec(fieldName)) !== null) {
+    if (match[1].length <= 3) { // Only consider short numbers as potential question numbers
+      identifiers.push({ type: 'number', value: match[1] });
     }
   }
 
-  if (!questionNum) {
-    return null;
+  // Pattern 4: Word patterns (e.g., firstName, lastName)
+  const wordPattern = /([a-z][a-z]+)([A-Z][a-z]+)/;
+  match = fieldName.match(wordPattern);
+  if (match) {
+    identifiers.push({ type: 'camelCase', value: match[0] });
   }
 
-  // Search for lines that might contain this question
-  const searchPatterns = [
-    new RegExp(`^${questionNum}\\.?\\s+(.+)`, 'i'),           // "10. Question text"
-    new RegExp(`^Q\\.?\\s*${questionNum}\\.?\\s+(.+)`, 'i'),  // "Q 10. Question text"
-    new RegExp(`^Question\\s+${questionNum}\\.?\\s+(.+)`, 'i'), // "Question 10. text"
-    new RegExp(`\\b${questionNum}\\.\\s+(.+)`, 'i'),          // "...10. Question text"
-  ];
+  // Pattern 5: Check for specific keywords in field name (with word boundaries)
+  const keywords = ['name', 'first', 'last', 'middle', 'address', 'city', 'state', 'zip',
+                    'phone', 'email', 'date', 'birth', 'ssn', 'social'];
+  for (const keyword of keywords) {
+    // Use word boundary regex to avoid matching substrings like "age" in "Page"
+    const wordBoundaryPattern = new RegExp(`\\b${keyword}\\b`, 'i');
+    if (wordBoundaryPattern.test(fieldName)) {
+      identifiers.push({ type: 'keyword', value: keyword });
+    }
+  }
 
-  for (const line of textLines) {
-    for (const pattern of searchPatterns) {
-      const match = line.match(pattern);
-      if (match) {
-        return match[1] || match[0];
+  return identifiers;
+}
+
+/**
+ * Advanced label matching with multiple strategies
+ */
+function findLabelForField(fieldName, textLines, fieldType) {
+  const identifiers = extractIdentifiers(fieldName);
+  let bestMatch = null;
+  let matchConfidence = 0;
+
+  // Strategy 1: Question number matching
+  for (const id of identifiers) {
+    if (id.type === 'question' || id.type === 'number') {
+      const patterns = [
+        new RegExp(`^${id.value}\\.\\s+(.+)`, 'i'),                    // "10. Question text"
+        new RegExp(`^Q\\.?\\s*${id.value}\\.?\\s+(.+)`, 'i'),         // "Q 10. Question text"
+        new RegExp(`^Question\\s+${id.value}\\.?\\s+(.+)`, 'i'),      // "Question 10. text"
+        new RegExp(`^${id.value}\\)\\s+(.+)`, 'i'),                   // "10) Question text"
+        new RegExp(`\\b${id.value}\\.\\s+([^\\d].{10,})`, 'i'),       // "...10. Question text" (at least 10 chars)
+      ];
+
+      for (const line of textLines) {
+        for (const pattern of patterns) {
+          const match = line.match(pattern);
+          if (match && match[1]) {
+            const label = match[1].trim();
+            if (label.length > 3 && matchConfidence < 0.9) {
+              bestMatch = label;
+              matchConfidence = 0.9;
+            }
+          }
+        }
       }
     }
   }
 
-  // If no match found, try fuzzy matching - find lines that contain the question number
-  for (const line of textLines) {
-    if (line.includes(questionNum + '.') || line.includes(questionNum + ')')) {
-      return line;
+  // Strategy 2: Keyword matching for common field names
+  for (const id of identifiers) {
+    if (id.type === 'keyword') {
+      const keyword = id.value;
+      const patterns = [
+        new RegExp(`^.*${keyword}.*:`, 'i'),                          // "First Name:"
+        new RegExp(`^${keyword}\\s*\\(?[^)]*\\)?:`, 'i'),            // "Name (required):"
+        new RegExp(`^.*\\b${keyword}\\b.*:`, 'i'),                   // "...name...:"
+      ];
+
+      for (const line of textLines) {
+        for (const pattern of patterns) {
+          if (pattern.test(line) && matchConfidence < 0.7) {
+            bestMatch = line;
+            matchConfidence = 0.7;
+          }
+        }
+      }
     }
   }
 
-  return null;
+  // Strategy 3: Partial field name matching (more conservative)
+  const cleanFieldName = fieldName
+    .replace(/\[0\]/g, '')
+    .replace(/_/g, ' ')
+    .replace(/topmostSubform\s*/gi, '')
+    .replace(/Page\d+\s*/gi, '')
+    .trim();
+
+  // Only use similarity matching if we have a reasonably long, meaningful field name
+  if (cleanFieldName.length > 15 && matchConfidence < 0.5) {
+    for (const line of textLines) {
+      // Require higher similarity threshold (0.6 instead of 0.3)
+      const similarity = calculateSimilarity(cleanFieldName.toLowerCase(), line.toLowerCase());
+      if (similarity > 0.6 && line.length > 10 && matchConfidence < 0.5) {
+        bestMatch = line;
+        matchConfidence = 0.5;
+      }
+    }
+  }
+
+  // Strategy 4: Context-based matching for checkboxes and radio buttons (disabled for now)
+  // This strategy was too aggressive and caused false matches
+  // Keeping code for reference but not using it
+  /*
+  if ((fieldType === 'checkbox' || fieldType === 'radio') && matchConfidence < 0.4) {
+    // Look for common checkbox/radio labels
+    const optionPatterns = [
+      /^(Yes|No)$/i,
+      /^(Male|Female)$/i,
+      /^(Married|Single|Divorced|Widowed|Separated|Partnered)$/i,
+      /^(True|False)$/i,
+      /^(Agree|Disagree)$/i,
+    ];
+
+    for (const line of textLines) {
+      for (const pattern of optionPatterns) {
+        if (pattern.test(line.trim()) && matchConfidence < 0.4) {
+          // Look at previous lines for context
+          const idx = textLines.indexOf(line);
+          if (idx > 0) {
+            bestMatch = textLines[idx - 1];
+            matchConfidence = 0.4;
+          }
+        }
+      }
+    }
+  }
+  */
+
+  // Only return matches with reasonable confidence (>= 0.5)
+  return matchConfidence >= 0.5 ? bestMatch : null;
+}
+
+/**
+ * Calculate similarity between two strings (simple Levenshtein-like approach)
+ */
+function calculateSimilarity(str1, str2) {
+  const longer = str1.length > str2.length ? str1 : str2;
+  const shorter = str1.length > str2.length ? str2 : str1;
+
+  if (longer.length === 0) return 1.0;
+
+  const editDistance = levenshteinDistance(longer, shorter);
+  return (longer.length - editDistance) / longer.length;
+}
+
+/**
+ * Calculate Levenshtein distance
+ */
+function levenshteinDistance(str1, str2) {
+  const matrix = [];
+
+  for (let i = 0; i <= str2.length; i++) {
+    matrix[i] = [i];
+  }
+
+  for (let j = 0; j <= str1.length; j++) {
+    matrix[0][j] = j;
+  }
+
+  for (let i = 1; i <= str2.length; i++) {
+    for (let j = 1; j <= str1.length; j++) {
+      if (str2.charAt(i - 1) === str1.charAt(j - 1)) {
+        matrix[i][j] = matrix[i - 1][j - 1];
+      } else {
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j - 1] + 1,
+          matrix[i][j - 1] + 1,
+          matrix[i - 1][j] + 1
+        );
+      }
+    }
+  }
+
+  return matrix[str2.length][str1.length];
+}
+
+/**
+ * Build a field name to text mapping index
+ */
+function buildTextIndex(textLines) {
+  const index = {
+    byNumber: new Map(),
+    byKeyword: new Map(),
+    allLines: textLines
+  };
+
+  // Index by numbers
+  textLines.forEach((line, idx) => {
+    const numberMatch = line.match(/^(\d+)\./);
+    if (numberMatch) {
+      index.byNumber.set(numberMatch[1], { line, index: idx });
+    }
+  });
+
+  // Index by keywords (with word boundary matching)
+  const keywords = ['name', 'address', 'phone', 'email', 'date', 'ssn', 'social', 'first', 'last', 'middle'];
+  textLines.forEach((line, idx) => {
+    keywords.forEach(keyword => {
+      const wordBoundaryPattern = new RegExp(`\\b${keyword}\\b`, 'i');
+      if (wordBoundaryPattern.test(line)) {
+        if (!index.byKeyword.has(keyword)) {
+          index.byKeyword.set(keyword, []);
+        }
+        index.byKeyword.get(keyword).push({ line, index: idx });
+      }
+    });
+  });
+
+  return index;
 }
 
 /**
@@ -218,6 +425,9 @@ export async function convertPdfToJson(pdfPath, options = {}) {
     const textData = await extractPdfText(pdfBytes);
     const textLines = parseTextContent(textData.text);
     console.log(`Extracted ${textLines.length} lines of text`);
+
+    // Build text index for faster lookups
+    const textIndex = buildTextIndex(textLines);
 
     // Get the form
     const form = pdfDoc.getForm();
@@ -245,8 +455,16 @@ export async function convertPdfToJson(pdfPath, options = {}) {
         const fieldValue = getFieldValue(field, fieldType);
         const properties = extractFieldProperties(field, fieldType);
 
-        // Try to find label text for this field
-        const labelText = findLabelForField(fieldName, textLines);
+        // Try multiple strategies to find label
+        let labelText = null;
+
+        // 1. Check for tooltip/alternate text in PDF
+        labelText = extractFieldTooltip(field);
+
+        // 2. If no tooltip, try text matching
+        if (!labelText) {
+          labelText = findLabelForField(fieldName, textLines, fieldType);
+        }
 
         const fieldData = {
           name: fieldName,
@@ -283,6 +501,7 @@ export async function convertPdfToJson(pdfPath, options = {}) {
     // Add summary statistics
     formData.metadata.fieldsWithLabels = formData.fields.filter(f => f.label).length;
     formData.metadata.fieldsWithoutLabels = formData.fields.filter(f => !f.label).length;
+    formData.metadata.labelMatchRate = ((formData.metadata.fieldsWithLabels / formData.metadata.fieldCount) * 100).toFixed(1) + '%';
 
     return formData;
 
@@ -316,7 +535,7 @@ export async function convertPdfFormToJson(pdfPath, outputPath = null, options =
     const jsonData = await convertPdfToJson(pdfPath, options);
 
     console.log(`Found ${jsonData.fields.length} form fields`);
-    console.log(`Matched ${jsonData.metadata.fieldsWithLabels} fields with labels`);
+    console.log(`Matched ${jsonData.metadata.fieldsWithLabels} fields with labels (${jsonData.metadata.labelMatchRate})`);
 
     // Save to file if output path provided
     if (outputPath) {
@@ -348,7 +567,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     .then(data => {
       console.log('\nConversion completed successfully!');
       console.log(`Fields extracted: ${data.fields.length}`);
-      console.log(`Fields with labels: ${data.metadata.fieldsWithLabels}`);
+      console.log(`Fields with labels: ${data.metadata.fieldsWithLabels} (${data.metadata.labelMatchRate})`);
     })
     .catch(error => {
       console.error('Conversion failed:', error.message);
