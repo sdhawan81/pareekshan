@@ -253,23 +253,52 @@ function groupRelatedFields(allFieldData) {
  */
 function extractOptionsFromText(labelIndex, textLines, maxOptions = 20) {
   const foundOptions = [];
-  const searchRange = textLines.slice(labelIndex + 1, Math.min(labelIndex + 5, textLines.length));
+  // Increased search range from 5 to 10 lines for better multi-line support
+  const searchRange = textLines.slice(labelIndex + 1, Math.min(labelIndex + 10, textLines.length));
 
   for (const line of searchRange) {
-    const trimmedLine = line.trim();
+    let trimmedLine = line.trim();
 
     // Stop if we hit another question number
     if (/^\d+\.\s/.test(trimmedLine)) break;
 
-    // Skip empty lines
+    // Skip empty lines but don't stop (options can span multiple line groups)
     if (trimmedLine.length === 0) continue;
 
-    // Split by multiple spaces (2 or more) to get individual options
-    // Pattern: "  Initial  Annual       Health      Living situation"
-    const options = trimmedLine.split(/\s{2,}/).map(opt => opt.trim()).filter(opt => opt.length > 0);
+    // Remove PDF special characters (Private Use Area: U+E000-U+F8FF)
+    // These are often checkboxes, bullets, or other symbols that interfere with parsing
+    trimmedLine = trimmedLine.replace(/[\uE000-\uF8FF]/g, '  ');
+
+    // Enhanced splitting strategy to handle closely-spaced options
+    let options = [];
+
+    // First, split by 2+ spaces to get primary chunks
+    const primaryChunks = trimmedLine.split(/\s{2,}/).map(opt => opt.trim()).filter(opt => opt.length > 0);
+
+    // Then, for each chunk, check if it contains multiple closely-spaced options
+    for (const chunk of primaryChunks) {
+      // If chunk has 2 words separated by 1-2 spaces and both start with capital letters,
+      // they're likely separate options (e.g., "Initial  Annual")
+      const words = chunk.split(/\s+/);
+
+      if (words.length === 2 &&
+          /^[A-Z]/.test(words[0]) &&
+          /^[A-Z]/.test(words[1]) &&
+          words[0].length > 2 &&
+          words[1].length > 2) {
+        // Split into separate options
+        options.push(...words);
+      } else {
+        // Keep as single option
+        options.push(chunk);
+      }
+    }
 
     // Add options that look valid
-    for (const option of options) {
+    for (let option of options) {
+      // More aggressive trimming
+      option = option.trim().replace(/\s+/g, ' ');
+
       // Skip if it looks like a sub-question marker (a., b., c.)
       if (/^[a-z]\.\s*$/i.test(option)) continue;
 
@@ -281,6 +310,9 @@ function extractOptionsFromText(labelIndex, textLines, maxOptions = 20) {
 
       // Must contain at least one letter
       if (!/[a-zA-Z]/.test(option)) continue;
+
+      // Skip very short options (likely noise)
+      if (option.length < 2) continue;
 
       // Add the option if not already found
       if (!foundOptions.includes(option)) {

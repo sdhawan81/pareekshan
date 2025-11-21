@@ -5,12 +5,12 @@
     "pageCount": 9,
     "fieldCount": 435,
     "textLinesExtracted": 447,
-    "extractedAt": "2025-11-21T13:01:41.992Z",
+    "extractedAt": "2025-11-21T13:14:16.658Z",
     "fieldsWithLabels": 59,
     "fieldsWithoutLabels": 376,
     "fieldsWithOptionLabels": 43,
     "labelMatchRate": "13.6%",
-    "totalOptionsExtracted": 139
+    "totalOptionsExtracted": 191
   },
   "textContent": null,
   "fields": [
@@ -40,12 +40,13 @@
         "widgetCount": 1
       },
       "optionLabels": [
-        " Initial  Annual",
-        " Health",
-        " Living situation",
-        " Caregiver",
-        " Environment",
-        " Income"
+        "Initial",
+        "Annual",
+        "Health",
+        "Living situation",
+        "Caregiver",
+        "Environment",
+        "Income"
       ]
     },
     {
@@ -61,9 +62,9 @@
         "widgetCount": 1
       },
       "optionLabels": [
-        " English",
-        " Spanish",
-        " Other:"
+        "English",
+        "Spanish",
+        "Other:"
       ]
     },
     {
@@ -84,8 +85,8 @@
         "widgetCount": 2
       },
       "optionLabels": [
-        " No",
-        " Yes"
+        "No",
+        "Yes"
       ]
     },
     {
@@ -103,7 +104,7 @@
       "appearance": {
         "widgetCount": 1
       },
-      "optionLabel": " Married"
+      "optionLabel": "Married"
     },
     {
       "name": "topmostSubform[0].Page1[0].Q_12_C_505217_2[0]",
@@ -120,7 +121,7 @@
       "appearance": {
         "widgetCount": 1
       },
-      "optionLabel": " Partnered"
+      "optionLabel": "Partnered"
     },
     {
       "name": "topmostSubform[0].Page1[0].Q_12_C_505217_3[0]",
@@ -137,7 +138,7 @@
       "appearance": {
         "widgetCount": 1
       },
-      "optionLabel": " Single"
+      "optionLabel": "Single"
     },
     {
       "name": "topmostSubform[0].Page1[0].Q_12_C_505217_4[0]",
@@ -154,7 +155,7 @@
       "appearance": {
         "widgetCount": 1
       },
-      "optionLabel": " Separated"
+      "optionLabel": "Separated"
     },
     {
       "name": "topmostSubform[0].Page1[0].Q_12_C_505217_5[0]",
@@ -171,7 +172,7 @@
       "appearance": {
         "widgetCount": 1
       },
-      "optionLabel": " Divorced"
+      "optionLabel": "Divorced"
     },
     {
       "name": "topmostSubform[0].Page1[0].Q_12_C_505217_6[0]",
@@ -188,7 +189,7 @@
       "appearance": {
         "widgetCount": 1
       },
-      "optionLabel": " Widowed"
+      "optionLabel": "Widowed"
     },
     {
       "name": "topmostSubform[0].Page1[0].Q_13_C_502923[0]",
@@ -208,11 +209,13 @@
         "widgetCount": 2
       },
       "optionLabels": [
-        " Private residence",
-        " Assisted living facility",
+        "Private residence",
+        "Assisted living facility",
         "(ALF)",
-        " Nursing facility",
-        " Hospital"
+        "Nursing facility",
+        "Hospital",
+        "Adult day care",
+        "Other"
       ]
     },
     {
@@ -291,12 +294,12 @@
         "widgetCount": 6
       },
       "optionLabels": [
-        " Home",
-        " ALF",
-        " Nursing facility",
-        " Hospital",
-        " Adult day care",
-        "Other"
+        "Home",
+        "ALF",
+        "Nursing facility",
+        "Hospital",
+        "Adult day care",
+        "Other"
       ]
     },
     {
@@ -325,17 +328,18 @@
         "widgetCount": 1
       },
       "optionLabels": [
-        " Self/Family",
-        " Nursing facility",
-        " Case management agency",
-        " CARES  Aging out",
-        " Hospital",
-        " Department of Children and Families",
-        " Other",
-        " APS; Select level of APS risk:",
-        " High",
-        " Intermediate",
-        " Low"
+        "Self/Family",
+        "Nursing facility",
+        "Case management agency",
+        "CARES",
+        "Aging out",
+        "Hospital",
+        "Department of Children and Families",
+        "Other",
+        "APS; Select level of APS risk:",
+        "High",
+        "Intermediate",
+        "Low"
       ]
     },
     {
@@ -360,8 +364,8 @@
         "widgetCount": 6
       },
       "optionLabels": [
-        " No",
-        " Yes"
+        "No",
+        "Yes"
       ]
     },
     {
@@ -377,8 +381,8 @@
         "widgetCount": 1
       },
       "optionLabels": [
-        " No",
-        " Yes"
+        "No",
+        "Yes"
       ]
     },
     {
@@ -394,9 +398,10 @@
         "widgetCount": 1
       },
       "optionLabels": [
-        " With primary caregiver",
-        " With other caregiver",
-        " With other  Alone"
+        "With primary caregiver",
+        "With other caregiver",
+        "With other",
+        "Alone"
       ]
     },
     {
@@ -412,7 +417,8 @@
         "widgetCount": 1
       },
       "optionLabels": [
-        " No (Skip to 24)  Yes",
+        "No (Skip to 24)",
+        "Yes",
         "Notes & Summary"
       ]
     },
@@ -430,8 +436,8 @@
       },
       "optionLabels": [
         "impairment, any type of dementia, or Alzheimer’s disease?",
-        " No",
-        " Yes"
+        "No",
+        "Yes"
       ]
     },
     {
@@ -463,13 +469,14 @@
         "words are: sock (something to wear), blue (a color), and bed (a piece of furniture).",
         "Now you tell me the",
         "three words.” ASSESSOR: Select the number of words correctly repeated after the first attempt:",
-        " Sock",
-        " Blue",
-        " Bed",
-        "Total number of correct words:  None",
-        " One",
-        " Two",
-        " Three",
+        "Sock",
+        "Blue",
+        "Bed",
+        "Total number of correct words:",
+        "None",
+        "One",
+        "Two",
+        "Three",
         "“Thank you. I will ask you to repeat these to me again later.”"
       ]
     },
@@ -486,9 +493,11 @@
         "widgetCount": 1
       },
       "optionLabels": [
-        " Correct  Missed by one year  Missed by two to five years",
-        " Missed by five or more years",
-        " No answer"
+        "Correct",
+        "Missed by one year",
+        "Missed by two to five years",
+        "Missed by five or more years",
+        "No answer"
       ]
     },
     {
@@ -681,8 +690,8 @@
         "widgetCount": 1
       },
       "optionLabels": [
-        " Male",
-        " Female"
+        "Male",
+        "Female"
       ]
     },
     {
@@ -698,11 +707,13 @@
         "widgetCount": 1
       },
       "optionLabels": [
-        " White",
-        " Black/African American  Asian",
-        " American Indian/Alaska Native",
-        " Native Hawaiian/Pacific Islander",
-        " Other"
+        "White",
+        "Black/African",
+        "American",
+        "Asian",
+        "American Indian/Alaska Native",
+        "Native Hawaiian/Pacific Islander",
+        "Other"
       ]
     },
     {
@@ -718,7 +729,8 @@
         "widgetCount": 1
       },
       "optionLabels": [
-        " Hispanic/Latino  Other"
+        "Hispanic/Latino",
+        "Other"
       ]
     },
     {
@@ -734,9 +746,11 @@
         "widgetCount": 1
       },
       "optionLabels": [
-        " Correct  Missed by one month  Missed by two to five months",
-        " Missed by five or more months",
-        " No answer"
+        "Correct",
+        "Missed by one month",
+        "Missed by two to five months",
+        "Missed by five or more months",
+        "No answer"
       ]
     },
     {
@@ -761,9 +775,9 @@
         "widgetCount": 6
       },
       "optionLabels": [
-        " Correct",
-        " Incorrect",
-        " No answer"
+        "Correct",
+        "Incorrect",
+        "No answer"
       ]
     },
     {
@@ -779,8 +793,9 @@
         "widgetCount": 1
       },
       "optionLabels": [
-        " Sock",
-        " Blue  Bed"
+        "Sock",
+        "Blue",
+        "Bed"
       ]
     },
     {
@@ -863,8 +878,8 @@
         "widgetCount": 2
       },
       "optionLabels": [
-        " No",
-        " Yes: How many times?",
+        "No",
+        "Yes: How many times?",
         "ER #",
         "Hospital #"
       ]
@@ -892,7 +907,12 @@
         "Task",
         "No",
         "assistance",
-        "needed"
+        "needed",
+        "Uses",
+        "assistive",
+        "device",
+        "Needs",
+        "supervision"
       ]
     },
     {
@@ -916,7 +936,12 @@
         "Task",
         "No",
         "assistance",
-        "needed"
+        "needed",
+        "Uses",
+        "assistive",
+        "device",
+        "Needs",
+        "supervision"
       ]
     },
     {
@@ -935,7 +960,10 @@
         "ASESSOR/CM: Indicate whether a problem occurred in the past by marking the first box and when a",
         "problem is current by marking the second box.",
         "Please mark all that apply.",
-        "Past Current Health Conditions"
+        "Past Current Health Conditions",
+        "Acid reflux/GERD",
+        "Allergies, list:",
+        "Amputation, site:"
       ]
     },
     {
@@ -959,7 +987,10 @@
         "Treatment type:",
         "N/A or",
         "None Monthly Weekly",
-        "Several"
+        "Several",
+        "times",
+        "a week Daily",
+        "a day"
       ]
     },
     {
@@ -982,7 +1013,12 @@
         "bothered by any of the following problems?",
         "(Adapted from the Patient Health Questionnaire PHQ-9, ©Pfizer)",
         "Not at",
-        "all"
+        "all",
+        "Several",
+        "days",
+        "More",
+        "than half",
+        "the days"
       ]
     },
     {
@@ -1053,10 +1089,10 @@
         "widgetCount": 4
       },
       "optionLabels": [
-        " Not difficult at all",
-        " Somewhat difficult",
-        " Very difficult",
-        " Extremely difficult"
+        "Not difficult at all",
+        "Somewhat difficult",
+        "Very difficult",
+        "Extremely difficult"
       ]
     },
     {
@@ -1080,8 +1116,8 @@
         "widgetCount": 5
       },
       "optionLabels": [
-        "No",
-        "Yes; List conditions:"
+        "No",
+        "Yes; List conditions:"
       ]
     },
     {
@@ -1109,7 +1145,12 @@
         "occurrence in the last month.",
         "Please provide details in the Notes & Summary section, below.",
         "Problem behaviors",
-        "Not"
+        "Not",
+        "at all Once",
+        "Several",
+        "days",
+        "More than",
+        "half the days"
       ]
     },
     {
@@ -1150,7 +1191,7 @@
       "appearance": {
         "widgetCount": 1
       },
-      "optionLabel": " Unsure (Skip to 46)  No (Skip to 46)  Yes"
+      "optionLabel": "Unsure (Skip to 46)"
     },
     {
       "name": "topmostSubform[0].Page2[0].Q_45_C_523175_2[0]",
@@ -1167,7 +1208,7 @@
       "appearance": {
         "widgetCount": 1
       },
-      "optionLabel": " Less than five pounds  Five to ten pounds  Ten pounds or more"
+      "optionLabel": "No (Skip to 46)"
     },
     {
       "name": "topmostSubform[0].Page2[0].Q_45_C_523175_3[0]",
@@ -1184,10 +1225,7 @@
       "appearance": {
         "widgetCount": 1
       },
-      "optionLabels": [
-        " Unsure (Skip to 46)  No (Skip to 46)  Yes",
-        " Less than five pounds  Five to ten pounds  Ten pounds or more"
-      ]
+      "optionLabel": "Yes"
     },
     {
       "name": "topmostSubform[0].Page2[0].Q_46_C_523176[0]",
@@ -1209,10 +1247,13 @@
         "widgetCount": 4
       },
       "optionLabels": [
-        " No (Skip to 47)  Yes; check any/all:",
-        " Calorie supplement  Low fat/cholesterol  Low salt/sodium",
-        " Low sugar/carb",
-        " Other",
+        "No (Skip to 47)",
+        "Yes; check any/all:",
+        "Calorie supplement",
+        "Low fat/cholesterol",
+        "Low salt/sodium",
+        "Low sugar/carb",
+        "Other",
         "Why are you on this diet?"
       ]
     },
@@ -1235,8 +1276,8 @@
         "widgetCount": 3
       },
       "optionLabels": [
-        " No",
-        " Yes"
+        "No",
+        "Yes"
       ]
     },
     {
@@ -1255,7 +1296,11 @@
         "me all types of over the counter medications and any supplements that you regularly take.",
         "ASSESSOR: Check the original bottles in the medicine cabinet, nightstand, and refrigerator, as well as non-",
         "prescription drugs, over the counter drugs, sleep aids, herbal remedies, vitamins, and supplements.",
-        "Medication name"
+        "Medication name",
+        "Prescribed",
+        "dose",
+        "Frequency",
+        "Taken as"
       ]
     },
     {
@@ -1274,7 +1319,12 @@
         "Physician name Phone number",
         "Approx. date",
         "of last visit Reason for last visit:",
-        "If you have more than ten physicians to record, use the Notes & Summary section or a blank sheet of paper to write the information."
+        "If you have more than ten physicians to record, use the Notes & Summary section or a blank sheet of paper to write the information.",
+        "Florida Department of Elder Affairs: 701T CARES Mini Assessment",
+        "[This page is intentionally left blank]",
+        "WHY ARE WE COLLECTING YOUR SOCIAL",
+        "SECURITY",
+        "NUMBER?"
       ]
     },
     {
