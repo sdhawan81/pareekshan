@@ -150,30 +150,339 @@ def assign_questions_to_sections(sections, questions):
     return sections_with_questions
 
 
-def group_fields_by_question(fields, questions):
-    """Match form fields to questions based on labels"""
-    question_field_map = defaultdict(list)
-    unmatched_fields = []
+def find_fields_near_question(question, fields, max_distance=50, max_horizontal_distance=150):
+    """Find form fields within max_distance pixels below question using spatial coordinates
+
+    Also checks horizontal alignment to avoid picking fields from adjacent columns.
+    Using 50px vertical distance to handle varying PDF layouts, and 150px horizontal
+    distance for better column separation.
+    """
+    q_page = question['page']
+    q_y = question['y_position']
+    q_x = question['x_position']
+
+    nearby_fields = []
 
     for field in fields:
-        label = field.get('label', '')
-        if not label:
-            unmatched_fields.append(field)
+        # Skip fields without position data
+        if 'rect' not in field or 'page' not in field:
             continue
 
-        # Try to match to a question
-        matched = False
-        for question in questions:
-            # Check if question text is in field label
-            if question['text'] in label or question['full_text'] in label:
-                question_field_map[question['number']].append(field)
-                matched = True
-                break
+        f_page = field['page']
+        f_rect = field['rect']  # [x0, y0, x1, y1]
+        f_y = f_rect[1]  # Top of field
+        f_x = f_rect[0]  # Left edge of field
 
-        if not matched:
-            unmatched_fields.append(field)
+        # Must be on same page
+        if f_page != q_page:
+            continue
 
-    return question_field_map, unmatched_fields
+        # Calculate vertical distance (field below question)
+        vertical_distance = f_y - q_y
+
+        # Calculate horizontal distance (absolute difference)
+        horizontal_distance = abs(f_x - q_x)
+
+        # Field must be:
+        # 1. Below question (positive vertical distance)
+        # 2. Within max_distance vertically
+        # 3. Within max_horizontal_distance horizontally (same column)
+        if (0 < vertical_distance <= max_distance and
+            horizontal_distance <= max_horizontal_distance):
+            nearby_fields.append({
+                'field': field,
+                'distance': vertical_distance,
+                'horizontal_distance': horizontal_distance,
+                'y_pos': f_y,
+                'x_pos': f_x
+            })
+
+    # Sort by distance (closest first), then by horizontal distance
+    nearby_fields.sort(key=lambda x: (x['distance'], x['horizontal_distance']))
+
+    return nearby_fields
+
+
+def clean_option_text(text, question_text=None):
+    """Clean option text by removing noise and filtering invalid options"""
+    if not text:
+        return None
+
+    text = text.strip()
+
+    # Filter out if it's the question text itself
+    if question_text:
+        # Remove question number prefix for comparison
+        clean_q = re.sub(r'^\d+\.\s*', '', question_text).strip()
+
+        # Exact match or substring match
+        if text == clean_q or text in question_text or clean_q.startswith(text):
+            return None
+
+        # Context-aware filtering: Don't include race options in sex questions
+        if any(keyword in clean_q.lower() for keyword in ['sex']):
+            race_keywords = ['White', 'Black', 'African', 'Asian', 'Indian', 'Alaska', 'Native', 'Hawaiian', 'Pacific', 'Islander', 'Race', 'American']
+            # Also exclude "Other" in context of race
+            if any(keyword in text for keyword in race_keywords) or text == 'Other':
+                return None
+
+        # Context-aware filtering: Don't include sex options in race questions
+        if any(keyword in clean_q.lower() for keyword in ['race']):
+            sex_keywords = ['Male', 'Female', 'Sex:']
+            if text in sex_keywords:
+                return None
+
+    # Filter out if it ends with colon (likely a question label like "Sex:")
+    if text.endswith(':'):
+        return None
+
+    # Filter out if it looks like a full question (has question number pattern)
+    if re.match(r'^\d+\.\s', text):
+        return None
+
+    # Filter out if it contains multiple sentences or is too long (>60 chars)
+    if len(text) > 60:
+        return None
+
+    # Filter out if it's just special characters
+    if re.match(r'^[\s\uf0a0-\uf0ff]+$', text):
+        return None
+
+    # Filter out section headers
+    if 'SECTION' in text.upper():
+        return None
+
+    # Remove leading special chars
+    text = re.sub(r'^[\uf0a0-\uf0ff\s]+', '', text)
+
+    # Filter out common non-option words and patterns
+    non_option_words = [
+        'ASSESSOR', 'Mark', 'all', 'that', 'apply', 'Client',
+        'Several', 'times', 'Treatment', 'Relationship',
+        'Date of birth', 'Phone number', 'Social Security',
+        'Medication', 'Prescribed', 'Taken as'
+    ]
+    if any(word in text for word in non_option_words):
+        return None
+
+    # Filter out single words that are too generic
+    generic_words = ['or', 'and', 'to', 'of', 'for', 'in', 'on', 'at', 'by', 'from', 'with', 'Type', 'type', 'name', 'N/A', 'No', 'Yes', 'High', 'Low', 'Constant']
+    if text in generic_words:
+        return None
+
+    # Filter out if it looks like a field label (contains mm/dd/yyyy, etc.)
+    if any(pattern in text.lower() for pattern in ['mm/dd/yyyy', 'mm/dd', 'yyyy']):
+        return None
+
+    # If nothing left or too short, skip
+    if len(text) < 2:
+        return None
+
+    return text
+
+
+def analyze_field_group_type(nearby_fields, question_text=None):
+    """Determine input type from a group of nearby fields"""
+    if not nearby_fields:
+        return {'type': 'unknown'}
+
+    # Extract actual field objects
+    fields = [nf['field'] for nf in nearby_fields]
+
+    # Count field types
+    field_types = [f.get('type', '').lower() for f in fields]
+
+    # Get labels for options
+    field_labels = [f.get('label', '').strip() for f in fields if f.get('label')]
+
+    # If question says "Mark all that apply", prefer checkbox over radio
+    is_multiple_choice = question_text and any(phrase in question_text.lower() for phrase in [
+        'mark all that apply', 'select all that apply', 'check all that apply'
+    ])
+
+    # Check for checkbox group first if it's a multiple choice question
+    if is_multiple_choice and any('checkbox' in ft for ft in field_types):
+        # Extract from checkbox fields only
+        checkbox_fields = [f for f in fields if 'checkbox' in f.get('type', '').lower()]
+        options = []
+        for f in checkbox_fields:
+            if 'optionLabel' in f and f['optionLabel']:
+                cleaned = clean_option_text(f['optionLabel'], question_text)
+                if cleaned:
+                    options.append(cleaned)
+            elif 'optionLabels' in f and f['optionLabels']:
+                for opt in f['optionLabels']:
+                    cleaned = clean_option_text(opt, question_text)
+                    if cleaned:
+                        options.append(cleaned)
+
+        # Deduplicate
+        seen = set()
+        unique_options = []
+        for opt in options:
+            if opt and opt not in seen:
+                seen.add(opt)
+                unique_options.append(opt)
+
+        return {
+            'type': 'checkbox-group',
+            'options': unique_options if unique_options else []
+        }
+
+    # Check for radio group (single radio field or multiple radio fields)
+    elif any('radio' in ft for ft in field_types):
+        # Extract options from field labels or optionLabels
+        # Prioritize optionLabel over main label
+        options = []
+        for f in fields:
+            # First check optionLabel (single)
+            if 'optionLabel' in f and f['optionLabel']:
+                cleaned = clean_option_text(f['optionLabel'], question_text)
+                if cleaned:
+                    options.append(cleaned)
+            # Then check optionLabels (array)
+            elif 'optionLabels' in f and f['optionLabels']:
+                for opt in f['optionLabels']:
+                    cleaned = clean_option_text(opt, question_text)
+                    if cleaned:
+                        options.append(cleaned)
+            # Fall back to main label
+            elif 'label' in f and f['label']:
+                # Extract just the option part, not full question
+                label = f['label'].strip()
+                # Remove question prefix if present
+                if ':' in label:
+                    parts = label.split(':')
+                    if len(parts) > 1:
+                        option = parts[-1].strip()
+                    else:
+                        option = label
+                else:
+                    option = label
+
+                cleaned = clean_option_text(option, question_text)
+                if cleaned:
+                    options.append(cleaned)
+
+        # Deduplicate while preserving order
+        seen = set()
+        unique_options = []
+        for opt in options:
+            if opt and opt not in seen:
+                seen.add(opt)
+                unique_options.append(opt)
+
+        return {
+            'type': 'radio',
+            'options': unique_options if unique_options else []
+        }
+
+    # Check for checkbox group
+    elif any('checkbox' in ft for ft in field_types):
+        if len(fields) > 1:
+            # Multiple checkboxes = checkbox group
+            options = []
+            for f in fields:
+                # Prioritize optionLabel
+                if 'optionLabel' in f and f['optionLabel']:
+                    cleaned = clean_option_text(f['optionLabel'], question_text)
+                    if cleaned:
+                        options.append(cleaned)
+                # Then optionLabels
+                elif 'optionLabels' in f and f['optionLabels']:
+                    for opt in f['optionLabels']:
+                        cleaned = clean_option_text(opt, question_text)
+                        if cleaned:
+                            options.append(cleaned)
+                # Fall back to main label
+                elif 'label' in f and f['label']:
+                    label = f['label'].strip()
+                    # Extract option from label
+                    if ':' in label:
+                        parts = label.split(':')
+                        option = parts[-1].strip()
+                    else:
+                        option = label
+
+                    cleaned = clean_option_text(option, question_text)
+                    if cleaned:
+                        options.append(cleaned)
+
+            # Deduplicate
+            seen = set()
+            unique_options = []
+            for opt in options:
+                if opt and opt not in seen:
+                    seen.add(opt)
+                    unique_options.append(opt)
+
+            return {
+                'type': 'checkbox-group',
+                'options': unique_options if unique_options else []
+            }
+        else:
+            # Single checkbox
+            return {
+                'type': 'checkbox',
+                'option': field_labels[0] if field_labels else ''
+            }
+
+    # Check for text field
+    elif any('text' in ft or 'tx' in ft for ft in field_types):
+        # Check if it's multiline
+        multiline = any(f.get('properties', {}).get('multiline', False) for f in fields)
+
+        if len(fields) > 1:
+            # Multiple text fields - could be grouped (like First/Middle/Last name)
+            return {
+                'type': 'field-group',
+                'fields': [
+                    {
+                        'type': 'text',
+                        'label': f.get('label', ''),
+                        'name': f.get('name', '')
+                    }
+                    for f in fields
+                ]
+            }
+        else:
+            return {
+                'type': 'textarea' if multiline else 'text'
+            }
+
+    # Unknown or mixed types
+    else:
+        return {
+            'type': 'unknown',
+            'field_count': len(fields),
+            'field_types': list(set(field_types))
+        }
+
+
+def match_fields_to_questions_spatial(questions, fields):
+    """Match fields to questions using spatial proximity"""
+    question_inputs = {}
+
+    # Create a mapping of question numbers to question text for filtering
+    question_texts = {q['number']: q['text'] for q in questions}
+
+    for question in questions:
+        q_num = question['number']
+        q_text = question['text']
+
+        # Find fields near this question (within 30px)
+        nearby = find_fields_near_question(question, fields, max_distance=50)
+
+        # Analyze the nearby fields to determine input type
+        # Pass question text for better option filtering
+        input_info = analyze_field_group_type(nearby, q_text)
+
+        question_inputs[q_num] = {
+            'input': input_info,
+            'nearby_field_count': len(nearby)
+        }
+
+    return question_inputs
 
 
 def detect_field_group_type(fields):
@@ -313,12 +622,14 @@ def build_semantic_structure(extraction_data):
     print("\n[3/5] Assigning questions to sections...")
     sections_with_questions = assign_questions_to_sections(sections, questions)
 
-    # Step 4: Match fields to questions
-    print("\n[4/5] Matching fields to questions...")
+    # Step 4: Match fields to questions using SPATIAL PROXIMITY
+    print("\n[4/5] Matching fields to questions using spatial coordinates...")
     fields = extraction_data.get('fields', [])
-    question_field_map, unmatched = group_fields_by_question(fields, questions)
-    print(f"  ✓ Matched {len(fields) - len(unmatched)} fields to questions")
-    print(f"  ✓ {len(unmatched)} unmatched fields")
+    question_inputs = match_fields_to_questions_spatial(questions, fields)
+
+    matched_count = sum(1 for q_info in question_inputs.values() if q_info['nearby_field_count'] > 0)
+    print(f"  ✓ Matched {matched_count} questions to nearby fields")
+    print(f"  ✓ Using spatial proximity (within 50px vertical, 150px horizontal)")
 
     # Step 5: Build final structure
     print("\n[5/5] Building final structure...")
@@ -337,18 +648,19 @@ def build_semantic_structure(extraction_data):
 
         for question in section.get('questions', []):
             q_num = question['number']
-            q_fields = question_field_map.get(q_num, [])
 
-            # Detect field type
-            field_info = detect_field_group_type(q_fields)
+            # Get input info from spatial matching
+            q_input_info = question_inputs.get(q_num, {})
+            input_data = q_input_info.get('input', {'type': 'unknown'})
+            field_count = q_input_info.get('nearby_field_count', 0)
 
             question_data = {
                 'id': f"q{q_num}",
                 'number': q_num,
                 'text': question['text'],
                 'page': question['page'],
-                'input': field_info if field_info else {'type': 'unknown'},
-                'field_count': len(q_fields)
+                'input': input_data,
+                'field_count': field_count
             }
 
             section_data['questions'].append(question_data)
