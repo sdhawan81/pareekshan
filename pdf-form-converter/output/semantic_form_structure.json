@@ -2,6 +2,211 @@
   "title": "examples/701T_V1.pdf",
   "sections": [
     {
+      "title": "DEMOGRAPHIC SECTION",
+      "page": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "ASSESSOR: What is the purpose of this assessment?",
+          "page": 1,
+          "input": {
+            "type": "checkbox",
+            "option": "1. ASSESSOR: What is the purpose of this assessment?"
+          },
+          "field_count": 1
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "Social Security number:",
+          "page": 1,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "Name: a. First:",
+          "page": 1,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "Medicaid number:",
+          "page": 1,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "Phone number:",
+          "page": 1,
+          "input": {
+            "type": "checkbox",
+            "option": "5. Phone number:"
+          },
+          "field_count": 1
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "Date of birth (mm/dd/yyyy):",
+          "page": 1,
+          "input": {
+            "type": "field-group",
+            "fields": [
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page1[0].Q_11_C_109[0]"
+              },
+              {
+                "type": "CheckBox",
+                "name": "topmostSubform[0].Page1[0].Q_12_C_505217_1[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page1[0].Q_13_C_502923[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page1[0].Q_14_C_502924[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page1[0].Q_17_C_502925[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page1[0].Q_17_C_502925[0]"
+              }
+            ]
+          },
+          "field_count": 6
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "Sex:",
+          "page": 1,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "Race (Mark all that apply):",
+          "page": 1,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "Ethnicity:",
+          "page": 1,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "Primary language:",
+          "page": 1,
+          "input": {
+            "type": "radio",
+            "options": []
+          },
+          "field_count": 1
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "text": "Does client have limited ability reading, writing, speaking, or understanding English?",
+          "page": 1,
+          "input": {
+            "type": "field-group",
+            "fields": [
+              {
+                "type": "CheckBox",
+                "name": "topmostSubform[0].Page1[0].Q_12_C_505217_3[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page1[0].Q_17_C_502925[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page1[0].Q_328_C_502205_0[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page1[0].Q_20_C_502926[0]"
+              }
+            ]
+          },
+          "field_count": 4
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "text": "Marital status:",
+          "page": 1,
+          "input": {
+            "type": "text",
+            "multiline": false
+          },
+          "field_count": 1
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "text": "ASSESSOR: Current Physical Location Address (If type is a facility, please enter facility name.)",
+          "page": 1,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "text": "Home Address (If different from current physical location)",
+          "page": 1,
+          "input": {
+            "type": "text",
+            "multiline": false
+          },
+          "field_count": 1
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "text": "Mailing Address (If different from current physical location)",
+          "page": 1,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        }
+      ]
+    },
+    {
       "title": "MEMORY SECTION",
       "page": 2,
       "questions": [
@@ -16,6 +221,17 @@
           "field_count": 0
         },
         {
+          "id": "q25",
+          "number": 25,
+          "text": "ASSESSOR: If the client is not answering questions, skip to Question 32 and check:",
+          "page": 2,
+          "input": {
+            "type": "radio",
+            "options": []
+          },
+          "field_count": 1
+        },
+        {
           "id": "q26",
           "number": 26,
           "text": "\u201cI am going to say three words for you to remember. Please repeat the words after I have said them. The",
@@ -24,6 +240,46 @@
             "type": "unknown"
           },
           "field_count": 0
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "text": "Please tell me what year it is:",
+          "page": 2,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "text": "Please tell me what month it is:",
+          "page": 2,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "text": "Please tell me what day (of the week) it is:",
+          "page": 2,
+          "input": {
+            "type": "field-group",
+            "fields": [
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page2[0].Q_46_C_523176[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page2[0].Q_47_C_523177[0]"
+              }
+            ]
+          },
+          "field_count": 2
         },
         {
           "id": "q30",
@@ -44,6 +300,27 @@
             ]
           },
           "field_count": 2
+        },
+        {
+          "id": "q31",
+          "number": 31,
+          "text": "ASSESSOR: Number of words correctly recalled without prompting:",
+          "page": 2,
+          "input": {
+            "type": "radio",
+            "options": []
+          },
+          "field_count": 1
+        },
+        {
+          "id": "q32",
+          "number": 32,
+          "text": "ASSESSOR: In your opinion, are cognitive problems present?",
+          "page": 2,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
         }
       ]
     },
@@ -129,13 +406,17 @@
             "type": "unknown"
           },
           "field_count": 0
-        }
-      ]
-    },
-    {
-      "title": "IDDM NIDDM",
-      "page": 4,
-      "questions": [
+        },
+        {
+          "id": "q37",
+          "number": 37,
+          "text": "Have you been told by a physician that you have any of the following health conditions?",
+          "page": 4,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
         {
           "id": "q38",
           "number": 38,
@@ -325,6 +606,26 @@
             ]
           },
           "field_count": 2
+        },
+        {
+          "id": "q46",
+          "number": 46,
+          "text": "Are you on a special diet(s) for medical reasons?",
+          "page": 7,
+          "input": {
+            "type": "field-group",
+            "fields": [
+              {
+                "type": "CheckBox",
+                "name": "topmostSubform[0].Page7[0].Q_169_C_523315_4[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_170_C_523316_0[0]"
+              }
+            ]
+          },
+          "field_count": 2
         }
       ]
     },
@@ -332,6 +633,50 @@
       "title": "MEDICATIONS SECTION",
       "page": 7,
       "questions": [
+        {
+          "id": "q47",
+          "number": 47,
+          "text": "Do you take three or more prescribed or over-the-counter medications a day?",
+          "page": 7,
+          "input": {
+            "type": "field-group",
+            "fields": [
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_203_C_523324_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_208_C_523330_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_213_C_523336_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_218_C_523342_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_223_C_523348_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_248_C_523355_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_253_C_523361_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_258_C_523367_0[0]"
+              }
+            ]
+          },
+          "field_count": 8
+        },
         {
           "id": "q48",
           "number": 48,
@@ -404,7 +749,7 @@
   ],
   "metadata": {
     "total_sections": 9,
-    "total_questions": 16,
+    "total_questions": 40,
     "total_fields": 689,
     "extraction_method": "Best Accuracy (PyMuPDF spatial matching)"
   }

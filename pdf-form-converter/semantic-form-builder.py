@@ -13,27 +13,55 @@ from collections import defaultdict
 
 
 def detect_sections(text_lines):
-    """Detect major sections in the form (e.g., 'A. DEMOGRAPHIC SECTION')"""
+    """Detect major sections in the form (e.g., 'A. DEMOGRAPHIC SECTION' or 'DEMOGRAPHIC SECTION A.')"""
     sections = []
 
     # Common section patterns
     section_patterns = [
-        r'^[A-Z]\.\s+([A-Z\s]+)$',  # A. SECTION NAME
-        r'^([A-Z\s]{10,})$',         # ALL CAPS SECTION
-        r'^SECTION\s+\d+:?\s+(.+)$'  # SECTION 1: Name
+        (r'^([A-Z])\.\s+([A-Z\s]+SECTION[A-Z\s]*)$', 'prefix'),  # A. SECTION NAME
+        (r'^([A-Z\s]+SECTION[A-Z\s]*)\s+([A-Z])\.?$', 'suffix'),  # SECTION NAME A.
+        (r'^([A-Z]\s+)?([A-Z\s]+SECTION[A-Z\s]*)$', 'plain'),     # SECTION NAME or B SECTION NAME
+        (r'^([A-Z\s]{15,})$', 'allcaps'),                          # ALL CAPS (very long)
+        (r'^SECTION\s+\d+:?\s+(.+)$', 'numbered')                  # SECTION 1: Name
     ]
 
     for line in text_lines:
         text = line['text'].strip()
 
-        for pattern in section_patterns:
+        for pattern, pattern_type in section_patterns:
             match = re.match(pattern, text)
             if match:
+                # Normalize the title based on pattern type
+                if pattern_type == 'prefix':
+                    # "A. DEMOGRAPHIC SECTION" -> "A. DEMOGRAPHIC SECTION"
+                    normalized = text
+                elif pattern_type == 'suffix':
+                    # "DEMOGRAPHIC SECTION A." -> "A. DEMOGRAPHIC SECTION"
+                    section_text = match.group(1).strip()
+                    letter = match.group(2)
+                    normalized = f"{letter}. {section_text}"
+                    text = normalized  # Update display text too
+                elif pattern_type == 'plain':
+                    # "B MEMORY SECTION" -> "B. MEMORY SECTION"
+                    if match.group(1):
+                        letter = match.group(1).strip()
+                        section_text = match.group(2).strip()
+                        normalized = f"{letter}. {section_text}"
+                        text = normalized
+                    else:
+                        normalized = match.group(2).strip()
+                else:
+                    normalized = text
+
+                # Remove letter prefix for clean title
+                clean_title = re.sub(r'^[A-Z]\.\s+', '', normalized).strip()
+
                 sections.append({
-                    'title': text,
+                    'title': clean_title,
+                    'display_title': text,
                     'page': line['page'],
                     'y_position': line['y0'],
-                    'normalized_title': re.sub(r'^[A-Z]\.\s+', '', text).strip()
+                    'normalized_title': clean_title
                 })
                 break
 
@@ -44,12 +72,20 @@ def detect_questions(text_lines):
     """Detect numbered questions (e.g., '1. Question text', '12. Question')"""
     questions = []
 
-    # Question number patterns
-    question_pattern = r'^(\d+)\.\s+(.+)$'
+    # Question number patterns (allows leading whitespace and special chars)
+    # Also handles questions that appear mid-line (after other text)
+    question_pattern_start = r'^[\s\uf0a0-\uf0ff]*(\d+)\.\s+(.+)$'  # At start of line
+    question_pattern_mid = r'^.+\s+(\d+)\.\s+(.+)$'  # Mid-line (after other text)
 
     for line in text_lines:
-        text = line['text'].strip()
-        match = re.match(question_pattern, text)
+        text = line['text']
+
+        # First try matching at start of line
+        match = re.match(question_pattern_start, text)
+
+        # If no match, try mid-line pattern (for cases like "No Yes 11. Question...")
+        if not match and re.search(r'\d+\.\s+[A-Z]', text):  # Contains "##. Capital"
+            match = re.search(r'(\d+)\.\s+(.+)$', text)  # Extract from number onward
 
         if match:
             q_num = match.group(1)
