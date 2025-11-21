@@ -177,6 +177,145 @@ function parseTextContent(text) {
 }
 
 /**
+ * Extract base field name without suffix numbers
+ */
+function getBaseFieldName(fieldName) {
+  // Remove trailing _1, _2, _3 etc and [0] array notation
+  return fieldName.replace(/_\d+\[0\]$/, '').replace(/\[0\]$/, '');
+}
+
+/**
+ * Find option text for checkbox/radio fields
+ */
+function findOptionText(fieldName, textLines, mainLabel) {
+  // Common checkbox/radio option patterns
+  const optionPatterns = [
+    // Yes/No
+    /^(Yes|No)$/i,
+    // Gender
+    /^(Male|Female|Other)$/i,
+    // Marital status
+    /^(Married|Partnered|Single|Separated|Divorced|Widowed)$/i,
+    // Common boolean
+    /^(True|False|Agree|Disagree)$/i,
+    // Race/Ethnicity
+    /^(White|Black\/African American|Asian|American Indian\/Alaska Native|Native Hawaiian\/Pacific Islander|Hispanic\/Latino|Other)$/i,
+    // Languages
+    /^(English|Spanish)$/i,
+    // Locations
+    /^(Home|ALF|Nursing facility|Hospital|Adult day care|Private residence|Assisted living facility)$/i,
+    // General short options (2-30 chars, starting with capital)
+    /^([A-Z][a-zA-Z\s\/\-]{1,30})$/,
+  ];
+
+  // Look for lines near the main label
+  if (mainLabel) {
+    const labelIndex = textLines.indexOf(mainLabel);
+    if (labelIndex >= 0) {
+      // Check next 10 lines after the main label for option text
+      const searchRange = textLines.slice(labelIndex + 1, labelIndex + 11);
+
+      for (const line of searchRange) {
+        const trimmedLine = line.trim();
+
+        // Check if this line matches option patterns
+        for (const pattern of optionPatterns) {
+          if (pattern.test(trimmedLine)) {
+            return trimmedLine;
+          }
+        }
+      }
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Group related fields (like checkbox groups)
+ */
+function groupRelatedFields(allFieldData) {
+  const groups = new Map();
+
+  allFieldData.forEach(fieldData => {
+    const baseName = getBaseFieldName(fieldData.name);
+    if (!groups.has(baseName)) {
+      groups.set(baseName, []);
+    }
+    groups.get(baseName).push(fieldData);
+  });
+
+  return groups;
+}
+
+/**
+ * Assign option text to grouped fields
+ */
+function assignOptionTextToGroup(group, textLines) {
+  if (group.length <= 1) return;
+
+  // Find the main label (should be same for all in group)
+  const mainLabel = group[0].label;
+  if (!mainLabel) return;
+
+  // Find line that contains the label (not exact match)
+  let labelIndex = -1;
+  for (let i = 0; i < textLines.length; i++) {
+    if (textLines[i].includes(mainLabel)) {
+      labelIndex = i;
+      break;
+    }
+  }
+
+  if (labelIndex < 0) return;
+
+  // Common individual option keywords
+  const optionKeywords = [
+    'Yes', 'No',
+    'Male', 'Female', 'Other',
+    'Married', 'Partnered', 'Single', 'Separated', 'Divorced', 'Widowed',
+    'White', 'Black/African American', 'Asian', 'American Indian/Alaska Native',
+    'Native Hawaiian/Pacific Islander', 'Hispanic/Latino',
+    'English', 'Spanish',
+    'Home', 'ALF', 'Nursing facility', 'Hospital', 'Adult day care',
+    'Private residence', 'Assisted living facility', 'Other'
+  ];
+
+  // Find all option texts after the label
+  const foundOptions = [];
+  const searchRange = textLines.slice(labelIndex + 1, Math.min(labelIndex + 5, textLines.length));
+
+  for (const line of searchRange) {
+    const trimmedLine = line.trim();
+
+    // Stop if we hit another question number
+    if (/^\d+\.\s/.test(trimmedLine)) break;
+
+    // Check if this line contains multiple options (space-separated)
+    // Like: " Married    Partnered    Single    Separated    Divorced    Widowed"
+    for (const keyword of optionKeywords) {
+      // Use word boundary regex to match whole words
+      const regex = new RegExp(`\\b${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+      if (regex.test(trimmedLine)) {
+        if (!foundOptions.includes(keyword)) {
+          foundOptions.push(keyword);
+        }
+      }
+    }
+
+    // If we found enough options, stop searching
+    if (foundOptions.length >= group.length) break;
+  }
+
+  // Assign found options to fields (in order)
+  group.forEach((field, idx) => {
+    if (idx < foundOptions.length) {
+      field.optionLabel = foundOptions[idx];
+    }
+  });
+}
+
+/**
  * Extract all possible identifiers from field name
  */
 function extractIdentifiers(fieldName) {
@@ -298,35 +437,6 @@ function findLabelForField(fieldName, textLines, fieldType) {
       }
     }
   }
-
-  // Strategy 4: Context-based matching for checkboxes and radio buttons (disabled for now)
-  // This strategy was too aggressive and caused false matches
-  // Keeping code for reference but not using it
-  /*
-  if ((fieldType === 'checkbox' || fieldType === 'radio') && matchConfidence < 0.4) {
-    // Look for common checkbox/radio labels
-    const optionPatterns = [
-      /^(Yes|No)$/i,
-      /^(Male|Female)$/i,
-      /^(Married|Single|Divorced|Widowed|Separated|Partnered)$/i,
-      /^(True|False)$/i,
-      /^(Agree|Disagree)$/i,
-    ];
-
-    for (const line of textLines) {
-      for (const pattern of optionPatterns) {
-        if (pattern.test(line.trim()) && matchConfidence < 0.4) {
-          // Look at previous lines for context
-          const idx = textLines.indexOf(line);
-          if (idx > 0) {
-            bestMatch = textLines[idx - 1];
-            matchConfidence = 0.4;
-          }
-        }
-      }
-    }
-  }
-  */
 
   // Only return matches with reasonable confidence (>= 0.5)
   return matchConfidence >= 0.5 ? bestMatch : null;
@@ -493,6 +603,23 @@ export async function convertPdfToJson(pdfPath, options = {}) {
       }
     }
 
+    // Group related fields and assign option text
+    console.log('Matching option text for checkbox/radio groups...');
+    const fieldGroups = groupRelatedFields(formData.fields);
+    let optionsMatched = 0;
+
+    fieldGroups.forEach(group => {
+      if (group.length > 1 && (group[0].type === 'checkbox' || group[0].type === 'radio')) {
+        assignOptionTextToGroup(group, textLines);
+        const matched = group.filter(f => f.optionLabel).length;
+        if (matched > 0) {
+          optionsMatched += matched;
+        }
+      }
+    });
+
+    console.log(`Matched ${optionsMatched} option labels`);
+
     // Sort fields by name for consistency
     if (options.sortFields !== false) {
       formData.fields.sort((a, b) => a.name.localeCompare(b.name));
@@ -501,6 +628,7 @@ export async function convertPdfToJson(pdfPath, options = {}) {
     // Add summary statistics
     formData.metadata.fieldsWithLabels = formData.fields.filter(f => f.label).length;
     formData.metadata.fieldsWithoutLabels = formData.fields.filter(f => !f.label).length;
+    formData.metadata.fieldsWithOptionLabels = formData.fields.filter(f => f.optionLabel).length;
     formData.metadata.labelMatchRate = ((formData.metadata.fieldsWithLabels / formData.metadata.fieldCount) * 100).toFixed(1) + '%';
 
     return formData;
@@ -536,6 +664,7 @@ export async function convertPdfFormToJson(pdfPath, outputPath = null, options =
 
     console.log(`Found ${jsonData.fields.length} form fields`);
     console.log(`Matched ${jsonData.metadata.fieldsWithLabels} fields with labels (${jsonData.metadata.labelMatchRate})`);
+    console.log(`Matched ${jsonData.metadata.fieldsWithOptionLabels} option labels`);
 
     // Save to file if output path provided
     if (outputPath) {
@@ -568,6 +697,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       console.log('\nConversion completed successfully!');
       console.log(`Fields extracted: ${data.fields.length}`);
       console.log(`Fields with labels: ${data.metadata.fieldsWithLabels} (${data.metadata.labelMatchRate})`);
+      console.log(`Fields with option labels: ${data.metadata.fieldsWithOptionLabels}`);
     })
     .catch(error => {
       console.error('Conversion failed:', error.message);
