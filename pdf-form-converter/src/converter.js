@@ -249,10 +249,58 @@ function groupRelatedFields(allFieldData) {
 }
 
 /**
- * Assign option text to grouped fields
+ * Extract option text from lines following a question label
+ */
+function extractOptionsFromText(labelIndex, textLines, maxOptions = 20) {
+  const foundOptions = [];
+  const searchRange = textLines.slice(labelIndex + 1, Math.min(labelIndex + 5, textLines.length));
+
+  for (const line of searchRange) {
+    const trimmedLine = line.trim();
+
+    // Stop if we hit another question number
+    if (/^\d+\.\s/.test(trimmedLine)) break;
+
+    // Skip empty lines
+    if (trimmedLine.length === 0) continue;
+
+    // Split by multiple spaces (2 or more) to get individual options
+    // Pattern: "  Initial  Annual       Health      Living situation"
+    const options = trimmedLine.split(/\s{2,}/).map(opt => opt.trim()).filter(opt => opt.length > 0);
+
+    // Add options that look valid
+    for (const option of options) {
+      // Skip if it looks like a sub-question marker (a., b., c.)
+      if (/^[a-z]\.\s*$/i.test(option)) continue;
+
+      // Skip lines that start with sub-question markers
+      if (/^[a-z]\.\s+/i.test(option)) continue;
+
+      // Skip if it's just special characters or numbers
+      if (/^[\d\s\.\-\(\)]+$/.test(option)) continue;
+
+      // Must contain at least one letter
+      if (!/[a-zA-Z]/.test(option)) continue;
+
+      // Add the option if not already found
+      if (!foundOptions.includes(option)) {
+        foundOptions.push(option);
+      }
+    }
+
+    // Stop if we found enough options
+    if (foundOptions.length >= maxOptions) break;
+  }
+
+  return foundOptions;
+}
+
+/**
+ * Assign option text to grouped fields - GENERIC VERSION
+ * Handles both checkbox groups (multiple fields) and radio groups (single field)
  */
 function assignOptionTextToGroup(group, textLines) {
-  if (group.length <= 1) return;
+  if (group.length === 0) return;
 
   // Find the main label (should be same for all in group)
   const mainLabel = group[0].label;
@@ -269,50 +317,27 @@ function assignOptionTextToGroup(group, textLines) {
 
   if (labelIndex < 0) return;
 
-  // Common individual option keywords
-  const optionKeywords = [
-    'Yes', 'No',
-    'Male', 'Female', 'Other',
-    'Married', 'Partnered', 'Single', 'Separated', 'Divorced', 'Widowed',
-    'White', 'Black/African American', 'Asian', 'American Indian/Alaska Native',
-    'Native Hawaiian/Pacific Islander', 'Hispanic/Latino',
-    'English', 'Spanish',
-    'Home', 'ALF', 'Nursing facility', 'Hospital', 'Adult day care',
-    'Private residence', 'Assisted living facility', 'Other'
-  ];
+  // Extract all option texts after the label
+  const foundOptions = extractOptionsFromText(labelIndex, textLines);
 
-  // Find all option texts after the label
-  const foundOptions = [];
-  const searchRange = textLines.slice(labelIndex + 1, Math.min(labelIndex + 5, textLines.length));
+  if (foundOptions.length === 0) return;
 
-  for (const line of searchRange) {
-    const trimmedLine = line.trim();
+  // Handle different cases:
+  // 1. Single radio field with multiple options (radio group)
+  // 2. Multiple checkbox fields (checkbox group)
 
-    // Stop if we hit another question number
-    if (/^\d+\.\s/.test(trimmedLine)) break;
-
-    // Check if this line contains multiple options (space-separated)
-    // Like: " Married    Partnered    Single    Separated    Divorced    Widowed"
-    for (const keyword of optionKeywords) {
-      // Use word boundary regex to match whole words
-      const regex = new RegExp(`\\b${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
-      if (regex.test(trimmedLine)) {
-        if (!foundOptions.includes(keyword)) {
-          foundOptions.push(keyword);
-        }
+  if (group.length === 1 && group[0].type === 'radio') {
+    // Radio group: single field represents multiple choices
+    // Store all options as an array in optionLabels
+    group[0].optionLabels = foundOptions;
+  } else {
+    // Checkbox group or multi-field case: assign one option per field
+    group.forEach((field, idx) => {
+      if (idx < foundOptions.length) {
+        field.optionLabel = foundOptions[idx];
       }
-    }
-
-    // If we found enough options, stop searching
-    if (foundOptions.length >= group.length) break;
+    });
   }
-
-  // Assign found options to fields (in order)
-  group.forEach((field, idx) => {
-    if (idx < foundOptions.length) {
-      field.optionLabel = foundOptions[idx];
-    }
-  });
 }
 
 /**
@@ -609,11 +634,15 @@ export async function convertPdfToJson(pdfPath, options = {}) {
     let optionsMatched = 0;
 
     fieldGroups.forEach(group => {
-      if (group.length > 1 && (group[0].type === 'checkbox' || group[0].type === 'radio')) {
+      // Process if it's a checkbox/radio group (single or multiple fields)
+      if (group.length > 0 && (group[0].type === 'checkbox' || group[0].type === 'radio')) {
         assignOptionTextToGroup(group, textLines);
-        const matched = group.filter(f => f.optionLabel).length;
-        if (matched > 0) {
-          optionsMatched += matched;
+
+        // Count matched options (both singular optionLabel and plural optionLabels)
+        const singleMatched = group.filter(f => f.optionLabel).length;
+        const multiMatched = group.filter(f => f.optionLabels).length;
+        if (singleMatched > 0 || multiMatched > 0) {
+          optionsMatched += singleMatched + multiMatched;
         }
       }
     });
@@ -628,8 +657,16 @@ export async function convertPdfToJson(pdfPath, options = {}) {
     // Add summary statistics
     formData.metadata.fieldsWithLabels = formData.fields.filter(f => f.label).length;
     formData.metadata.fieldsWithoutLabels = formData.fields.filter(f => !f.label).length;
-    formData.metadata.fieldsWithOptionLabels = formData.fields.filter(f => f.optionLabel).length;
+    formData.metadata.fieldsWithOptionLabels = formData.fields.filter(f => f.optionLabel || f.optionLabels).length;
     formData.metadata.labelMatchRate = ((formData.metadata.fieldsWithLabels / formData.metadata.fieldCount) * 100).toFixed(1) + '%';
+
+    // Count total options extracted
+    let totalOptionsExtracted = 0;
+    formData.fields.forEach(f => {
+      if (f.optionLabel) totalOptionsExtracted++;
+      if (f.optionLabels) totalOptionsExtracted += f.optionLabels.length;
+    });
+    formData.metadata.totalOptionsExtracted = totalOptionsExtracted;
 
     return formData;
 
