@@ -20828,186 +20828,2204 @@
       ]
     }
   ],
-  "text_lines_sample": [
+  "text_lines": [
     {
       "index": 0,
       "page": 1,
-      "y": 36.64,
+      "y0": 36.64,
+      "x0": 190.22,
       "text": "Florida Department of Elder Affairs"
     },
     {
       "index": 1,
       "page": 1,
-      "y": 53.8,
+      "y0": 53.8,
+      "x0": 154.1,
       "text": "701T Non-Community Placement Assessment"
     },
     {
       "index": 2,
       "page": 1,
-      "y": 70.85,
+      "y0": 70.85,
+      "x0": 245.21,
       "text": "Rule: 58-A-1.010, F.A.C."
     },
     {
       "index": 3,
       "page": 1,
-      "y": 106.04,
+      "y0": 106.04,
+      "x0": 32.76,
       "text": "Assessor Name: Signature:"
     },
     {
       "index": 4,
       "page": 1,
-      "y": 131.72,
+      "y0": 131.72,
+      "x0": 45.84,
       "text": "DEMOGRAPHIC SECTION A."
     },
     {
       "index": 5,
       "page": 1,
-      "y": 163.4,
+      "y0": 163.4,
+      "x0": 37.44,
       "text": "1. ASSESSOR: What is the purpose of this assessment?"
     },
     {
       "index": 6,
       "page": 1,
-      "y": 175.57,
+      "y0": 175.57,
+      "x0": 45.96,
       "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3"
     },
     {
       "index": 7,
       "page": 1,
-      "y": 179.0,
+      "y0": 179.0,
+      "x0": 64.68,
       "text": "Initial Annual Health Living situation Caregiver Environment Income"
     },
     {
       "index": 8,
       "page": 1,
-      "y": 197.24,
+      "y0": 197.24,
+      "x0": 37.44,
       "text": "2. Social Security number:"
     },
     {
       "index": 9,
       "page": 1,
-      "y": 218.96,
+      "y0": 218.96,
+      "x0": 37.44,
       "text": "3. Name: a. First:"
     },
     {
       "index": 10,
       "page": 1,
-      "y": 240.68,
+      "y0": 240.68,
+      "x0": 54.0,
       "text": "b. Middle initial: c. Last:"
     },
     {
       "index": 11,
       "page": 1,
-      "y": 262.19,
+      "y0": 262.19,
+      "x0": 37.44,
       "text": "4. Medicaid number:"
     },
     {
       "index": 12,
       "page": 1,
-      "y": 283.79,
+      "y0": 283.79,
+      "x0": 37.44,
       "text": "5. Phone number:"
     },
     {
       "index": 13,
       "page": 1,
-      "y": 305.39,
+      "y0": 305.39,
+      "x0": 37.44,
       "text": "6. Date of birth (mm/dd/yyyy):"
     },
     {
       "index": 14,
       "page": 1,
-      "y": 323.44,
+      "y0": 323.44,
+      "x0": 196.22,
       "text": "\uf0a3 \uf0a3 7. Sex:"
     },
     {
       "index": 15,
       "page": 1,
-      "y": 326.87,
+      "y0": 326.87,
+      "x0": 213.89,
       "text": "Male Female"
     },
     {
       "index": 16,
       "page": 1,
-      "y": 342.76,
+      "y0": 342.76,
+      "x0": 196.22,
       "text": "\uf0a3 \uf0a3 \uf0a3 8. Race (Mark all that apply):"
     },
     {
       "index": 17,
       "page": 1,
-      "y": 346.19,
+      "y0": 346.19,
+      "x0": 213.29,
       "text": "White Black/African American Asian"
     },
     {
       "index": 18,
       "page": 1,
-      "y": 362.2,
+      "y0": 362.2,
+      "x0": 89.42,
       "text": "\uf0a3 \uf0a3 \uf0a3"
     },
     {
       "index": 19,
       "page": 1,
-      "y": 365.63,
+      "y0": 365.63,
+      "x0": 107.18,
       "text": "American Indian/Alaska Native Native Hawaiian/Pacific Islander Other"
     },
     {
       "index": 20,
       "page": 1,
-      "y": 381.64,
+      "y0": 381.64,
+      "x0": 196.22,
       "text": "\uf0a3 \uf0a3 9. Ethnicity:"
     },
     {
       "index": 21,
       "page": 1,
-      "y": 385.07,
+      "y0": 385.07,
+      "x0": 213.29,
       "text": "Hispanic/Latino Other"
     },
     {
       "index": 22,
       "page": 1,
-      "y": 401.08,
+      "y0": 401.08,
+      "x0": 196.22,
       "text": "\uf0a3 \uf0a3 \uf0a3 10. Primary language:"
     },
     {
       "index": 23,
       "page": 1,
-      "y": 404.51,
+      "y0": 404.51,
+      "x0": 213.89,
       "text": "English Spanish Other:"
     },
     {
       "index": 24,
       "page": 1,
-      "y": 421.86,
+      "y0": 421.86,
+      "x0": 468.46,
       "text": "\uf0a3 \uf0a3"
     },
     {
       "index": 25,
       "page": 1,
-      "y": 425.29,
+      "y0": 425.29,
+      "x0": 486.1,
       "text": "No Yes 11. Does client have limited ability reading, writing, speaking, or understanding English?"
     },
     {
       "index": 26,
       "page": 1,
-      "y": 445.02,
+      "y0": 445.02,
+      "x0": 132.26,
       "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 12. Marital status:"
     },
     {
       "index": 27,
       "page": 1,
-      "y": 448.45,
+      "y0": 448.45,
+      "x0": 149.3,
       "text": "Married Partnered Single Separated Divorced Widowed"
     },
     {
       "index": 28,
       "page": 1,
-      "y": 471.97,
+      "y0": 471.97,
+      "x0": 37.44,
       "text": "13. ASSESSOR: Current Physical Location Address (If type is a facility, please enter facility name.)"
     },
     {
       "index": 29,
       "page": 1,
-      "y": 492.49,
+      "y0": 492.49,
+      "x0": 54.36,
       "text": "a. Street:"
+    },
+    {
+      "index": 30,
+      "page": 1,
+      "y0": 514.21,
+      "x0": 54.36,
+      "text": "b. City: c. ZIP code:"
+    },
+    {
+      "index": 31,
+      "page": 1,
+      "y0": 531.06,
+      "x0": 108.74,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 d. Type:"
+    },
+    {
+      "index": 32,
+      "page": 1,
+      "y0": 534.49,
+      "x0": 126.38,
+      "text": "Private residence Assisted living facility (ALF) Nursing facility Hospital"
+    },
+    {
+      "index": 33,
+      "page": 1,
+      "y0": 547.86,
+      "x0": 108.74,
+      "text": "\uf0a3Adult \uf0a3"
+    },
+    {
+      "index": 34,
+      "page": 1,
+      "y0": 551.29,
+      "x0": 151.46,
+      "text": "day care Other"
+    },
+    {
+      "index": 35,
+      "page": 1,
+      "y0": 569.65,
+      "x0": 54.36,
+      "text": "e. Name:"
+    },
+    {
+      "index": 36,
+      "page": 1,
+      "y0": 590.29,
+      "x0": 37.44,
+      "text": "14. Home Address (If different from current physical location)"
+    },
+    {
+      "index": 37,
+      "page": 1,
+      "y0": 610.72,
+      "x0": 54.36,
+      "text": "a. Street:"
+    },
+    {
+      "index": 38,
+      "page": 1,
+      "y0": 632.56,
+      "x0": 54.36,
+      "text": "b. City: c. ZIP code:"
+    },
+    {
+      "index": 39,
+      "page": 1,
+      "y0": 653.2,
+      "x0": 37.2,
+      "text": "15. Mailing Address (If different from current physical location)"
+    },
+    {
+      "index": 40,
+      "page": 1,
+      "y0": 673.6,
+      "x0": 55.2,
+      "text": "a. Street: b. City:"
+    },
+    {
+      "index": 41,
+      "page": 1,
+      "y0": 695.44,
+      "x0": 55.2,
+      "text": "c. State: d. ZIP code:"
+    },
+    {
+      "index": 42,
+      "page": 1,
+      "y0": 755.91,
+      "x0": 92.78,
+      "text": "1 DOEA 701T, April 2013"
+    },
+    {
+      "index": 43,
+      "page": 2,
+      "y0": 36.17,
+      "x0": 133.58,
+      "text": "Florida Department of Elder Affairs: 701T CARES Mini Assessment"
+    },
+    {
+      "index": 44,
+      "page": 2,
+      "y0": 67.86,
+      "x0": 35.76,
+      "text": "16. ASSESSOR: Assessment date: (mm/dd/yyyy)"
+    },
+    {
+      "index": 45,
+      "page": 2,
+      "y0": 87.92,
+      "x0": 35.76,
+      "text": "17. ASSESSOR: Assessment site:"
+    },
+    {
+      "index": 46,
+      "page": 2,
+      "y0": 104.89,
+      "x0": 59.4,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3Other"
+    },
+    {
+      "index": 47,
+      "page": 2,
+      "y0": 108.32,
+      "x0": 77.3,
+      "text": "Home ALF Nursing facility Hospital Adult day care"
+    },
+    {
+      "index": 48,
+      "page": 2,
+      "y0": 130.4,
+      "x0": 35.76,
+      "text": "18. ASSESSOR: Referral date: (mm/dd/yyyy)"
+    },
+    {
+      "index": 49,
+      "page": 2,
+      "y0": 144.01,
+      "x0": 225.89,
+      "text": "\uf0a3 \uf0a3 \uf0a3 19. ASSESSOR: Referral source:"
+    },
+    {
+      "index": 50,
+      "page": 2,
+      "y0": 147.44,
+      "x0": 243.77,
+      "text": "Self/Family Nursing facility Case management agency"
+    },
+    {
+      "index": 51,
+      "page": 2,
+      "y0": 163.45,
+      "x0": 59.4,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3"
+    },
+    {
+      "index": 52,
+      "page": 2,
+      "y0": 166.88,
+      "x0": 77.3,
+      "text": "CARES Aging out Hospital Department of Children and Families Other"
+    },
+    {
+      "index": 53,
+      "page": 2,
+      "y0": 182.89,
+      "x0": 59.4,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3"
+    },
+    {
+      "index": 54,
+      "page": 2,
+      "y0": 186.32,
+      "x0": 77.42,
+      "text": "APS; Select level of APS risk: High Intermediate Low"
+    },
+    {
+      "index": 55,
+      "page": 2,
+      "y0": 202.33,
+      "x0": 333.91,
+      "text": "\uf0a3 \uf0a3 20. ASSESSOR: Imminent risk of nursing home placement?"
+    },
+    {
+      "index": 56,
+      "page": 2,
+      "y0": 205.76,
+      "x0": 351.79,
+      "text": "No Yes"
+    },
+    {
+      "index": 57,
+      "page": 2,
+      "y0": 221.77,
+      "x0": 333.91,
+      "text": "\uf0a3 \uf0a3 21. Is there a primary caregiver?"
+    },
+    {
+      "index": 58,
+      "page": 2,
+      "y0": 225.2,
+      "x0": 351.79,
+      "text": "No Yes"
+    },
+    {
+      "index": 59,
+      "page": 2,
+      "y0": 241.21,
+      "x0": 135.02,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 22. Living situation:"
+    },
+    {
+      "index": 60,
+      "page": 2,
+      "y0": 244.64,
+      "x0": 152.9,
+      "text": "With primary caregiver With other caregiver With other Alone"
+    },
+    {
+      "index": 61,
+      "page": 2,
+      "y0": 260.68,
+      "x0": 419.47,
+      "text": "\uf0a3 \uf0a3 23. ASSESSOR: Is someone besides the client providing answers to questions?"
+    },
+    {
+      "index": 62,
+      "page": 2,
+      "y0": 264.11,
+      "x0": 437.35,
+      "text": "No (Skip to 24) Yes"
+    },
+    {
+      "index": 63,
+      "page": 2,
+      "y0": 286.31,
+      "x0": 55.08,
+      "text": "a. Relationship:"
+    },
+    {
+      "index": 64,
+      "page": 2,
+      "y0": 319.91,
+      "x0": 36.0,
+      "text": "B. MEMORY SECTION"
+    },
+    {
+      "index": 65,
+      "page": 2,
+      "y0": 344.03,
+      "x0": 36.84,
+      "text": "24. Has a doctor or other health care professional told you that you suffer from memory loss, cognitive"
+    },
+    {
+      "index": 66,
+      "page": 2,
+      "y0": 356.2,
+      "x0": 473.74,
+      "text": "\uf0a3 \uf0a3 impairment, any type of dementia, or Alzheimer\u2019s disease?"
+    },
+    {
+      "index": 67,
+      "page": 2,
+      "y0": 359.63,
+      "x0": 491.62,
+      "text": "No Yes"
+    },
+    {
+      "index": 68,
+      "page": 2,
+      "y0": 374.32,
+      "x0": 473.74,
+      "text": "\uf0a3 25. ASSESSOR: If the client is not answering questions, skip to Question 32 and check:"
+    },
+    {
+      "index": 69,
+      "page": 2,
+      "y0": 392.75,
+      "x0": 36.84,
+      "text": "26. \u201cI am going to say three words for you to remember. Please repeat the words after I have said them. The"
+    },
+    {
+      "index": 70,
+      "page": 2,
+      "y0": 406.91,
+      "x0": 54.84,
+      "text": "words are: sock (something to wear), blue (a color), and bed (a piece of furniture). Now you tell me the"
+    },
+    {
+      "index": 71,
+      "page": 2,
+      "y0": 420.95,
+      "x0": 54.84,
+      "text": "three words.\u201d ASSESSOR: Select the number of words correctly repeated after the first attempt:"
+    },
+    {
+      "index": 72,
+      "page": 2,
+      "y0": 434.94,
+      "x0": 54.84,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3"
+    },
+    {
+      "index": 73,
+      "page": 2,
+      "y0": 438.37,
+      "x0": 72.74,
+      "text": "Sock Blue Bed Total number of correct words: None One Two Three"
+    },
+    {
+      "index": 74,
+      "page": 2,
+      "y0": 457.57,
+      "x0": 54.84,
+      "text": "\u201cThank you. I will ask you to repeat these to me again later.\u201d"
+    },
+    {
+      "index": 75,
+      "page": 2,
+      "y0": 475.74,
+      "x0": 213.17,
+      "text": "\uf0a3 \uf0a3 \uf0a3 27. Please tell me what year it is:"
+    },
+    {
+      "index": 76,
+      "page": 2,
+      "y0": 479.17,
+      "x0": 231.05,
+      "text": "Correct Missed by one year Missed by two to five years"
+    },
+    {
+      "index": 77,
+      "page": 2,
+      "y0": 492.66,
+      "x0": 213.17,
+      "text": "\uf0a3 \uf0a3"
+    },
+    {
+      "index": 78,
+      "page": 2,
+      "y0": 496.09,
+      "x0": 231.05,
+      "text": "Missed by five or more years No answer"
+    },
+    {
+      "index": 79,
+      "page": 2,
+      "y0": 509.58,
+      "x0": 213.17,
+      "text": "\uf0a3 \uf0a3 \uf0a3 28. Please tell me what month it is:"
+    },
+    {
+      "index": 80,
+      "page": 2,
+      "y0": 513.01,
+      "x0": 231.05,
+      "text": "Correct Missed by one month Missed by two to five months"
+    },
+    {
+      "index": 81,
+      "page": 2,
+      "y0": 526.38,
+      "x0": 213.17,
+      "text": "\uf0a3 \uf0a3"
+    },
+    {
+      "index": 82,
+      "page": 2,
+      "y0": 529.81,
+      "x0": 231.05,
+      "text": "Missed by five or more months No answer"
+    },
+    {
+      "index": 83,
+      "page": 2,
+      "y0": 543.3,
+      "x0": 285.29,
+      "text": "\uf0a3 \uf0a3 \uf0a3 29. Please tell me what day (of the week) it is:"
+    },
+    {
+      "index": 84,
+      "page": 2,
+      "y0": 546.73,
+      "x0": 302.33,
+      "text": "Correct Incorrect No answer"
+    },
+    {
+      "index": 85,
+      "page": 2,
+      "y0": 560.29,
+      "x0": 36.84,
+      "text": "30. \u201cLet\u2019s go back to an earlier question. What were those words I asked you to repeat back to me?\u201d"
+    },
+    {
+      "index": 86,
+      "page": 2,
+      "y0": 574.26,
+      "x0": 59.04,
+      "text": "\uf0a3 \uf0a3 \uf0a3"
+    },
+    {
+      "index": 87,
+      "page": 2,
+      "y0": 577.69,
+      "x0": 77.78,
+      "text": "Sock Blue Bed"
+    },
+    {
+      "index": 88,
+      "page": 2,
+      "y0": 596.49,
+      "x0": 378.91,
+      "text": "\uf0a3None \uf0a3One \uf0a3Two \uf0a3Three 31. ASSESSOR: Number of words correctly recalled without prompting:"
+    },
+    {
+      "index": 89,
+      "page": 2,
+      "y0": 616.17,
+      "x0": 378.91,
+      "text": "\uf0a3No \uf0a3Yes \uf0a3Don\u2019t 32. ASSESSOR: In your opinion, are cognitive problems present?"
+    },
+    {
+      "index": 90,
+      "page": 2,
+      "y0": 619.6,
+      "x0": 518.6,
+      "text": "know"
+    },
+    {
+      "index": 91,
+      "page": 2,
+      "y0": 648.58,
+      "x0": 54.0,
+      "text": "Notes & Summary"
+    },
+    {
+      "index": 92,
+      "page": 2,
+      "y0": 755.91,
+      "x0": 92.78,
+      "text": "2 DOEA 701T, April 2013"
+    },
+    {
+      "index": 93,
+      "page": 3,
+      "y0": 36.17,
+      "x0": 133.58,
+      "text": "Florida Department of Elder Affairs: 701T CARES Mini Assessment"
+    },
+    {
+      "index": 94,
+      "page": 3,
+      "y0": 64.38,
+      "x0": 32.4,
+      "text": "C. GENERAL HEALTH SECTION"
+    },
+    {
+      "index": 95,
+      "page": 3,
+      "y0": 88.16,
+      "x0": 32.4,
+      "text": "33. How many times have you fallen in the last six months?"
+    },
+    {
+      "index": 96,
+      "page": 3,
+      "y0": 93.68,
+      "x0": 324.05,
+      "text": "#"
+    },
+    {
+      "index": 97,
+      "page": 3,
+      "y0": 109.04,
+      "x0": 32.4,
+      "text": "34. Have you visited the emergency room (ER) or been admitted to the hospital within the last year?"
+    },
+    {
+      "index": 98,
+      "page": 3,
+      "y0": 121.09,
+      "x0": 50.4,
+      "text": "\uf0a3 \uf0a3"
+    },
+    {
+      "index": 99,
+      "page": 3,
+      "y0": 124.52,
+      "x0": 68.3,
+      "text": "No Yes: How many times? ER # Hospital #"
+    },
+    {
+      "index": 100,
+      "page": 3,
+      "y0": 155.12,
+      "x0": 27.0,
+      "text": "D. ACTIVITIES OF DAILY LIVING SECTION"
+    },
+    {
+      "index": 101,
+      "page": 3,
+      "y0": 175.88,
+      "x0": 32.4,
+      "text": "35. How much assistance do you need with the following tasks?"
+    },
+    {
+      "index": 102,
+      "page": 3,
+      "y0": 193.76,
+      "x0": 218.09,
+      "text": "No Uses Needs Needs Needs total"
+    },
+    {
+      "index": 103,
+      "page": 3,
+      "y0": 206.0,
+      "x0": 72.02,
+      "text": "Task assistance assistive supervision assistance (but assistance (cannot"
+    },
+    {
+      "index": 104,
+      "page": 3,
+      "y0": 218.36,
+      "x0": 205.37,
+      "text": "needed device or prompt not total help) do at all)"
+    },
+    {
+      "index": 105,
+      "page": 3,
+      "y0": 232.45,
+      "x0": 217.85,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 a. Bathing"
+    },
+    {
+      "index": 106,
+      "page": 3,
+      "y0": 249.28,
+      "x0": 217.85,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 b. Dressing"
+    },
+    {
+      "index": 107,
+      "page": 3,
+      "y0": 266.2,
+      "x0": 217.85,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 c. Eating"
+    },
+    {
+      "index": 108,
+      "page": 3,
+      "y0": 283.0,
+      "x0": 217.85,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 d. Using the bathroom"
+    },
+    {
+      "index": 109,
+      "page": 3,
+      "y0": 299.92,
+      "x0": 217.85,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 e. Transferring"
+    },
+    {
+      "index": 110,
+      "page": 3,
+      "y0": 316.84,
+      "x0": 217.85,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 f. Walking/Mobility"
+    },
+    {
+      "index": 111,
+      "page": 3,
+      "y0": 357.95,
+      "x0": 36.0,
+      "text": "E. INSTRUMENTAL ACTIVITIES OF DAILY LIVING SECTION"
+    },
+    {
+      "index": 112,
+      "page": 3,
+      "y0": 384.11,
+      "x0": 32.4,
+      "text": "36. How much assistance do you need with the following tasks?"
+    },
+    {
+      "index": 113,
+      "page": 3,
+      "y0": 400.19,
+      "x0": 222.65,
+      "text": "No Uses Needs Needs Needs total"
+    },
+    {
+      "index": 114,
+      "page": 3,
+      "y0": 412.43,
+      "x0": 71.9,
+      "text": "Task assistance assistive supervision assistance (but assistance (cannot"
+    },
+    {
+      "index": 115,
+      "page": 3,
+      "y0": 424.69,
+      "x0": 209.93,
+      "text": "needed device or prompt not total help) do at all)"
+    },
+    {
+      "index": 116,
+      "page": 3,
+      "y0": 439.26,
+      "x0": 222.41,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 a. Heavy chores"
+    },
+    {
+      "index": 117,
+      "page": 3,
+      "y0": 456.18,
+      "x0": 222.41,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 b. Light housekeeping"
+    },
+    {
+      "index": 118,
+      "page": 3,
+      "y0": 472.98,
+      "x0": 222.41,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 c. Using the telephone"
+    },
+    {
+      "index": 119,
+      "page": 3,
+      "y0": 489.9,
+      "x0": 222.41,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 d. Managing money"
+    },
+    {
+      "index": 120,
+      "page": 3,
+      "y0": 506.7,
+      "x0": 222.41,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 e. Preparing meals"
+    },
+    {
+      "index": 121,
+      "page": 3,
+      "y0": 523.62,
+      "x0": 222.41,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 f. Shopping"
+    },
+    {
+      "index": 122,
+      "page": 3,
+      "y0": 540.61,
+      "x0": 71.9,
+      "text": "g. Managing"
+    },
+    {
+      "index": 123,
+      "page": 3,
+      "y0": 544.26,
+      "x0": 222.41,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3"
+    },
+    {
+      "index": 124,
+      "page": 3,
+      "y0": 552.97,
+      "x0": 85.58,
+      "text": "medication"
+    },
+    {
+      "index": 125,
+      "page": 3,
+      "y0": 565.02,
+      "x0": 222.41,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 h. Using transportation"
+    },
+    {
+      "index": 126,
+      "page": 3,
+      "y0": 596.08,
+      "x0": 54.0,
+      "text": "Notes & Summary"
+    },
+    {
+      "index": 127,
+      "page": 3,
+      "y0": 755.91,
+      "x0": 92.78,
+      "text": "3 DOEA 701T, April 2013"
+    },
+    {
+      "index": 128,
+      "page": 4,
+      "y0": 36.17,
+      "x0": 133.58,
+      "text": "Florida Department of Elder Affairs: 701T CARES Mini Assessment"
+    },
+    {
+      "index": 129,
+      "page": 4,
+      "y0": 64.38,
+      "x0": 36.0,
+      "text": "F. HEALTH CONDITIONS & THERAPIES SECTION"
+    },
+    {
+      "index": 130,
+      "page": 4,
+      "y0": 88.88,
+      "x0": 41.4,
+      "text": "37. Have you been told by a physician that you have any of the following health conditions?"
+    },
+    {
+      "index": 131,
+      "page": 4,
+      "y0": 101.12,
+      "x0": 59.4,
+      "text": "ASESSOR/CM: Indicate whether a problem occurred in the past by marking the first box and when a"
+    },
+    {
+      "index": 132,
+      "page": 4,
+      "y0": 113.36,
+      "x0": 59.4,
+      "text": "problem is current by marking the second box. Please mark all that apply."
+    },
+    {
+      "index": 133,
+      "page": 4,
+      "y0": 133.04,
+      "x0": 76.46,
+      "text": "Past Current Health Conditions"
+    },
+    {
+      "index": 134,
+      "page": 4,
+      "y0": 146.89,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Acid reflux/GERD"
+    },
+    {
+      "index": 135,
+      "page": 4,
+      "y0": 163.69,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Allergies, list:"
+    },
+    {
+      "index": 136,
+      "page": 4,
+      "y0": 181.09,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Amputation, site:"
+    },
+    {
+      "index": 137,
+      "page": 4,
+      "y0": 198.49,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 Anemia"
+    },
+    {
+      "index": 138,
+      "page": 4,
+      "y0": 201.92,
+      "x0": 301.25,
+      "text": "Severe Moderate Mild"
+    },
+    {
+      "index": 139,
+      "page": 4,
+      "y0": 215.29,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Arthritis, type:"
+    },
+    {
+      "index": 140,
+      "page": 4,
+      "y0": 232.69,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Bed sore(s) (Decubitus), location:"
+    },
+    {
+      "index": 141,
+      "page": 4,
+      "y0": 250.12,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 Blood pressure"
+    },
+    {
+      "index": 142,
+      "page": 4,
+      "y0": 253.55,
+      "x0": 301.25,
+      "text": "High Low"
+    },
+    {
+      "index": 143,
+      "page": 4,
+      "y0": 266.92,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Broken bones/fractures, location:"
+    },
+    {
+      "index": 144,
+      "page": 4,
+      "y0": 284.32,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Cancer, site:"
+    },
+    {
+      "index": 145,
+      "page": 4,
+      "y0": 301.72,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 Cholesterol"
+    },
+    {
+      "index": 146,
+      "page": 4,
+      "y0": 305.15,
+      "x0": 301.25,
+      "text": "High Low"
+    },
+    {
+      "index": 147,
+      "page": 4,
+      "y0": 318.52,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Chlamydia"
+    },
+    {
+      "index": 148,
+      "page": 4,
+      "y0": 335.44,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Dehydration"
+    },
+    {
+      "index": 149,
+      "page": 4,
+      "y0": 352.24,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 Diabetes"
+    },
+    {
+      "index": 150,
+      "page": 4,
+      "y0": 355.67,
+      "x0": 301.25,
+      "text": "IDDM NIDDM"
+    },
+    {
+      "index": 151,
+      "page": 4,
+      "y0": 369.16,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 Dizziness"
+    },
+    {
+      "index": 152,
+      "page": 4,
+      "y0": 372.59,
+      "x0": 300.41,
+      "text": "Constant Frequent Occasional Rare"
+    },
+    {
+      "index": 153,
+      "page": 4,
+      "y0": 386.08,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Fibromyalgia"
+    },
+    {
+      "index": 154,
+      "page": 4,
+      "y0": 402.88,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 Gallbladder"
+    },
+    {
+      "index": 155,
+      "page": 4,
+      "y0": 406.31,
+      "x0": 301.25,
+      "text": "Removal Problems"
+    },
+    {
+      "index": 156,
+      "page": 4,
+      "y0": 419.82,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Gonorrhea"
+    },
+    {
+      "index": 157,
+      "page": 4,
+      "y0": 436.62,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 Heart problems"
+    },
+    {
+      "index": 158,
+      "page": 4,
+      "y0": 440.05,
+      "x0": 301.25,
+      "text": "Pacemaker CHF MI Other"
+    },
+    {
+      "index": 159,
+      "page": 4,
+      "y0": 453.54,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Head, brain, or spinal cord trauma"
+    },
+    {
+      "index": 160,
+      "page": 4,
+      "y0": 470.34,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Herpes"
+    },
+    {
+      "index": 161,
+      "page": 4,
+      "y0": 487.26,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Human Immunodeficiency Virus (HIV)"
+    },
+    {
+      "index": 162,
+      "page": 4,
+      "y0": 504.18,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Human Papillomavirus (HPV)/Genital warts"
+    },
+    {
+      "index": 163,
+      "page": 4,
+      "y0": 520.98,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 Incontinence, Bladder"
+    },
+    {
+      "index": 164,
+      "page": 4,
+      "y0": 524.41,
+      "x0": 298.73,
+      "text": "Constant Frequent Occasional Rare"
+    },
+    {
+      "index": 165,
+      "page": 4,
+      "y0": 537.9,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 Incontinence, Bowel"
+    },
+    {
+      "index": 166,
+      "page": 4,
+      "y0": 541.33,
+      "x0": 299.57,
+      "text": "Constant Frequent Occasional Rare"
+    },
+    {
+      "index": 167,
+      "page": 4,
+      "y0": 554.7,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 Kidney problems or Renal disease End stage?"
+    },
+    {
+      "index": 168,
+      "page": 4,
+      "y0": 558.13,
+      "x0": 464.35,
+      "text": "No Yes"
+    },
+    {
+      "index": 169,
+      "page": 4,
+      "y0": 571.62,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 Liver problems"
+    },
+    {
+      "index": 170,
+      "page": 4,
+      "y0": 575.05,
+      "x0": 300.89,
+      "text": "Cirrhosis Hepatitis"
+    },
+    {
+      "index": 171,
+      "page": 4,
+      "y0": 588.42,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 \uf0a3Emphysema \uf0a3 \uf0a3Pneumonia \uf0a3COPD Lung problems"
+    },
+    {
+      "index": 172,
+      "page": 4,
+      "y0": 591.85,
+      "x0": 390.55,
+      "text": "Asthma"
+    },
+    {
+      "index": 173,
+      "page": 4,
+      "y0": 605.37,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Lupus"
+    },
+    {
+      "index": 174,
+      "page": 4,
+      "y0": 622.17,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Multiple Sclerosis"
+    },
+    {
+      "index": 175,
+      "page": 4,
+      "y0": 639.09,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Muscular Dystrophy"
+    },
+    {
+      "index": 176,
+      "page": 4,
+      "y0": 656.01,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Osteoporosis"
+    },
+    {
+      "index": 177,
+      "page": 4,
+      "y0": 672.81,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Parkinson\u2019s disease"
+    },
+    {
+      "index": 178,
+      "page": 4,
+      "y0": 689.72,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 Paralysis"
+    },
+    {
+      "index": 179,
+      "page": 4,
+      "y0": 693.16,
+      "x0": 300.41,
+      "text": "Full Partial Local, site:"
+    },
+    {
+      "index": 180,
+      "page": 4,
+      "y0": 707.0,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Seizure disorder, type & frequency:"
+    },
+    {
+      "index": 181,
+      "page": 4,
+      "y0": 724.4,
+      "x0": 79.34,
+      "text": "\uf0a3 \uf0a3 Shingles"
+    },
+    {
+      "index": 182,
+      "page": 4,
+      "y0": 755.91,
+      "x0": 92.78,
+      "text": "4 DOEA 701T, April 2013"
+    },
+    {
+      "index": 183,
+      "page": 5,
+      "y0": 36.17,
+      "x0": 133.58,
+      "text": "Florida Department of Elder Affairs: 701T CARES Mini Assessment"
+    },
+    {
+      "index": 184,
+      "page": 5,
+      "y0": 64.38,
+      "x0": 44.52,
+      "text": "F. HEALTH CONDITIONS & THERAPIES SECTION, CONTINUED"
+    },
+    {
+      "index": 185,
+      "page": 5,
+      "y0": 86.6,
+      "x0": 162.14,
+      "text": "Health Condition Past Current"
+    },
+    {
+      "index": 186,
+      "page": 5,
+      "y0": 100.21,
+      "x0": 77.78,
+      "text": "\uf0a3 \uf0a3 Stroke/CVA"
+    },
+    {
+      "index": 187,
+      "page": 5,
+      "y0": 117.01,
+      "x0": 77.78,
+      "text": "\uf0a3 \uf0a3 Syphilis"
+    },
+    {
+      "index": 188,
+      "page": 5,
+      "y0": 133.93,
+      "x0": 77.78,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 Thyroid problems/Graves/Myxedema"
+    },
+    {
+      "index": 189,
+      "page": 5,
+      "y0": 137.36,
+      "x0": 410.35,
+      "text": "Hyper Hypo"
+    },
+    {
+      "index": 190,
+      "page": 5,
+      "y0": 150.85,
+      "x0": 77.78,
+      "text": "\uf0a3 \uf0a3 Tumor(s), site:"
+    },
+    {
+      "index": 191,
+      "page": 5,
+      "y0": 168.13,
+      "x0": 77.78,
+      "text": "\uf0a3 \uf0a3 Ulcer(s), site:"
+    },
+    {
+      "index": 192,
+      "page": 5,
+      "y0": 185.53,
+      "x0": 77.78,
+      "text": "\uf0a3 \uf0a3 Urinary Tract Infection (UTI)"
+    },
+    {
+      "index": 193,
+      "page": 5,
+      "y0": 202.45,
+      "x0": 77.78,
+      "text": "\uf0a3 \uf0a3 Other(s):"
+    },
+    {
+      "index": 194,
+      "page": 5,
+      "y0": 234.68,
+      "x0": 41.4,
+      "text": "38. Provide information on the frequency of current therapies or specialty care:"
+    },
+    {
+      "index": 195,
+      "page": 5,
+      "y0": 251.15,
+      "x0": 435.07,
+      "text": "Several Several"
+    },
+    {
+      "index": 196,
+      "page": 5,
+      "y0": 263.39,
+      "x0": 288.05,
+      "text": "N/A or times times"
+    },
+    {
+      "index": 197,
+      "page": 5,
+      "y0": 275.63,
+      "x0": 63.84,
+      "text": "Treatment type: None Monthly Weekly a week Daily a day"
+    },
+    {
+      "index": 198,
+      "page": 5,
+      "y0": 288.16,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 a. Bladder/bowel treatment"
+    },
+    {
+      "index": 199,
+      "page": 5,
+      "y0": 305.08,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 b. Catheter, type:"
+    },
+    {
+      "index": 200,
+      "page": 5,
+      "y0": 322.48,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 c. Dialysis"
+    },
+    {
+      "index": 201,
+      "page": 5,
+      "y0": 339.28,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 d. Insulin assistance"
+    },
+    {
+      "index": 202,
+      "page": 5,
+      "y0": 356.2,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 e. IV Fluids/IV Medications"
+    },
+    {
+      "index": 203,
+      "page": 5,
+      "y0": 373.0,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 f. Occupational therapy"
+    },
+    {
+      "index": 204,
+      "page": 5,
+      "y0": 389.92,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 g. Ostomy, site:"
+    },
+    {
+      "index": 205,
+      "page": 5,
+      "y0": 407.32,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 h. Oxygen"
+    },
+    {
+      "index": 206,
+      "page": 5,
+      "y0": 424.14,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 i. Physical therapy"
+    },
+    {
+      "index": 207,
+      "page": 5,
+      "y0": 441.06,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 j. Radiation/Chemotherapy"
+    },
+    {
+      "index": 208,
+      "page": 5,
+      "y0": 457.86,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 k. Respiratory therapy"
+    },
+    {
+      "index": 209,
+      "page": 5,
+      "y0": 474.78,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 l. Skilled nursing"
+    },
+    {
+      "index": 210,
+      "page": 5,
+      "y0": 491.58,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 m. Speech therapy"
+    },
+    {
+      "index": 211,
+      "page": 5,
+      "y0": 508.5,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 n. Suctioning"
+    },
+    {
+      "index": 212,
+      "page": 5,
+      "y0": 525.3,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 o. Tube feeding"
+    },
+    {
+      "index": 213,
+      "page": 5,
+      "y0": 542.22,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 p. Wound care/Lesion irrigation"
+    },
+    {
+      "index": 214,
+      "page": 5,
+      "y0": 559.14,
+      "x0": 296.57,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 q. Other therapy, type:"
+    },
+    {
+      "index": 215,
+      "page": 5,
+      "y0": 596.32,
+      "x0": 54.0,
+      "text": "Notes & Summary"
+    },
+    {
+      "index": 216,
+      "page": 5,
+      "y0": 755.91,
+      "x0": 92.78,
+      "text": "5 DOEA 701T, April 2013"
+    },
+    {
+      "index": 217,
+      "page": 6,
+      "y0": 36.17,
+      "x0": 133.58,
+      "text": "Florida Department of Elder Affairs: 701T CARES Mini Assessment"
+    },
+    {
+      "index": 218,
+      "page": 6,
+      "y0": 64.38,
+      "x0": 36.0,
+      "text": "G. MENTAL HEALTH SECTION"
+    },
+    {
+      "index": 219,
+      "page": 6,
+      "y0": 83.96,
+      "x0": 41.4,
+      "text": "39. Over the past two weeks, how often have you been More Nearly"
+    },
+    {
+      "index": 220,
+      "page": 6,
+      "y0": 97.4,
+      "x0": 371.83,
+      "text": "Not at Several than half every bothered by any of the following problems?"
+    },
+    {
+      "index": 221,
+      "page": 6,
+      "y0": 109.76,
+      "x0": 381.55,
+      "text": "all days the days day (Adapted from the Patient Health Questionnaire PHQ-9, \u00a9Pfizer)"
+    },
+    {
+      "index": 222,
+      "page": 6,
+      "y0": 122.29,
+      "x0": 379.03,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 a. Little interest or pleasure in doing things"
+    },
+    {
+      "index": 223,
+      "page": 6,
+      "y0": 139.33,
+      "x0": 379.03,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 b. Feeling down, depressed, or hopeless"
+    },
+    {
+      "index": 224,
+      "page": 6,
+      "y0": 156.49,
+      "x0": 379.03,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 c. Trouble falling or staying asleep, or sleeping too much"
+    },
+    {
+      "index": 225,
+      "page": 6,
+      "y0": 173.29,
+      "x0": 379.03,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 d. Feeling tired or having little energy"
+    },
+    {
+      "index": 226,
+      "page": 6,
+      "y0": 190.21,
+      "x0": 379.03,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 e. Poor appetite or overeating"
+    },
+    {
+      "index": 227,
+      "page": 6,
+      "y0": 208.16,
+      "x0": 65.4,
+      "text": "f. Feeling bad about yourself \u2013 or that you are a failure or"
+    },
+    {
+      "index": 228,
+      "page": 6,
+      "y0": 211.81,
+      "x0": 379.03,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3"
+    },
+    {
+      "index": 229,
+      "page": 6,
+      "y0": 220.4,
+      "x0": 76.58,
+      "text": "have let yourself or your family down"
+    },
+    {
+      "index": 230,
+      "page": 6,
+      "y0": 234.68,
+      "x0": 65.4,
+      "text": "g. Trouble concentrating on things, such as reading the"
+    },
+    {
+      "index": 231,
+      "page": 6,
+      "y0": 238.33,
+      "x0": 379.03,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3"
+    },
+    {
+      "index": 232,
+      "page": 6,
+      "y0": 246.92,
+      "x0": 76.58,
+      "text": "newspaper or watching television"
+    },
+    {
+      "index": 233,
+      "page": 6,
+      "y0": 262.31,
+      "x0": 65.4,
+      "text": "h. Moving or speaking so slowly that other people noticed \u2013"
+    },
+    {
+      "index": 234,
+      "page": 6,
+      "y0": 272.08,
+      "x0": 379.03,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 Or, the opposite, being so fidgety or restless that you"
+    },
+    {
+      "index": 235,
+      "page": 6,
+      "y0": 286.79,
+      "x0": 76.58,
+      "text": "have been moving around a lot more than usual"
+    },
+    {
+      "index": 236,
+      "page": 6,
+      "y0": 302.15,
+      "x0": 65.4,
+      "text": "i. Thoughts that you would be better off dead or of hurting"
+    },
+    {
+      "index": 237,
+      "page": 6,
+      "y0": 305.8,
+      "x0": 379.03,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3"
+    },
+    {
+      "index": 238,
+      "page": 6,
+      "y0": 314.39,
+      "x0": 76.46,
+      "text": "yourself in some way*"
+    },
+    {
+      "index": 239,
+      "page": 6,
+      "y0": 328.32,
+      "x0": 48.36,
+      "text": "*Thoughts of suicide or self-injury, hallucinations, or aggressive behaviors are potentially serious problems that should be reported immediately to"
+    },
+    {
+      "index": 240,
+      "page": 6,
+      "y0": 337.44,
+      "x0": 50.4,
+      "text": "a supervisor, primary care physician, emergency care, law enforcement, and/or Adult Protective Services, as appropriate."
+    },
+    {
+      "index": 241,
+      "page": 6,
+      "y0": 367.79,
+      "x0": 36.0,
+      "text": "ASSESSOR: If the client answered \u201cNot at all\u201d to a-i above, skip to Question 42."
+    },
+    {
+      "index": 242,
+      "page": 6,
+      "y0": 382.67,
+      "x0": 41.4,
+      "text": "41. How difficult have these problems made it for you in your daily life activities and interactions with others?"
+    },
+    {
+      "index": 243,
+      "page": 6,
+      "y0": 395.68,
+      "x0": 63.84,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3"
+    },
+    {
+      "index": 244,
+      "page": 6,
+      "y0": 399.11,
+      "x0": 81.74,
+      "text": "Not difficult at all Somewhat difficult Very difficult Extremely difficult"
+    },
+    {
+      "index": 245,
+      "page": 6,
+      "y0": 415.79,
+      "x0": 41.4,
+      "text": "42. Have you been diagnosed with a mental condition or psychiatric disorder by a health professional?"
+    },
+    {
+      "index": 246,
+      "page": 6,
+      "y0": 430.98,
+      "x0": 63.84,
+      "text": "\uf0a3No \uf0a3Yes;"
+    },
+    {
+      "index": 247,
+      "page": 6,
+      "y0": 434.41,
+      "x0": 144.74,
+      "text": "List conditions:"
+    },
+    {
+      "index": 248,
+      "page": 6,
+      "y0": 453.37,
+      "x0": 40.56,
+      "text": "43. ASSESSOR: Indicate whether you noticed problem behaviors or any recurring problems have been"
+    },
+    {
+      "index": 249,
+      "page": 6,
+      "y0": 465.61,
+      "x0": 58.56,
+      "text": "reported to you by the client, caregiver, in-home worker, family, or staff, and note the frequency of"
+    },
+    {
+      "index": 250,
+      "page": 6,
+      "y0": 477.85,
+      "x0": 58.56,
+      "text": "occurrence in the last month. Please provide details in the Notes & Summary section, below."
+    },
+    {
+      "index": 251,
+      "page": 6,
+      "y0": 492.85,
+      "x0": 328.73,
+      "text": "Not Several More than Nearly"
+    },
+    {
+      "index": 252,
+      "page": 6,
+      "y0": 498.97,
+      "x0": 65.04,
+      "text": "Problem behaviors"
+    },
+    {
+      "index": 253,
+      "page": 6,
+      "y0": 505.09,
+      "x0": 325.49,
+      "text": "at all Once days half the days every day"
+    },
+    {
+      "index": 254,
+      "page": 6,
+      "y0": 517.62,
+      "x0": 330.29,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 a. Forgetful or easily confused"
+    },
+    {
+      "index": 255,
+      "page": 6,
+      "y0": 534.54,
+      "x0": 330.29,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 b. Gets lost or wanders off"
+    },
+    {
+      "index": 256,
+      "page": 6,
+      "y0": 551.34,
+      "x0": 330.29,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 c. Easily agitated or disruptive"
+    },
+    {
+      "index": 257,
+      "page": 6,
+      "y0": 568.26,
+      "x0": 330.29,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 d. Sexually inappropriate"
+    },
+    {
+      "index": 258,
+      "page": 6,
+      "y0": 585.06,
+      "x0": 330.29,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 e. Threatens or is verbally hostile*"
+    },
+    {
+      "index": 259,
+      "page": 6,
+      "y0": 602.01,
+      "x0": 330.29,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 f. Physically aggressive or violent*"
+    },
+    {
+      "index": 260,
+      "page": 6,
+      "y0": 618.81,
+      "x0": 330.29,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 g. Intentionally injures or harms him/herself*"
+    },
+    {
+      "index": 261,
+      "page": 6,
+      "y0": 635.73,
+      "x0": 330.29,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 h. Expresses suicidal feelings or plans*"
+    },
+    {
+      "index": 262,
+      "page": 6,
+      "y0": 652.65,
+      "x0": 330.29,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 i. Hallucinates, hears/sees things that are not there*"
+    },
+    {
+      "index": 263,
+      "page": 6,
+      "y0": 669.45,
+      "x0": 330.29,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3 j. Other:"
+    },
+    {
+      "index": 264,
+      "page": 6,
+      "y0": 687.89,
+      "x0": 44.64,
+      "text": "*Thoughts of suicide or self-injury, hallucinations, or aggressive behaviors are potentially serious problems that should be reported immediately to"
+    },
+    {
+      "index": 265,
+      "page": 6,
+      "y0": 697.01,
+      "x0": 48.6,
+      "text": "a supervisor, primary care physician, emergency care, law enforcement, and/or Adult Protective Services, as appropriate."
+    },
+    {
+      "index": 266,
+      "page": 6,
+      "y0": 709.16,
+      "x0": 272.81,
+      "text": "\uf0a3 \uf0a3"
+    },
+    {
+      "index": 267,
+      "page": 6,
+      "y0": 712.6,
+      "x0": 41.4,
+      "text": "44. ASSESSOR: Does client need supervision? No Yes"
+    },
+    {
+      "index": 268,
+      "page": 6,
+      "y0": 755.91,
+      "x0": 92.78,
+      "text": "6 DOEA 701T, April 2013"
+    },
+    {
+      "index": 269,
+      "page": 7,
+      "y0": 36.17,
+      "x0": 133.58,
+      "text": "Florida Department of Elder Affairs: 701T CARES Mini Assessment"
+    },
+    {
+      "index": 270,
+      "page": 7,
+      "y0": 64.38,
+      "x0": 54.0,
+      "text": "H. NUTRITION SECTION"
+    },
+    {
+      "index": 271,
+      "page": 7,
+      "y0": 88.4,
+      "x0": 41.4,
+      "text": "45. Have you lost or gained weight in the last few months? \uf0a3 \uf0a3 \uf0a3"
+    },
+    {
+      "index": 272,
+      "page": 7,
+      "y0": 92.24,
+      "x0": 458.95,
+      "text": "No (Skip to 46) Yes Unsure (Skip to 46)"
+    },
+    {
+      "index": 273,
+      "page": 7,
+      "y0": 106.81,
+      "x0": 198.86,
+      "text": "\uf0a3 \uf0a3 \uf0a3 a. How much?"
+    },
+    {
+      "index": 274,
+      "page": 7,
+      "y0": 110.24,
+      "x0": 216.77,
+      "text": "Less than five pounds Ten pounds or more Five to ten pounds"
+    },
+    {
+      "index": 275,
+      "page": 7,
+      "y0": 124.81,
+      "x0": 495.94,
+      "text": "\uf0a3 \uf0a3 b. Was the weight loss/gain on purpose (i.e., dieting or trying to lose/gain weight)?"
+    },
+    {
+      "index": 276,
+      "page": 7,
+      "y0": 128.24,
+      "x0": 513.82,
+      "text": "No Yes"
+    },
+    {
+      "index": 277,
+      "page": 7,
+      "y0": 142.81,
+      "x0": 333.07,
+      "text": "\uf0a3 \uf0a3 46. Are you on a special diet(s) for medical reasons?"
+    },
+    {
+      "index": 278,
+      "page": 7,
+      "y0": 146.24,
+      "x0": 350.95,
+      "text": "No (Skip to 47) Yes; check any/all:"
+    },
+    {
+      "index": 279,
+      "page": 7,
+      "y0": 160.81,
+      "x0": 72.86,
+      "text": "\uf0a3 \uf0a3 \uf0a3 \uf0a3 \uf0a3"
+    },
+    {
+      "index": 280,
+      "page": 7,
+      "y0": 164.24,
+      "x0": 90.74,
+      "text": "Calorie supplement Low fat/cholesterol Low salt/sodium Low sugar/carb Other"
+    },
+    {
+      "index": 281,
+      "page": 7,
+      "y0": 183.68,
+      "x0": 58.2,
+      "text": "a. How long have you been on this diet?"
+    },
+    {
+      "index": 282,
+      "page": 7,
+      "y0": 204.68,
+      "x0": 59.04,
+      "text": "b. Why are you on this diet?"
+    },
+    {
+      "index": 283,
+      "page": 7,
+      "y0": 227.96,
+      "x0": 36.0,
+      "text": "I. MEDICATIONS SECTION"
+    },
+    {
+      "index": 284,
+      "page": 7,
+      "y0": 248.44,
+      "x0": 495.94,
+      "text": "\uf0a3 \uf0a3 47. Do you take three or more prescribed or over-the-counter medications a day?"
+    },
+    {
+      "index": 285,
+      "page": 7,
+      "y0": 251.87,
+      "x0": 513.82,
+      "text": "No Yes"
+    },
+    {
+      "index": 286,
+      "page": 7,
+      "y0": 267.71,
+      "x0": 41.4,
+      "text": "48. May I see all the medications you take, both regularly and those taken only as needed? Also, please show"
+    },
+    {
+      "index": 287,
+      "page": 7,
+      "y0": 279.95,
+      "x0": 59.4,
+      "text": "me all types of over the counter medications and any supplements that you regularly take."
+    },
+    {
+      "index": 288,
+      "page": 7,
+      "y0": 298.31,
+      "x0": 59.4,
+      "text": "ASSESSOR: Check the original bottles in the medicine cabinet, nightstand, and refrigerator, as well as non-"
+    },
+    {
+      "index": 289,
+      "page": 7,
+      "y0": 310.55,
+      "x0": 59.4,
+      "text": "prescription drugs, over the counter drugs, sleep aids, herbal remedies, vitamins, and supplements."
+    },
+    {
+      "index": 290,
+      "page": 7,
+      "y0": 323.15,
+      "x0": 336.67,
+      "text": "Taken as"
+    },
+    {
+      "index": 291,
+      "page": 7,
+      "y0": 335.39,
+      "x0": 192.86,
+      "text": "Prescribed Prescribed prescribed? Administration"
+    },
+    {
+      "index": 292,
+      "page": 7,
+      "y0": 347.63,
+      "x0": 66.5,
+      "text": "Medication name dose Frequency Yes/No method Prescriber name"
+    },
+    {
+      "index": 293,
+      "page": 7,
+      "y0": 535.1,
+      "x0": 36.0,
+      "text": "If you have a printed list of meds managed by a facility, attach sheet. If there are more medications to record, use the Notes & Summary"
+    },
+    {
+      "index": 294,
+      "page": 7,
+      "y0": 544.94,
+      "x0": 36.0,
+      "text": "section or a blank sheet of paper to write the information."
+    },
+    {
+      "index": 295,
+      "page": 7,
+      "y0": 566.89,
+      "x0": 41.4,
+      "text": "49. Please list the doctors you usually go to for treatment and medications:"
+    },
+    {
+      "index": 296,
+      "page": 7,
+      "y0": 579.49,
+      "x0": 320.93,
+      "text": "Approx. date"
+    },
+    {
+      "index": 297,
+      "page": 7,
+      "y0": 591.73,
+      "x0": 88.34,
+      "text": "Physician name Phone number of last visit Reason for last visit:"
+    },
+    {
+      "index": 298,
+      "page": 7,
+      "y0": 730.01,
+      "x0": 38.16,
+      "text": "If you have more than ten physicians to record, use the Notes & Summary section or a blank sheet of paper to write the information."
+    },
+    {
+      "index": 299,
+      "page": 7,
+      "y0": 755.91,
+      "x0": 92.78,
+      "text": "7 DOEA 701T, April 2013"
+    },
+    {
+      "index": 300,
+      "page": 8,
+      "y0": 27.17,
+      "x0": 135.62,
+      "text": "Florida Department of Elder Affairs: 701T CARES Mini Assessment"
+    },
+    {
+      "index": 301,
+      "page": 8,
+      "y0": 128.22,
+      "x0": 195.38,
+      "text": "[This page is intentionally left blank]"
+    },
+    {
+      "index": 302,
+      "page": 9,
+      "y0": 27.17,
+      "x0": 135.62,
+      "text": "Florida Department of Elder Affairs: 701T CARES Mini Assessment"
+    },
+    {
+      "index": 303,
+      "page": 9,
+      "y0": 99.0,
+      "x0": 54.0,
+      "text": "WHY ARE WE COLLECTING YOUR SOCIAL"
+    },
+    {
+      "index": 304,
+      "page": 9,
+      "y0": 129.48,
+      "x0": 54.0,
+      "text": "SECURITY NUMBER?"
+    },
+    {
+      "index": 305,
+      "page": 9,
+      "y0": 196.96,
+      "x0": 54.0,
+      "text": "We are required to explain that your Social Security number is being"
+    },
+    {
+      "index": 306,
+      "page": 9,
+      "y0": 219.52,
+      "x0": 54.0,
+      "text": "collected pursuant to Title 42 Code of Federal Regulations, Section"
+    },
+    {
+      "index": 307,
+      "page": 9,
+      "y0": 242.08,
+      "x0": 54.0,
+      "text": "435.910, to be used for screening and referral to programs or"
+    },
+    {
+      "index": 308,
+      "page": 9,
+      "y0": 264.79,
+      "x0": 54.0,
+      "text": "services that may be appropriate for you."
+    },
+    {
+      "index": 309,
+      "page": 9,
+      "y0": 297.19,
+      "x0": 54.0,
+      "text": "The provision of your Social Security number is voluntary, and your"
+    },
+    {
+      "index": 310,
+      "page": 9,
+      "y0": 319.75,
+      "x0": 54.0,
+      "text": "information will remain confidential and protected under penalty of"
+    },
+    {
+      "index": 311,
+      "page": 9,
+      "y0": 342.31,
+      "x0": 54.0,
+      "text": "law. We will not use or give out your Social Security number for any"
+    },
+    {
+      "index": 312,
+      "page": 9,
+      "y0": 364.87,
+      "x0": 54.0,
+      "text": "other reason unless you have signed a separate consent form that"
+    },
+    {
+      "index": 313,
+      "page": 9,
+      "y0": 387.55,
+      "x0": 54.0,
+      "text": "releases us to do so."
     }
   ]
 }

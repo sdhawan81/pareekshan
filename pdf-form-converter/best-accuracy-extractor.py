@@ -399,9 +399,9 @@ def create_best_accuracy_extraction(pdf_path):
             "extraction_date": Path(pdf_path).stat().st_mtime
         },
         "fields": enhanced_fields,
-        "text_lines_sample": [
-            {"index": i, "page": line["page"], "y": line["y0"], "text": line["text"]}
-            for i, line in enumerate(layout_data["all_lines"][:30])
+        "text_lines": [
+            {"index": i, "page": line["page"], "y0": line["y0"], "x0": line["x0"], "text": line["text"]}
+            for i, line in enumerate(layout_data["all_lines"])
         ]
     }
 

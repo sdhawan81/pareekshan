@@ -1,0 +1,411 @@
+{
+  "title": "examples/701T_V1.pdf",
+  "sections": [
+    {
+      "title": "MEMORY SECTION",
+      "page": 2,
+      "questions": [
+        {
+          "id": "q24",
+          "number": 24,
+          "text": "Has a doctor or other health care professional told you that you suffer from memory loss, cognitive",
+          "page": 2,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "text": "\u201cI am going to say three words for you to remember. Please repeat the words after I have said them. The",
+          "page": 2,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "text": "\u201cLet\u2019s go back to an earlier question. What were those words I asked you to repeat back to me?\u201d",
+          "page": 2,
+          "input": {
+            "type": "field-group",
+            "fields": [
+              {
+                "type": "CheckBox",
+                "name": "topmostSubform[0].Page2[0].Q_45_C_523175_3[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page2[0].Q_48_C_523178_0[0]"
+              }
+            ]
+          },
+          "field_count": 2
+        }
+      ]
+    },
+    {
+      "title": "GENERAL HEALTH SECTION",
+      "page": 3,
+      "questions": [
+        {
+          "id": "q33",
+          "number": 33,
+          "text": "How many times have you fallen in the last six months?",
+          "page": 3,
+          "input": {
+            "type": "text",
+            "multiline": false
+          },
+          "field_count": 1
+        },
+        {
+          "id": "q34",
+          "number": 34,
+          "text": "Have you visited the emergency room (ER) or been admitted to the hospital within the last year?",
+          "page": 3,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        }
+      ]
+    },
+    {
+      "title": "ACTIVITIES OF DAILY LIVING SECTION",
+      "page": 3,
+      "questions": [
+        {
+          "id": "q35",
+          "number": 35,
+          "text": "How much assistance do you need with the following tasks?",
+          "page": 3,
+          "input": {
+            "type": "checkbox-group",
+            "options": [
+              "35. How much assistance do you need with the following tasks?",
+              "35. How much assistance do you need with the following tasks?",
+              "35. How much assistance do you need with the following tasks?",
+              "35. How much assistance do you need with the following tasks?",
+              "35. How much assistance do you need with the following tasks?",
+              "35. How much assistance do you need with the following tasks?",
+              "35. How much assistance do you need with the following tasks?",
+              "35. How much assistance do you need with the following tasks?",
+              "35. How much assistance do you need with the following tasks?",
+              "35. How much assistance do you need with the following tasks?",
+              "35. How much assistance do you need with the following tasks?",
+              "35. How much assistance do you need with the following tasks?",
+              "36. How much assistance do you need with the following tasks?",
+              "36. How much assistance do you need with the following tasks?",
+              "36. How much assistance do you need with the following tasks?",
+              "36. How much assistance do you need with the following tasks?",
+              "36. How much assistance do you need with the following tasks?",
+              "36. How much assistance do you need with the following tasks?",
+              "36. How much assistance do you need with the following tasks?",
+              "36. How much assistance do you need with the following tasks?",
+              "36. How much assistance do you need with the following tasks?",
+              "36. How much assistance do you need with the following tasks?",
+              "36. How much assistance do you need with the following tasks?",
+              "36. How much assistance do you need with the following tasks?"
+            ]
+          },
+          "field_count": 24
+        }
+      ]
+    },
+    {
+      "title": "INSTRUMENTAL ACTIVITIES OF DAILY LIVING SECTION",
+      "page": 3,
+      "questions": [
+        {
+          "id": "q36",
+          "number": 36,
+          "text": "How much assistance do you need with the following tasks?",
+          "page": 3,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        }
+      ]
+    },
+    {
+      "title": "IDDM NIDDM",
+      "page": 4,
+      "questions": [
+        {
+          "id": "q38",
+          "number": 38,
+          "text": "Provide information on the frequency of current therapies or specialty care:",
+          "page": 5,
+          "input": {
+            "type": "field-group",
+            "fields": [
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page5[0].Q_135_C_523265[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page5[0].Q_136_C_523266[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page5[0].Q_137_C_523268[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page5[0].Q_138_C_523269[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page5[0].Q_139_C_523270[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page5[0].Q_140_C_523271[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page5[0].Q_141_C_523272[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page5[0].Q_142_C_523274[0]"
+              }
+            ]
+          },
+          "field_count": 8
+        }
+      ]
+    },
+    {
+      "title": "MENTAL HEALTH SECTION",
+      "page": 6,
+      "questions": [
+        {
+          "id": "q39",
+          "number": 39,
+          "text": "Over the past two weeks, how often have you been More Nearly",
+          "page": 6,
+          "input": {
+            "type": "field-group",
+            "fields": [
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_156_C_523286[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_156_C_523286[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_157_C_523287[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_157_C_523287[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_158_C_523288[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_158_C_523288[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_159_C_523289[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_159_C_523289[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_160_C_523290[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_160_C_523290[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_161_C_523291[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_161_C_523291[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_162_C_523292[0]"
+              }
+            ]
+          },
+          "field_count": 13
+        },
+        {
+          "id": "q41",
+          "number": 41,
+          "text": "How difficult have these problems made it for you in your daily life activities and interactions with others?",
+          "page": 6,
+          "input": {
+            "type": "field-group",
+            "fields": [
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_331_C_523295[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page6[0].Q_331_C_523295[0]"
+              }
+            ]
+          },
+          "field_count": 2
+        },
+        {
+          "id": "q42",
+          "number": 42,
+          "text": "Have you been diagnosed with a mental condition or psychiatric disorder by a health professional?",
+          "page": 6,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q43",
+          "number": 43,
+          "text": "ASSESSOR: Indicate whether you noticed problem behaviors or any recurring problems have been",
+          "page": 6,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q44",
+          "number": 44,
+          "text": "ASSESSOR: Does client need supervision? No Yes",
+          "page": 6,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        }
+      ]
+    },
+    {
+      "title": "NUTRITION SECTION",
+      "page": 7,
+      "questions": [
+        {
+          "id": "q45",
+          "number": 45,
+          "text": "Have you lost or gained weight in the last few months? \uf0a3 \uf0a3 \uf0a3",
+          "page": 7,
+          "input": {
+            "type": "field-group",
+            "fields": [
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page7[0].Q_165_C_523311[0]"
+              },
+              {
+                "type": "RadioButton",
+                "name": "topmostSubform[0].Page7[0].Q_166_C_523312[0]"
+              }
+            ]
+          },
+          "field_count": 2
+        }
+      ]
+    },
+    {
+      "title": "MEDICATIONS SECTION",
+      "page": 7,
+      "questions": [
+        {
+          "id": "q48",
+          "number": 48,
+          "text": "May I see all the medications you take, both regularly and those taken only as needed? Also, please show",
+          "page": 7,
+          "input": {
+            "type": "unknown"
+          },
+          "field_count": 0
+        },
+        {
+          "id": "q49",
+          "number": 49,
+          "text": "Please list the doctors you usually go to for treatment and medications:",
+          "page": 7,
+          "input": {
+            "type": "field-group",
+            "fields": [
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_294_C_523413_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_297_C_523417_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_300_C_523421_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_303_C_523425_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_306_C_523429_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_309_C_523433_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_312_C_523437_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_315_C_523441_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_318_C_523446_0[0]"
+              },
+              {
+                "type": "Text",
+                "name": "topmostSubform[0].Page7[0].Q_321_C_523450_0[0]"
+              }
+            ]
+          },
+          "field_count": 10
+        }
+      ]
+    },
+    {
+      "title": "WHY ARE WE COLLECTING YOUR SOCIAL",
+      "page": 9,
+      "questions": []
+    }
+  ],
+  "metadata": {
+    "total_sections": 9,
+    "total_questions": 16,
+    "total_fields": 689,
+    "extraction_method": "Best Accuracy (PyMuPDF spatial matching)"
+  }
+}
