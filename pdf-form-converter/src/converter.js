@@ -628,26 +628,52 @@ export async function convertPdfToJson(pdfPath, options = {}) {
       }
     }
 
-    // Group related fields and assign option text
-    console.log('Matching option text for checkbox/radio groups...');
+    // Extract options for ALL fields with labels (not just checkbox/radio)
+    console.log('Extracting option text for all fields with labels...');
+    let optionsExtracted = 0;
+
+    // First pass: Group fields and extract options for checkbox/radio groups
     const fieldGroups = groupRelatedFields(formData.fields);
-    let optionsMatched = 0;
 
     fieldGroups.forEach(group => {
-      // Process if it's a checkbox/radio group (single or multiple fields)
+      // Process checkbox/radio groups
       if (group.length > 0 && (group[0].type === 'checkbox' || group[0].type === 'radio')) {
         assignOptionTextToGroup(group, textLines);
 
-        // Count matched options (both singular optionLabel and plural optionLabels)
+        // Count matched options
         const singleMatched = group.filter(f => f.optionLabel).length;
         const multiMatched = group.filter(f => f.optionLabels).length;
         if (singleMatched > 0 || multiMatched > 0) {
-          optionsMatched += singleMatched + multiMatched;
+          optionsExtracted += singleMatched + multiMatched;
         }
       }
     });
 
-    console.log(`Matched ${optionsMatched} option labels`);
+    // Second pass: Extract options for individual fields that have labels but no options yet
+    // This catches text fields and other types that might have options in the text
+    formData.fields.forEach(field => {
+      if (field.label && !field.optionLabel && !field.optionLabels) {
+        // Find the label in text
+        let labelIndex = -1;
+        for (let i = 0; i < textLines.length; i++) {
+          if (textLines[i].includes(field.label)) {
+            labelIndex = i;
+            break;
+          }
+        }
+
+        if (labelIndex >= 0) {
+          const options = extractOptionsFromText(labelIndex, textLines);
+          if (options.length > 0) {
+            // Store as optionLabels array for any field type that has options
+            field.optionLabels = options;
+            optionsExtracted++;
+          }
+        }
+      }
+    });
+
+    console.log(`Extracted options for ${optionsExtracted} fields`);
 
     // Sort fields by name for consistency
     if (options.sortFields !== false) {
