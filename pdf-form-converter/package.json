@@ -1,0 +1,23 @@
+{
+  "name": "pdf-form-converter",
+  "version": "1.0.0",
+  "description": "Convert PDF AcroForms to JSON for web form generation",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "convert": "node src/converter.js"
+  },
+  "keywords": [
+    "pdf",
+    "form",
+    "acroform",
+    "json",
+    "converter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  }
+}

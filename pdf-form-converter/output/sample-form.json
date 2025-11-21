@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "fileName": "sample-form.pdf",
+    "filePath": "./examples/sample-form.pdf",
+    "pageCount": 1,
+    "fieldCount": 13,
+    "extractedAt": "2025-11-21T08:41:19.550Z"
+  },
+  "fields": [
+    {
+      "name": "address",
+      "type": "text",
+      "properties": {
+        "readOnly": false,
+        "required": false,
+        "multiline": true
+      },
+      "appearance": {
+        "widgetCount": 1
+      }
+    },
+    {
+      "name": "agreeToTerms",
+      "type": "checkbox",
+      "value": false,
+      "properties": {
+        "readOnly": false,
+        "required": false,
+        "multiline": false,
+        "maxLength": null,
+        "checked": false
+      },
+      "appearance": {
+        "widgetCount": 1
+      }
+    },
+    {
+      "name": "country",
+      "type": "dropdown",
+      "value": [
+        "USA"
+      ],
+      "properties": {
+        "readOnly": false,
+        "required": false,
+        "multiline": false,
+        "maxLength": null,
+        "options": [
+          "USA",
+          "Canada",
+          "UK",
+          "Australia",
+          "India",
+          "Other"
+        ],
+        "selected": [
+          "USA"
+        ]
+      },
+      "appearance": {
+        "widgetCount": 1
+      }
+    },
+    {
+      "name": "email",
+      "type": "text",
+      "properties": {
+        "readOnly": false,
+        "required": false,
+        "multiline": false
+      },
+      "appearance": {
+        "widgetCount": 1
+      }
+    },
+    {
+      "name": "firstName",
+      "type": "text",
+      "properties": {
+        "readOnly": false,
+        "required": false,
+        "multiline": true
+      },
+      "appearance": {
+        "widgetCount": 1
+      }
+    },
+    {
+      "name": "gender",
+      "type": "radio",
+      "properties": {
+        "readOnly": false,
+        "required": false,
+        "multiline": false,
+        "maxLength": null,
+        "options": [
+          "Male",
+          "Female",
+          "Other"
+        ]
+      },
+      "appearance": {
+        "widgetCount": 3
+      }
+    },
+    {
+      "name": "interests.music",
+      "type": "checkbox",
+      "value": false,
+      "properties": {
+        "readOnly": false,
+        "required": false,
+        "multiline": false,
+        "maxLength": null,
+        "checked": false
+      },
+      "appearance": {
+        "widgetCount": 1
+      }
+    },
+    {
+      "name": "interests.reading",
+      "type": "checkbox",
+      "value": false,
+      "properties": {
+        "readOnly": false,
+        "required": false,
+        "multiline": false,
+        "maxLength": null,
+        "checked": false
+      },
+      "appearance": {
+        "widgetCount": 1
+      }
+    },
+    {
+      "name": "interests.sports",
+      "type": "checkbox",
+      "value": false,
+      "properties": {
+        "readOnly": false,
+        "required": false,
+        "multiline": false,
+        "maxLength": null,
+        "checked": false
+      },
+      "appearance": {
+        "widgetCount": 1
+      }
+    },
+    {
+      "name": "interests.travel",
+      "type": "checkbox",
+      "value": false,
+      "properties": {
+        "readOnly": false,
+        "required": false,
+        "multiline": false,
+        "maxLength": null,
+        "checked": false
+      },
+      "appearance": {
+        "widgetCount": 1
+      }
+    },
+    {
+      "name": "lastName",
+      "type": "text",
+      "properties": {
+        "readOnly": false,
+        "required": false,
+        "multiline": false
+      },
+      "appearance": {
+        "widgetCount": 1
+      }
+    },
+    {
+      "name": "phone",
+      "type": "text",
+      "properties": {
+        "readOnly": false,
+        "required": false,
+        "multiline": false,
+        "maxLength": 15
+      },
+      "appearance": {
+        "widgetCount": 1
+      }
+    },
+    {
+      "name": "subscribeNewsletter",
+      "type": "checkbox",
+      "value": true,
+      "properties": {
+        "readOnly": false,
+        "required": false,
+        "multiline": false,
+        "maxLength": null,
+        "checked": true
+      },
+      "appearance": {
+        "widgetCount": 1
+      }
+    }
+  ]
+}
